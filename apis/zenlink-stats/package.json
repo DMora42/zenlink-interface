@@ -5,15 +5,15 @@
     "lint": "TIMING=1 eslint --fix ."
   },
   "dependencies": {
-    "@polkadot/api": "^10.0.1",
-    "@vercel/node": "^2.15.6",
-    "@wagmi/core": "1.1.1-cjs",
     "@grass-protocol/chain": "workspace:*",
     "@grass-protocol/currency": "workspace:*",
     "@grass-protocol/graph-client": "workspace:*",
     "@grass-protocol/smart-router": "workspace:*",
     "@grass-protocol/token-lists": "workspace:*",
     "@grass-protocol/wagmi-config": "workspace:*",
+    "@polkadot/api": "^10.0.1",
+    "@vercel/node": "^2.15.6",
+    "@wagmi/core": "1.1.1-cjs",
     "axios": "^1.4.0",
     "date-fns": "^2.30.0",
     "ethers": "^5.7.2",

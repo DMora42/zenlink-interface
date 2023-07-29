@@ -5,9 +5,9 @@
     "lint": "TIMING=1 eslint --fix ."
   },
   "dependencies": {
-    "@vercel/node": "^2.15.6",
     "@grass-protocol/chain": "workspace:*",
     "@grass-protocol/graph-client": "workspace:*",
+    "@vercel/node": "^2.15.6",
     "date-fns": "^2.30.0",
     "fast-json-stable-stringify": "^2.1.0",
     "ioredis": "^5.3.2"
