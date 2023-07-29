@@ -1,6 +1,6 @@
 import { TradeVersion } from '@grass-protocol/amm'
-import { ParachainId } from '@zenlink-interface/chain'
-import { getAggregationRouterAddressForChainId, isAggregationRouter } from '@zenlink-interface/smart-router'
+import { ParachainId } from '@grass-protocol/chain'
+import { getAggregationRouterAddressForChainId, isAggregationRouter } from '@grass-protocol/smart-router'
 import { aggregationRouter, legacySwapRouter, universalRouter } from '../abis'
 
 const swapRouters: Record<TradeVersion, Record<number, string>> = {

@@ -5,7 +5,7 @@ import React, { createContext, useCallback, useEffect, useMemo, useState } from 
 import { defaults as addressDefaults } from '@polkadot/util-crypto/address/defaults'
 import { keyring } from '@polkadot/ui-keyring'
 import type { InjectedAccountWithMeta, InjectedExtension, Unsubcall } from '@polkadot/extension-inject/types'
-import type { ParaChain } from '@zenlink-interface/polkadot-config'
+import type { ParaChain } from '@grass-protocol/polkadot-config'
 import type { ApiOptions } from '@polkadot/api/types'
 import type { RegistryTypes } from '@polkadot/types/types'
 import registry from '../typeRegistry'

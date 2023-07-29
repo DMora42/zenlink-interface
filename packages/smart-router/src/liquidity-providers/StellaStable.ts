@@ -1,4 +1,4 @@
-import { ParachainId } from '@zenlink-interface/chain'
+import { ParachainId } from '@grass-protocol/chain'
 import type { PublicClient } from 'viem'
 import { LiquidityProviders } from './LiquidityProvider'
 import { SaddleBaseProvider } from './SaddleBase'

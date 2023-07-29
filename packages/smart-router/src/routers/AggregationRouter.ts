@@ -1,4 +1,4 @@
-import type { ParachainId } from '@zenlink-interface/chain'
+import type { ParachainId } from '@grass-protocol/chain'
 import { RouteStatus } from '@grass-protocol/amm'
 import type { BaseToken, RouteLeg, SplitMultiRoute } from '@grass-protocol/amm'
 import { PoolCode } from '../entities'

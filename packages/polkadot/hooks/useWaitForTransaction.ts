@@ -1,5 +1,5 @@
-import type { Status } from '@zenlink-interface/graph-client'
-import { txStatus } from '@zenlink-interface/graph-client'
+import type { Status } from '@grass-protocol/graph-client'
+import { txStatus } from '@grass-protocol/graph-client'
 import { useEffect, useState } from 'react'
 
 export const useWaitForTransaction = (chainId: number, hash: string) => {

@@ -1,5 +1,5 @@
 import { Transition } from '@headlessui/react'
-import { useIsMounted } from '@zenlink-interface/hooks'
+import { useIsMounted } from '@grass-protocol/hooks'
 import type { ElementType, FC, ReactNode } from 'react'
 
 interface AppearOnMountProps {

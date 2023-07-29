@@ -1,5 +1,5 @@
 {
-  "name": "@zenlink-interface/polkadot",
+  "name": "@grass-protocol/polkadot",
   "version": "0.0.0",
   "description": "Zenlink Polkadot Api",
   "author": "zenlinkpro",
@@ -37,17 +37,17 @@
     "@polkadot/ui-keyring": "^3.1.4",
     "@polkadot/util": "^11.1.3",
     "@polkadot/util-crypto": "^11.1.3",
-    "@zenlink-interface/graph-client": "workspace:*",
-    "@zenlink-interface/hooks": "workspace:*",
-    "@zenlink-interface/polkadot-config": "workspace:*",
-    "@zenlink-interface/shared": "workspace:*",
-    "@zenlink-interface/ui": "workspace:*"
+    "@grass-protocol/graph-client": "workspace:*",
+    "@grass-protocol/hooks": "workspace:*",
+    "@grass-protocol/polkadot-config": "workspace:*",
+    "@grass-protocol/shared": "workspace:*",
+    "@grass-protocol/ui": "workspace:*"
   },
   "devDependencies": {
     "@types/react": "^18.2.17",
     "@types/react-dom": "^18.2.7",
-    "@zenlink-interface/eslint-config": "workspace:*",
-    "@zenlink-interface/typescript-config": "workspace:*",
+    "@grass-protocol/eslint-config": "workspace:*",
+    "@grass-protocol/typescript-config": "workspace:*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "typescript": "5.1.6",

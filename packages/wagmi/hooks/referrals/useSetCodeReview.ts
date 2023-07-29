@@ -1,5 +1,5 @@
-import { chainsParachainIdToChainId } from '@zenlink-interface/chain'
-import { useNotifications } from '@zenlink-interface/shared'
+import { chainsParachainIdToChainId } from '@grass-protocol/chain'
+import { useNotifications } from '@grass-protocol/shared'
 import type { Dispatch, SetStateAction } from 'react'
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import {

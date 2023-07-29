@@ -1,5 +1,5 @@
-import { useIsMounted } from '@zenlink-interface/hooks'
-import { useAccount } from '@zenlink-interface/polkadot'
+import { useIsMounted } from '@grass-protocol/hooks'
+import { useAccount } from '@grass-protocol/polkadot'
 import type { FC } from 'react'
 
 import { Wallet } from '../../components'

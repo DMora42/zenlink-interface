@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react'
 import { u8aToHex } from '@polkadot/util'
 import { decodeAddress } from '@polkadot/util-crypto'
-import { useIsMounted } from '@zenlink-interface/hooks'
+import { useIsMounted } from '@grass-protocol/hooks'
 import type { InjectedAccountWithMeta } from '@polkadot/extension-inject/types'
 import type { Connector } from '../types'
 import { useProviderAccounts } from './useApi'

@@ -1,4 +1,4 @@
-import { useIsMounted } from '@zenlink-interface/hooks'
+import { useIsMounted } from '@grass-protocol/hooks'
 import type { FC, ReactNode } from 'react'
 import { useAccount, useConnect } from 'wagmi'
 

@@ -1,9 +1,9 @@
-import { chainsParachainIdToChainId } from '@zenlink-interface/chain'
+import { chainsParachainIdToChainId } from '@grass-protocol/chain'
 import type { Dispatch, SetStateAction } from 'react'
 import { useCallback, useEffect, useState } from 'react'
 import { usePrepareSendTransaction, useSendTransaction as useSendTransaction_ } from 'wagmi'
 import type { SendTransactionResult } from '@wagmi/core'
-import { createErrorToast } from '@zenlink-interface/ui'
+import { createErrorToast } from '@grass-protocol/ui'
 import type { UseSendTransactionArgs, UseSendTransactionConfig, WagmiTransactionRequest } from '../types'
 
 export function useSendTransaction<Args extends UseSendTransactionArgs = UseSendTransactionArgs>({

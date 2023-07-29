@@ -1,5 +1,5 @@
-import type { ParachainId } from '@zenlink-interface/chain'
-import type { Token } from '@zenlink-interface/currency'
+import type { ParachainId } from '@grass-protocol/chain'
+import type { Token } from '@grass-protocol/currency'
 import type { PublicClient } from 'viem'
 import type { PoolCode } from '../entities'
 

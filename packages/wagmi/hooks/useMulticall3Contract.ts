@@ -1,5 +1,5 @@
 import { getContract } from '@wagmi/core'
-import { otherChains } from '@zenlink-interface/wagmi-config'
+import { otherChains } from '@grass-protocol/wagmi-config'
 import type { Address } from 'wagmi'
 import { usePublicClient } from 'wagmi'
 import { mainnet } from 'wagmi/chains'

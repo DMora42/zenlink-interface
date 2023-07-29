@@ -1,5 +1,5 @@
-import { chainsParachainIdToChainId } from '@zenlink-interface/chain'
-import { WNATIVE_ADDRESS } from '@zenlink-interface/currency'
+import { chainsParachainIdToChainId } from '@grass-protocol/chain'
+import { WNATIVE_ADDRESS } from '@grass-protocol/currency'
 import { usePublicClient } from 'wagmi'
 
 import type { Address } from '@wagmi/core'

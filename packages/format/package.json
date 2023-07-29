@@ -1,5 +1,5 @@
 {
-  "name": "@zenlink-interface/format",
+  "name": "@grass-protocol/format",
   "version": "0.0.0",
   "description": "Zenlink Format",
   "author": "zenlinkpro",
@@ -28,8 +28,8 @@
   },
   "devDependencies": {
     "@types/numeral": "^2.0.2",
-    "@zenlink-interface/eslint-config": "workspace:*",
-    "@zenlink-interface/typescript-config": "workspace:*",
+    "@grass-protocol/eslint-config": "workspace:*",
+    "@grass-protocol/typescript-config": "workspace:*",
     "tsup": "^7.1.0",
     "typescript": "5.1.6"
   }

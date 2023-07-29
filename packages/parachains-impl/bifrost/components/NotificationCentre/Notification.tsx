@@ -12,8 +12,8 @@ import {
   XMarkIcon,
 } from '@heroicons/react/24/solid'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
-import chains, { ParachainId, chainsChainIdToParachainId } from '@zenlink-interface/chain'
-import type { NotificationData } from '@zenlink-interface/ui'
+import chains, { ParachainId, chainsChainIdToParachainId } from '@grass-protocol/chain'
+import type { NotificationData } from '@grass-protocol/ui'
 import {
   Badge,
   Dots,
@@ -24,9 +24,9 @@ import {
   TimeAgo,
   Typography,
   classNames,
-} from '@zenlink-interface/ui'
+} from '@grass-protocol/ui'
 import type { FC } from 'react'
-import { useWaitForTransaction } from '@zenlink-interface/polkadot'
+import { useWaitForTransaction } from '@grass-protocol/polkadot'
 
 export const Notification: FC<{ data: string; showExtra?: boolean; hideStatus?: boolean }> = ({
   data,

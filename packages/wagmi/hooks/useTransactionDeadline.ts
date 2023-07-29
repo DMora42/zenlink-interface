@@ -1,4 +1,4 @@
-import { useSettings } from '@zenlink-interface/shared'
+import { useSettings } from '@grass-protocol/shared'
 import { BigNumber } from 'ethers'
 import { useMemo } from 'react'
 import { useCurrentBlockTimestamp } from './useCurrentBlockTimestamp'

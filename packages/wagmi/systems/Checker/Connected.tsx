@@ -1,5 +1,5 @@
 import { Trans } from '@lingui/macro'
-import { useIsMounted } from '@zenlink-interface/hooks'
+import { useIsMounted } from '@grass-protocol/hooks'
 import type { FC } from 'react'
 import { useAccount } from 'wagmi'
 

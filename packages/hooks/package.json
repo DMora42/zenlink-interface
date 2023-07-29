@@ -1,5 +1,5 @@
 {
-  "name": "@zenlink-interface/hooks",
+  "name": "@grass-protocol/hooks",
   "version": "0.0.0",
   "description": "Zenlink Interface Hooks",
   "author": "zenlinkpro",
@@ -32,11 +32,11 @@
   "devDependencies": {
     "@types/react": "^18.2.17",
     "@types/react-dom": "^18.2.7",
-    "@zenlink-interface/currency": "workspace:*",
-    "@zenlink-interface/eslint-config": "workspace:*",
-    "@zenlink-interface/format": "workspace:*",
-    "@zenlink-interface/math": "workspace:*",
-    "@zenlink-interface/typescript-config": "workspace:*",
+    "@grass-protocol/currency": "workspace:*",
+    "@grass-protocol/eslint-config": "workspace:*",
+    "@grass-protocol/format": "workspace:*",
+    "@grass-protocol/math": "workspace:*",
+    "@grass-protocol/typescript-config": "workspace:*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "typescript": "5.1.6",

@@ -1,5 +1,5 @@
-import type { ParachainId } from '@zenlink-interface/chain'
-import { chainName } from '@zenlink-interface/chain'
+import type { ParachainId } from '@grass-protocol/chain'
+import { chainName } from '@grass-protocol/chain'
 import type { FC, ReactElement } from 'react'
 import { useCallback, useMemo } from 'react'
 

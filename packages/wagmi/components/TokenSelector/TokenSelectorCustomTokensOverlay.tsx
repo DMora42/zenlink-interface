@@ -1,9 +1,9 @@
 import { ArrowTopRightOnSquareIcon, ChevronRightIcon } from '@heroicons/react/24/outline'
 import { CurrencyDollarIcon, XCircleIcon } from '@heroicons/react/24/solid'
-import chain from '@zenlink-interface/chain'
-import type { Token, Type } from '@zenlink-interface/currency'
-import { useIsMounted } from '@zenlink-interface/hooks'
-import { Currency, IconButton, NetworkIcon, Overlay, SlideIn, Typography } from '@zenlink-interface/ui'
+import chain from '@grass-protocol/chain'
+import type { Token, Type } from '@grass-protocol/currency'
+import { useIsMounted } from '@grass-protocol/hooks'
+import { Currency, IconButton, NetworkIcon, Overlay, SlideIn, Typography } from '@grass-protocol/ui'
 import type { CSSProperties, FC } from 'react'
 import { useMemo, useState } from 'react'
 

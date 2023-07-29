@@ -1,5 +1,5 @@
-import { useIsMounted } from '@zenlink-interface/hooks'
-import { classNames } from '@zenlink-interface/ui'
+import { useIsMounted } from '@grass-protocol/hooks'
+import { classNames } from '@grass-protocol/ui'
 import type { FC, ReactNode } from 'react'
 import { useMemo } from 'react'
 import { TokenApproveButton } from './TokenApproveButton'

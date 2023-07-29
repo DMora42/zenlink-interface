@@ -1,5 +1,5 @@
-import type { Type } from '@zenlink-interface/currency'
-import { addressToZenlinkAssetId } from '@zenlink-interface/format'
+import type { Type } from '@grass-protocol/currency'
+import { addressToZenlinkAssetId } from '@grass-protocol/format'
 
 export function isNativeCurrency(currency: Type): boolean {
   // BNC

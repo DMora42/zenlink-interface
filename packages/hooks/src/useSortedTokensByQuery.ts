@@ -1,7 +1,7 @@
-import type { Amount, Token, Type } from '@zenlink-interface/currency'
-import type { Fraction } from '@zenlink-interface/math'
+import type { Amount, Token, Type } from '@grass-protocol/currency'
+import type { Fraction } from '@grass-protocol/math'
 import { useMemo } from 'react'
-import { isAddress } from '@zenlink-interface/format'
+import { isAddress } from '@grass-protocol/format'
 
 const alwaysTrue = () => true
 

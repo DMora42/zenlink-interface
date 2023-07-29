@@ -1,7 +1,7 @@
 import { AddressZero, MaxUint256 } from '@ethersproject/constants'
-import { chainsChainIdToParachainId } from '@zenlink-interface/chain'
-import type { Amount, Currency } from '@zenlink-interface/currency'
-import type { NotificationData } from '@zenlink-interface/ui'
+import { chainsChainIdToParachainId } from '@grass-protocol/chain'
+import type { Amount, Currency } from '@grass-protocol/currency'
+import type { NotificationData } from '@grass-protocol/ui'
 import { BigNumber } from 'ethers'
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import {

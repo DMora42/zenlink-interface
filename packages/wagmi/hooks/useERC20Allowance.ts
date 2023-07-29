@@ -1,6 +1,6 @@
 import { AddressZero } from '@ethersproject/constants'
-import type { Token } from '@zenlink-interface/currency'
-import { Amount } from '@zenlink-interface/currency'
+import type { Token } from '@grass-protocol/currency'
+import { Amount } from '@grass-protocol/currency'
 import { useMemo } from 'react'
 import type { Address } from 'wagmi'
 import { erc20ABI, useContractRead } from 'wagmi'

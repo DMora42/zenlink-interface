@@ -1,5 +1,5 @@
 import { BellIcon, XMarkIcon } from '@heroicons/react/24/solid'
-import { Button, Drawer, IconButton, Typography } from '@zenlink-interface/ui'
+import { Button, Drawer, IconButton, Typography } from '@grass-protocol/ui'
 import type { FC } from 'react'
 
 import { Trans } from '@lingui/macro'

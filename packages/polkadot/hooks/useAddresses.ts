@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 import { keyring } from '@polkadot/ui-keyring'
 import { nextTick } from '@polkadot/util'
 
-import { useIsMounted } from '@zenlink-interface/hooks'
+import { useIsMounted } from '@grass-protocol/hooks'
 
 interface UseAddresses {
   allAddresses: string[]

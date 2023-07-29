@@ -1,4 +1,4 @@
-import { ParachainId } from '@zenlink-interface/chain'
+import { ParachainId } from '@grass-protocol/chain'
 import type { Address } from 'wagmi'
 import { useWalletClient } from 'wagmi'
 import { useMemo } from 'react'

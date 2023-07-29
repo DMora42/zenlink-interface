@@ -1,7 +1,7 @@
-import type { Amount, Type } from '@zenlink-interface/currency'
-import { ZERO } from '@zenlink-interface/math'
-import { useAccount } from '@zenlink-interface/polkadot'
-import { Button } from '@zenlink-interface/ui'
+import type { Amount, Type } from '@grass-protocol/currency'
+import { ZERO } from '@grass-protocol/math'
+import { useAccount } from '@grass-protocol/polkadot'
+import { Button } from '@grass-protocol/ui'
 import type { FC } from 'react'
 import { useMemo } from 'react'
 

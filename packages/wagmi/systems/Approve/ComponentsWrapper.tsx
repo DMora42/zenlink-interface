@@ -1,5 +1,5 @@
 import { Transition } from '@headlessui/react'
-import { classNames } from '@zenlink-interface/ui'
+import { classNames } from '@grass-protocol/ui'
 import type { FC, ReactElement } from 'react'
 
 import type { DefaultButtonProps } from './DefaultButton'

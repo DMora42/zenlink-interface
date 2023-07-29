@@ -1,8 +1,8 @@
 import type { QueryableStorageEntry } from '@polkadot/api/types'
-import type { ParachainId } from '@zenlink-interface/chain'
-import type { Type } from '@zenlink-interface/currency'
-import { JSBI } from '@zenlink-interface/math'
-import { useAccount, useApi, useCallMulti } from '@zenlink-interface/polkadot'
+import type { ParachainId } from '@grass-protocol/chain'
+import type { Type } from '@grass-protocol/currency'
+import { JSBI } from '@grass-protocol/math'
+import { useAccount, useApi, useCallMulti } from '@grass-protocol/polkadot'
 import { useMemo } from 'react'
 
 export type FarmBalanceMap = Record<string, string>

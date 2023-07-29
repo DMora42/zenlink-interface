@@ -1,10 +1,10 @@
-import { Amount, Token } from '@zenlink-interface/currency'
+import { Amount, Token } from '@grass-protocol/currency'
 import { useMemo } from 'react'
 import { STABLE_LP_OVERRIDE, STABLE_POOL_ADDRESS, StableSwap } from '@grass-protocol/amm'
 import type { Address } from 'wagmi'
 import { erc20ABI, useContractReads } from 'wagmi'
-import { JSBI } from '@zenlink-interface/math'
-import { chainsParachainIdToChainId } from '@zenlink-interface/chain'
+import { JSBI } from '@grass-protocol/math'
+import { chainsParachainIdToChainId } from '@grass-protocol/chain'
 import type { StableSwapWithBase } from '../types'
 import { stablePool } from '../abis'
 

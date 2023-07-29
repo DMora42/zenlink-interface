@@ -1,6 +1,6 @@
 import type { BaseToken, StableSwap } from '@grass-protocol/amm'
-import type { Token } from '@zenlink-interface/currency'
-import { ONE } from '@zenlink-interface/math'
+import type { Token } from '@grass-protocol/currency'
+import { ONE } from '@grass-protocol/math'
 import { BigNumber } from 'ethers'
 import JSBI from 'jsbi'
 import invariant from 'tiny-invariant'

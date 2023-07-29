@@ -1,6 +1,6 @@
-import { useIsMounted } from '@zenlink-interface/hooks'
-import type { NotificationData } from '@zenlink-interface/ui'
-import { classNames } from '@zenlink-interface/ui'
+import { useIsMounted } from '@grass-protocol/hooks'
+import type { NotificationData } from '@grass-protocol/ui'
+import { classNames } from '@grass-protocol/ui'
 import type { FC, ReactElement, ReactNode } from 'react'
 import { Children, cloneElement, isValidElement, useMemo, useReducer } from 'react'
 

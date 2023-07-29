@@ -1,6 +1,6 @@
 import type { BaseToken } from '@grass-protocol/amm'
-import type { ParachainId } from '@zenlink-interface/chain'
-import { Native, WNATIVE, WNATIVE_ADDRESS } from '@zenlink-interface/currency'
+import type { ParachainId } from '@grass-protocol/chain'
+import { Native, WNATIVE, WNATIVE_ADDRESS } from '@grass-protocol/currency'
 import type { PublicClient } from 'viem'
 import type { PoolCode } from '../entities'
 import { NativeWrapPoolCode, NatvieWrapPool } from '../entities'

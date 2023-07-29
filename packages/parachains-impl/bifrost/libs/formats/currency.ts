@@ -1,5 +1,5 @@
-import type { ZenlinkProtocolPrimitivesAssetId } from '@zenlink-interface/format'
-import { addressToZenlinkAssetId, zenlinkAssetIdToAddress } from '@zenlink-interface/format'
+import type { ZenlinkProtocolPrimitivesAssetId } from '@grass-protocol/format'
+import { addressToZenlinkAssetId, zenlinkAssetIdToAddress } from '@grass-protocol/format'
 import type { NodePrimitivesCurrency } from '../../types'
 import { pairAddressToAssets } from '../constants'
 

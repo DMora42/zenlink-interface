@@ -1,4 +1,4 @@
-import { classNames } from '@zenlink-interface/ui'
+import { classNames } from '@grass-protocol/ui'
 import type { FC } from 'react'
 import React from 'react'
 

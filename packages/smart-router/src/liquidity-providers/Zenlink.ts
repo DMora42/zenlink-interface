@@ -1,5 +1,5 @@
 import { FACTORY_ADDRESS, INIT_CODE_HASH } from '@grass-protocol/amm'
-import type { ParachainId } from '@zenlink-interface/chain'
+import type { ParachainId } from '@grass-protocol/chain'
 import type { PublicClient } from 'viem'
 import { LiquidityProviders } from './LiquidityProvider'
 import { UniswapV2BaseProvider } from './UniswapV2Base'

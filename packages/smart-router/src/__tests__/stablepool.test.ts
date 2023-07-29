@@ -1,5 +1,5 @@
 import { StableSwap } from '@grass-protocol/amm'
-import { Amount, Token } from '@zenlink-interface/currency'
+import { Amount, Token } from '@grass-protocol/currency'
 import JSBI from 'jsbi'
 import { describe, expect, it } from 'vitest'
 import { StablePool } from '../entities'

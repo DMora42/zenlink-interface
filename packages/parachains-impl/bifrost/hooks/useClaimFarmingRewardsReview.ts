@@ -1,8 +1,8 @@
 import { t } from '@lingui/macro'
-import type { ParachainId } from '@zenlink-interface/chain'
-import type { TransactionRequest } from '@zenlink-interface/polkadot'
-import { useAccount, useApi, useSendTransaction } from '@zenlink-interface/polkadot'
-import { useNotifications } from '@zenlink-interface/shared'
+import type { ParachainId } from '@grass-protocol/chain'
+import type { TransactionRequest } from '@grass-protocol/polkadot'
+import { useAccount, useApi, useSendTransaction } from '@grass-protocol/polkadot'
+import { useNotifications } from '@grass-protocol/shared'
 import type { Dispatch, SetStateAction } from 'react'
 import { useCallback, useMemo } from 'react'
 

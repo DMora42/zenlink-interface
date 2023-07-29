@@ -1,8 +1,8 @@
 import type { Pair } from '@grass-protocol/amm'
-import type { ParachainId } from '@zenlink-interface/chain'
-import { Amount } from '@zenlink-interface/currency'
-import { addressToZenlinkAssetId } from '@zenlink-interface/format'
-import { useApi, useCall } from '@zenlink-interface/polkadot'
+import type { ParachainId } from '@grass-protocol/chain'
+import { Amount } from '@grass-protocol/currency'
+import { addressToZenlinkAssetId } from '@grass-protocol/format'
+import { useApi, useCall } from '@grass-protocol/polkadot'
 import type { ZenlinkAssetBalance, PairStatus as _PairStatus } from '@zenlink-types/bifrost/interfaces'
 import { useMemo } from 'react'
 

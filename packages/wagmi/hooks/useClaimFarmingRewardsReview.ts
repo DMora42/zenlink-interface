@@ -1,5 +1,5 @@
-import type { ParachainId } from '@zenlink-interface/chain'
-import { useNotifications } from '@zenlink-interface/shared'
+import type { ParachainId } from '@grass-protocol/chain'
+import { useNotifications } from '@grass-protocol/shared'
 import type { Dispatch, SetStateAction } from 'react'
 import { useCallback, useMemo } from 'react'
 import type { SendTransactionResult } from '@wagmi/core'

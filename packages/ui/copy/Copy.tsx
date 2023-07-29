@@ -1,5 +1,5 @@
 import { CheckIcon, DocumentDuplicateIcon } from '@heroicons/react/24/outline'
-import { useCopyClipboard } from '@zenlink-interface/hooks'
+import { useCopyClipboard } from '@grass-protocol/hooks'
 import classNames from 'classnames'
 import type { FC } from 'react'
 import React from 'react'

@@ -1,13 +1,13 @@
 import { Popover } from '@headlessui/react'
-import type { ParachainId } from '@zenlink-interface/chain'
-import { useAccount } from '@zenlink-interface/polkadot'
+import type { ParachainId } from '@grass-protocol/chain'
+import { useAccount } from '@grass-protocol/polkadot'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
-import { DEFAULT_INPUT_UNSTYLED, JazzIcon, classNames, useBreakpoint } from '@zenlink-interface/ui'
+import { DEFAULT_INPUT_UNSTYLED, JazzIcon, classNames, useBreakpoint } from '@grass-protocol/ui'
 import type { FC } from 'react'
 import { useCallback, useState } from 'react'
 import ReactDOM from 'react-dom'
-import { useSettings } from '@zenlink-interface/shared'
-import { shortenName } from '@zenlink-interface/format'
+import { useSettings } from '@grass-protocol/shared'
+import { shortenName } from '@grass-protocol/format'
 import { Default, Transactions, Wallet } from '..'
 
 export enum ProfileView {

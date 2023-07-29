@@ -1,4 +1,4 @@
-import { useInterval } from '@zenlink-interface/hooks'
+import { useInterval } from '@grass-protocol/hooks'
 import { formatDistanceToNow } from 'date-fns'
 import type { FC } from 'react'
 import { useState } from 'react'

@@ -1,5 +1,5 @@
 {
-  "name": "@zenlink-interface/ui",
+  "name": "@grass-protocol/ui",
   "version": "0.0.1",
   "description": "Zenlink Interface UI",
   "license": "LGPL-2.1-or-later",
@@ -36,10 +36,10 @@
     "@tailwindcss/forms": "^0.5.4",
     "@tailwindcss/typography": "^0.5.9",
     "@tanstack/react-table": "8.9.3",
-    "@zenlink-interface/chain": "workspace:*",
-    "@zenlink-interface/currency": "workspace:*",
-    "@zenlink-interface/hooks": "workspace:*",
-    "@zenlink-interface/token-lists": "workspace:*",
+    "@grass-protocol/chain": "workspace:*",
+    "@grass-protocol/currency": "workspace:*",
+    "@grass-protocol/hooks": "workspace:*",
+    "@grass-protocol/token-lists": "workspace:*",
     "classnames": "^2.3.2",
     "date-fns": "^2.30.0",
     "nanoid": "^4.0.2",
@@ -56,8 +56,8 @@
     "@types/react-dom": "^18.2.7",
     "@types/react-virtualized-auto-sizer": "^1.0.1",
     "@types/react-window": "^1.8.5",
-    "@zenlink-interface/eslint-config": "workspace:*",
-    "@zenlink-interface/typescript-config": "workspace:*",
+    "@grass-protocol/eslint-config": "workspace:*",
+    "@grass-protocol/typescript-config": "workspace:*",
     "tailwindcss": "^3.3.3",
     "typescript": "5.1.6"
   }

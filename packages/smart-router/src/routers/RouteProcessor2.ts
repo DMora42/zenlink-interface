@@ -1,6 +1,6 @@
 import type { BaseToken, RouteLeg, SplitMultiRoute } from '@grass-protocol/amm'
 import { RouteStatus } from '@grass-protocol/amm'
-import type { ParachainId } from '@zenlink-interface/chain'
+import type { ParachainId } from '@grass-protocol/chain'
 import { PoolCode } from '../entities'
 import { HEXer } from '../HEXer'
 

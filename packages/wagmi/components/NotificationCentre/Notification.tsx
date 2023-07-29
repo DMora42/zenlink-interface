@@ -12,8 +12,8 @@ import {
   XMarkIcon,
 } from '@heroicons/react/24/solid'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
-import chains, { ParachainId, chainsChainIdToParachainId, chainsParachainIdToChainId } from '@zenlink-interface/chain'
-import type { NotificationData } from '@zenlink-interface/ui'
+import chains, { ParachainId, chainsChainIdToParachainId, chainsParachainIdToChainId } from '@grass-protocol/chain'
+import type { NotificationData } from '@grass-protocol/ui'
 import {
   Badge,
   Dots,
@@ -24,7 +24,7 @@ import {
   TimeAgo,
   Typography,
   classNames,
-} from '@zenlink-interface/ui'
+} from '@grass-protocol/ui'
 import type { FC } from 'react'
 import type { Address } from 'wagmi'
 import { useWaitForTransaction } from 'wagmi'

@@ -1,4 +1,4 @@
-import { ParachainId } from '@zenlink-interface/chain'
+import { ParachainId } from '@grass-protocol/chain'
 import type React from 'react'
 
 import { AstarNaked } from './AstarNaked'

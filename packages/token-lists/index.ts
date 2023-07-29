@@ -1,7 +1,7 @@
 import { getAddress, isAddress } from '@ethersproject/address'
-import type { Token, Type } from '@zenlink-interface/currency'
-import { addressToZenlinkAssetId, isZenlinkAddress } from '@zenlink-interface/format'
-import { JSBI } from '@zenlink-interface/math'
+import type { Token, Type } from '@grass-protocol/currency'
+import { addressToZenlinkAssetId, isZenlinkAddress } from '@grass-protocol/format'
+import { JSBI } from '@grass-protocol/math'
 import type { Tags, TokenInfo, TokenList } from './types'
 
 export * from './lists'

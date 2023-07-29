@@ -1,5 +1,5 @@
 import type { RouteLeg, SplitMultiRoute } from '@grass-protocol/amm'
-import { ParachainId } from '@zenlink-interface/chain'
+import { ParachainId } from '@grass-protocol/chain'
 import type { Address } from 'viem'
 import { encodeAbiParameters, parseAbiParameters } from 'viem'
 import invariant from 'tiny-invariant'

@@ -1,7 +1,7 @@
 import { t } from '@lingui/macro'
-import { connectors } from '@zenlink-interface/polkadot'
-import { useSettings } from '@zenlink-interface/shared'
-import type { ButtonProps } from '@zenlink-interface/ui'
+import { connectors } from '@grass-protocol/polkadot'
+import { useSettings } from '@grass-protocol/shared'
+import type { ButtonProps } from '@grass-protocol/ui'
 import {
   AppearOnMount,
   Menu,
@@ -9,7 +9,7 @@ import {
   SubwalletIcon,
   TalismanIcon,
   Button as UIButton,
-} from '@zenlink-interface/ui'
+} from '@grass-protocol/ui'
 import type { ReactNode } from 'react'
 
 const Icons: Record<string, ReactNode> = {

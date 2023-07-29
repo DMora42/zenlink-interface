@@ -1,10 +1,10 @@
-import { ParachainId } from "@zenlink-interface/chain"
-import { WNATIVE, ZLK } from "@zenlink-interface/currency"
+import { ParachainId } from "@grass-protocol/chain"
+import { WNATIVE, ZLK } from "@grass-protocol/currency"
 import { afterAll, beforeAll, expect, describe, it } from "vitest"
 import { DataFetcher } from "../fetchers"
 import { LiquidityProviders, NativeWrapProvider } from "../liquidity-providers"
 import { Chain, createPublicClient, http } from "viem"
-import { moonbeam } from "@zenlink-interface/wagmi-config"
+import { moonbeam } from "@grass-protocol/wagmi-config"
 import { Router } from "../routers"
 import { BigNumber } from "@ethersproject/bignumber"
 

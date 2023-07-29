@@ -1,6 +1,6 @@
 import { CheckIcon, XCircleIcon } from '@heroicons/react/24/solid'
-import type { ParachainId } from '@zenlink-interface/chain'
-import chains from '@zenlink-interface/chain'
+import type { ParachainId } from '@grass-protocol/chain'
+import chains from '@grass-protocol/chain'
 import type { FC } from 'react'
 
 import { Trans } from '@lingui/macro'

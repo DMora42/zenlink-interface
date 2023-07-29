@@ -1,4 +1,4 @@
-import type { Percent } from '@zenlink-interface/math'
+import type { Percent } from '@grass-protocol/math'
 import { AddressZero } from '@ethersproject/constants'
 import { Trade } from '@grass-protocol/amm'
 import type { AggregatorTrade } from '@grass-protocol/amm'

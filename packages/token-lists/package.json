@@ -1,5 +1,5 @@
 {
-  "name": "@zenlink-interface/token-lists",
+  "name": "@grass-protocol/token-lists",
   "version": "0.0.0",
   "description": "Zenlink Token Lists",
   "author": "zenlinkpro",
@@ -22,17 +22,17 @@
   },
   "peerDependencies": {
     "@ethersproject/address": "^5.7.0",
-    "@zenlink-interface/currency": "workspace:*",
-    "@zenlink-interface/format": "workspace:*",
-    "@zenlink-interface/math": "workspace:*"
+    "@grass-protocol/currency": "workspace:*",
+    "@grass-protocol/format": "workspace:*",
+    "@grass-protocol/math": "workspace:*"
   },
   "devDependencies": {
     "@ethersproject/address": "^5.7.0",
-    "@zenlink-interface/currency": "workspace:*",
-    "@zenlink-interface/eslint-config": "workspace:*",
-    "@zenlink-interface/format": "workspace:*",
-    "@zenlink-interface/math": "workspace:*",
-    "@zenlink-interface/typescript-config": "workspace:*",
+    "@grass-protocol/currency": "workspace:*",
+    "@grass-protocol/eslint-config": "workspace:*",
+    "@grass-protocol/format": "workspace:*",
+    "@grass-protocol/math": "workspace:*",
+    "@grass-protocol/typescript-config": "workspace:*",
     "eslint": "^8.45.0",
     "tiny-invariant": "^1.3.1",
     "typescript": "5.1.6"

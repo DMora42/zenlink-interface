@@ -1,6 +1,6 @@
 import { HashZero } from '@ethersproject/constants'
-import type { ParachainId } from '@zenlink-interface/chain'
-import { chainsParachainIdToChainId } from '@zenlink-interface/chain'
+import type { ParachainId } from '@grass-protocol/chain'
+import { chainsParachainIdToChainId } from '@grass-protocol/chain'
 import { parseBytes32String } from 'ethers/lib/utils.js'
 import { useMemo } from 'react'
 import type { Address, useContractReads } from 'wagmi'
