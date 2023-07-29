@@ -1,6 +1,6 @@
 import type { SendTransactionResult } from '@wagmi/core'
 import { waitForTransaction } from 'wagmi/actions'
-import { calculateSlippageAmount } from '@zenlink-interface/amm'
+import { calculateSlippageAmount } from '@grass-protocol/amm'
 import type { ParachainId } from '@zenlink-interface/chain'
 import { chainsParachainIdToChainId } from '@zenlink-interface/chain'
 import type { Amount, Token } from '@zenlink-interface/currency'

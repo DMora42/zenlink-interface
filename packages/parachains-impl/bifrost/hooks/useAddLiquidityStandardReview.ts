@@ -7,7 +7,7 @@ import { useAccount, useApi, useBlockNumber, useSendTransaction } from '@zenlink
 import { useNotifications, useSettings } from '@zenlink-interface/shared'
 import type { Dispatch, SetStateAction } from 'react'
 import { useCallback, useMemo } from 'react'
-import { calculateSlippageAmount } from '@zenlink-interface/amm'
+import { calculateSlippageAmount } from '@grass-protocol/amm'
 import { addressToZenlinkAssetId } from '@zenlink-interface/format'
 import { t } from '@lingui/macro'
 import { PairState } from './usePairs'

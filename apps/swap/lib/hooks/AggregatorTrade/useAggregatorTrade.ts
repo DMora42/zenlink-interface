@@ -1,4 +1,4 @@
-import { AggregatorTrade } from '@zenlink-interface/amm'
+import { AggregatorTrade } from '@grass-protocol/amm'
 import type { Amount, Type } from '@zenlink-interface/currency'
 import { useCallback, useMemo } from 'react'
 import { useQuery } from 'wagmi'

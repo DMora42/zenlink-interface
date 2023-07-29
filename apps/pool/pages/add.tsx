@@ -1,4 +1,4 @@
-import type { Pair } from '@zenlink-interface/amm'
+import type { Pair } from '@grass-protocol/amm'
 import { ParachainId, chainShortName } from '@zenlink-interface/chain'
 import type { Type } from '@zenlink-interface/currency'
 import { tryParseAmount } from '@zenlink-interface/currency'

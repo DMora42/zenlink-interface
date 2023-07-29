@@ -6,8 +6,8 @@ import type {
   NetworkInfo,
   RouteLeg,
   SplitMultiRoute,
-} from '@zenlink-interface/amm'
-import { PoolType, RouteStatus } from '@zenlink-interface/amm'
+} from '@grass-protocol/amm'
+import { PoolType, RouteStatus } from '@grass-protocol/amm'
 import { ASSERT, DEBUG, getBigNumber } from '../util'
 import type { BasePool } from './pools'
 import {

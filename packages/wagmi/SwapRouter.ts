@@ -1,7 +1,7 @@
 import type { Percent } from '@zenlink-interface/math'
 import { AddressZero } from '@ethersproject/constants'
-import { Trade } from '@zenlink-interface/amm'
-import type { AggregatorTrade } from '@zenlink-interface/amm'
+import { Trade } from '@grass-protocol/amm'
+import type { AggregatorTrade } from '@grass-protocol/amm'
 import type { Address } from 'viem'
 import { encodeAbiParameters, parseAbiParameters } from 'viem'
 

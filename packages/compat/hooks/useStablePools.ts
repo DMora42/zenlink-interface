@@ -1,4 +1,4 @@
-import type { StableSwap } from '@zenlink-interface/amm'
+import type { StableSwap } from '@grass-protocol/amm'
 import type { Token } from '@zenlink-interface/currency'
 import { useGetStablePools as useWagmiGetStablePools } from '@zenlink-interface/wagmi'
 import { useGetStablePools as useBifrostGetStablePools } from '@zenlink-interface/parachains-bifrost'

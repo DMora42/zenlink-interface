@@ -1,4 +1,4 @@
-import { TradeVersion } from '@zenlink-interface/amm'
+import { TradeVersion } from '@grass-protocol/amm'
 import { ParachainId } from '@zenlink-interface/chain'
 import { getAggregationRouterAddressForChainId, isAggregationRouter } from '@zenlink-interface/smart-router'
 import { aggregationRouter, legacySwapRouter, universalRouter } from '../abis'

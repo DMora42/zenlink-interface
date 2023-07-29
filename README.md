@@ -43,7 +43,7 @@ This is a monorepo interface for Zenlink -- a protocol for decentralized exchang
 
 ## Packages
 
-- `@zenlink-interface/amm`
+- `@grass-protocol/amm`
 - `@zenlink-interface/chain`
 - `@zenlink-interface/compat`
 - `@zenlink-interface/config`

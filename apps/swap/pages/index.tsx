@@ -1,5 +1,5 @@
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
-import { TradeType } from '@zenlink-interface/amm'
+import { TradeType } from '@grass-protocol/amm'
 import { ParachainId } from '@zenlink-interface/chain'
 import type { Type } from '@zenlink-interface/currency'
 import { DOT, Native, USDC, USDT, tryParseAmount } from '@zenlink-interface/currency'

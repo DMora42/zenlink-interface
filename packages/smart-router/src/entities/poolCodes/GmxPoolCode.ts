@@ -1,4 +1,4 @@
-import type { RouteLeg, SplitMultiRoute } from '@zenlink-interface/amm'
+import type { RouteLeg, SplitMultiRoute } from '@grass-protocol/amm'
 import { HEXer } from '../../HEXer'
 import type { GmxPool } from '../pools/GmxPool'
 import { PoolCode } from './PoolCode'

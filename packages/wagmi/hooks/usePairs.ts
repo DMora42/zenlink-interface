@@ -1,4 +1,4 @@
-import { FACTORY_ADDRESS, Pair, computePairAddress } from '@zenlink-interface/amm'
+import { FACTORY_ADDRESS, Pair, computePairAddress } from '@grass-protocol/amm'
 import { chainsParachainIdToChainId } from '@zenlink-interface/chain'
 import type { Type as Currency, Token, Type } from '@zenlink-interface/currency'
 import { Amount } from '@zenlink-interface/currency'

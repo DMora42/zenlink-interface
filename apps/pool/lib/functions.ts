@@ -1,4 +1,4 @@
-import { Pair, StableSwap } from '@zenlink-interface/amm'
+import { Pair, StableSwap } from '@grass-protocol/amm'
 import { Amount, Token } from '@zenlink-interface/currency'
 import type { PoolFarm } from '@zenlink-interface/graph-client'
 import { POOL_TYPE } from '@zenlink-interface/graph-client'

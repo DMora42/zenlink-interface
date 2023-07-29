@@ -1,6 +1,6 @@
 import type { QueryableStorageEntry } from '@polkadot/api/types'
 import type { Struct } from '@polkadot/types-codec'
-import { Pair } from '@zenlink-interface/amm'
+import { Pair } from '@grass-protocol/amm'
 import type { Currency, Token, Type } from '@zenlink-interface/currency'
 import { Amount } from '@zenlink-interface/currency'
 import { addressToZenlinkAssetId } from '@zenlink-interface/format'

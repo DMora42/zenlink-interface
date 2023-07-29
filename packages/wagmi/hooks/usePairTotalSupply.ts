@@ -4,7 +4,7 @@ import { Amount, Token } from '@zenlink-interface/currency'
 import { useMemo } from 'react'
 import type { Address } from 'wagmi'
 import { useContractRead } from 'wagmi'
-import type { Pair } from '@zenlink-interface/amm'
+import type { Pair } from '@grass-protocol/amm'
 import { pair as pairContract } from '../abis'
 
 export const usePairTotalSupply = (pair: Pair | undefined | null, chainId: ParachainId) => {

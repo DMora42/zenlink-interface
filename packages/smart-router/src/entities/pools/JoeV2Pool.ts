@@ -1,4 +1,4 @@
-import type { BaseToken } from '@zenlink-interface/amm'
+import type { BaseToken } from '@grass-protocol/amm'
 import type { BigNumber } from '@ethersproject/bignumber'
 import { BasePool } from './BasePool'
 

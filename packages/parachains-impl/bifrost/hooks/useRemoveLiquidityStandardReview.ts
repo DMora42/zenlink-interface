@@ -1,5 +1,5 @@
 import { t } from '@lingui/macro'
-import type { Pair } from '@zenlink-interface/amm'
+import type { Pair } from '@grass-protocol/amm'
 import type { ParachainId } from '@zenlink-interface/chain'
 import type { Amount, Type } from '@zenlink-interface/currency'
 import { addressToZenlinkAssetId } from '@zenlink-interface/format'

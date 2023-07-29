@@ -1,7 +1,7 @@
 import { ParachainId, chainsParachainIdToChainId } from '@zenlink-interface/chain'
 import { Amount, Token } from '@zenlink-interface/currency'
 import { BigNumber } from 'ethers'
-import { StableSwap } from '@zenlink-interface/amm'
+import { StableSwap } from '@grass-protocol/amm'
 import JSBI from 'jsbi'
 import { ADDITIONAL_BASES, BASES_TO_CHECK_TRADES_AGAINST } from '@zenlink-interface/router-config'
 import type { Address, PublicClient } from 'viem'

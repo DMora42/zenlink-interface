@@ -1,6 +1,6 @@
 import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/solid'
-import type { AggregatorTrade, BaseToken, PoolType } from '@zenlink-interface/amm'
-import { TradeVersion } from '@zenlink-interface/amm'
+import type { AggregatorTrade, BaseToken, PoolType } from '@grass-protocol/amm'
+import { TradeVersion } from '@grass-protocol/amm'
 import chains from '@zenlink-interface/chain'
 import type { Type } from '@zenlink-interface/currency'
 import { Native, Token } from '@zenlink-interface/currency'

@@ -19,7 +19,7 @@
     "@lingui/react": "4.3.0",
     "@reduxjs/toolkit": "^1.9.5",
     "@vercel/analytics": "^1.0.1",
-    "@zenlink-interface/amm": "workspace:*",
+    "@grass-protocol/amm": "workspace:*",
     "@zenlink-interface/graph-client": "workspace:*",
     "@zenlink-interface/chain": "workspace:*",
     "@zenlink-interface/compat": "workspace:*",

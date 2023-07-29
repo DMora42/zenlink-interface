@@ -1,6 +1,6 @@
 import { BigNumber } from '@ethersproject/bignumber'
-import type { BaseToken, NetworkInfo, SplitMultiRoute } from '@zenlink-interface/amm'
-import { RouteStatus } from '@zenlink-interface/amm'
+import type { BaseToken, NetworkInfo, SplitMultiRoute } from '@grass-protocol/amm'
+import { RouteStatus } from '@grass-protocol/amm'
 import type { BasePool } from '../entities'
 import { Graph, MetaPool, StablePool, setTokenId } from '../entities'
 

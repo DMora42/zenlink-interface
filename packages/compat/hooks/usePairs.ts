@@ -1,4 +1,4 @@
-import type { Pair } from '@zenlink-interface/amm'
+import type { Pair } from '@grass-protocol/amm'
 import type { Currency } from '@zenlink-interface/currency'
 import { usePairs as useWagmiPairs } from '@zenlink-interface/wagmi'
 import { usePairs as useBifrostPairs } from '@zenlink-interface/parachains-bifrost'

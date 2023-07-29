@@ -1,4 +1,4 @@
-import type { TradeType } from '@zenlink-interface/amm'
+import type { TradeType } from '@grass-protocol/amm'
 import type { Amount, Type } from '@zenlink-interface/currency'
 import type { FC, ReactNode } from 'react'
 import { createContext, useContext, useMemo } from 'react'

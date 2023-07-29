@@ -1,4 +1,4 @@
-import type { Pair } from '@zenlink-interface/amm'
+import type { Pair } from '@grass-protocol/amm'
 import type { ParachainId } from '@zenlink-interface/chain'
 import { usePairTotalSupply as useWagmiPairTotalSupply } from '@zenlink-interface/wagmi'
 import { usePairTotalSupply as useBifrostPairTotalSupply } from '@zenlink-interface/parachains-bifrost'

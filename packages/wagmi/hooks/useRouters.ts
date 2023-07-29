@@ -1,4 +1,4 @@
-import type { TradeVersion } from '@zenlink-interface/amm'
+import type { TradeVersion } from '@grass-protocol/amm'
 import type { Contract } from 'ethers'
 import { BaseContract } from 'ethers'
 import { useMemo } from 'react'

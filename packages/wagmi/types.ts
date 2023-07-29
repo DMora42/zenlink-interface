@@ -1,5 +1,5 @@
 import type { UseMutationOptions } from '@tanstack/react-query'
-import type { StableSwap } from '@zenlink-interface/amm'
+import type { StableSwap } from '@grass-protocol/amm'
 import type { Amount, Token } from '@zenlink-interface/currency'
 import type { Account } from 'viem'
 import type { Address } from 'wagmi'

@@ -1,6 +1,6 @@
 import { Amount, Token } from '@zenlink-interface/currency'
 import { useMemo } from 'react'
-import { STABLE_LP_OVERRIDE, STABLE_POOL_ADDRESS, StableSwap } from '@zenlink-interface/amm'
+import { STABLE_LP_OVERRIDE, STABLE_POOL_ADDRESS, StableSwap } from '@grass-protocol/amm'
 import type { Address } from 'wagmi'
 import { erc20ABI, useContractReads } from 'wagmi'
 import { JSBI } from '@zenlink-interface/math'

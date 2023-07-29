@@ -1,4 +1,4 @@
-import type { RouteLeg, SplitMultiRoute } from '@zenlink-interface/amm'
+import type { RouteLeg, SplitMultiRoute } from '@grass-protocol/amm'
 import { CommandCode } from '../../CommandCode'
 import { HEXer } from '../../HEXer'
 import type { NatvieWrapPool } from '../pools/NativeWrapPool'

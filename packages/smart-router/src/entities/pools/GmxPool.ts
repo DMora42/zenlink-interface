@@ -1,5 +1,5 @@
 import type { BigNumber } from '@ethersproject/bignumber'
-import type { BaseToken } from '@zenlink-interface/amm'
+import type { BaseToken } from '@grass-protocol/amm'
 import type { Token } from '@zenlink-interface/currency'
 import { BasePool, TYPICAL_MINIMAL_LIQUIDITY, TYPICAL_SWAP_GAS_COST } from './BasePool'
 

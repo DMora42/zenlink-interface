@@ -1,4 +1,4 @@
-import type { BaseToken } from '@zenlink-interface/amm'
+import type { BaseToken } from '@grass-protocol/amm'
 import type { ParachainId } from '@zenlink-interface/chain'
 import { Native, WNATIVE, WNATIVE_ADDRESS } from '@zenlink-interface/currency'
 import type { PublicClient } from 'viem'

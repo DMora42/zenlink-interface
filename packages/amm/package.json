@@ -1,16 +1,16 @@
 {
-  "name": "@zenlink-interface/amm",
+  "name": "@grass-protocol/amm",
   "version": "0.0.0",
-  "description": "Zenlink AMM",
-  "author": "zenlinkpro",
+  "description": "Grass AMM",
+  "author": "grassprotocol",
   "license": "LGPL-2.1-or-later",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zenlinkpro/zenlink-interface.git",
+    "url": "https://github.com/grassprotocol/amm.git",
     "directory": "packages/amm"
   },
   "keywords": [
-    "zenlink",
+    "grassprotocol",
     "amm"
   ],
   "main": "dist/index.js",

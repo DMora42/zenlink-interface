@@ -1,4 +1,4 @@
-import { calculateSlippageAmount } from '@zenlink-interface/amm'
+import { calculateSlippageAmount } from '@grass-protocol/amm'
 import {
   Approve,
   Checker,

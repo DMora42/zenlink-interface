@@ -1,4 +1,4 @@
-import type { BaseToken } from '@zenlink-interface/amm'
+import type { BaseToken } from '@grass-protocol/amm'
 import { setTokenId } from './pools'
 import type { Edge } from './Edge'
 

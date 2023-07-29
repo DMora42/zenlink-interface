@@ -2,7 +2,7 @@ import { ParachainId, chainsParachainIdToChainId } from '@zenlink-interface/chai
 import type { Address, PublicClient } from 'viem'
 import type { Token } from '@zenlink-interface/currency'
 import { BigNumber } from '@ethersproject/bignumber'
-import type { BaseToken } from '@zenlink-interface/amm'
+import type { BaseToken } from '@grass-protocol/amm'
 import { ADDITIONAL_BASES, BASES_TO_CHECK_TRADES_AGAINST } from '@zenlink-interface/router-config'
 import type { PoolCode, UniV3Tick } from '../entities'
 import { BeamV3PoolCode, UniV3Pool } from '../entities'

@@ -1,5 +1,5 @@
-import type { AggregatorTrade, Pair, StableSwap } from '@zenlink-interface/amm'
-import { FACTORY_ADDRESS, Trade, TradeType } from '@zenlink-interface/amm'
+import type { AggregatorTrade, Pair, StableSwap } from '@grass-protocol/amm'
+import { FACTORY_ADDRESS, Trade, TradeType } from '@grass-protocol/amm'
 import {
   PairState,
   StablePoolState,

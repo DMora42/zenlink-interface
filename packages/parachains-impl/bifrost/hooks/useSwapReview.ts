@@ -1,4 +1,4 @@
-import type { Trade } from '@zenlink-interface/amm'
+import type { Trade } from '@grass-protocol/amm'
 import { Percent } from '@zenlink-interface/math'
 import type { TransactionRequest } from '@zenlink-interface/polkadot'
 import { useAccount, useApi, useBlockNumber, useSendTransaction } from '@zenlink-interface/polkadot'

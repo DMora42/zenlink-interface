@@ -1,5 +1,5 @@
 import { Disclosure, Transition } from '@headlessui/react'
-import { calculateSlippageAmount } from '@zenlink-interface/amm'
+import { calculateSlippageAmount } from '@grass-protocol/amm'
 import { Approve, Checker, useAccount, useRemoveLiquidityStableReview, useStableSwapWithBase } from '@zenlink-interface/compat'
 import type { Token } from '@zenlink-interface/currency'
 import { Amount } from '@zenlink-interface/currency'

@@ -1,4 +1,4 @@
-import type { RouteLeg, SplitMultiRoute } from '@zenlink-interface/amm'
+import type { RouteLeg, SplitMultiRoute } from '@grass-protocol/amm'
 import type { BigNumber } from 'ethers'
 import type { BasePool } from '../pools/BasePool'
 

@@ -1,4 +1,4 @@
-import type { BaseToken, StableSwap } from '@zenlink-interface/amm'
+import type { BaseToken, StableSwap } from '@grass-protocol/amm'
 import type { Token } from '@zenlink-interface/currency'
 import { ONE } from '@zenlink-interface/math'
 import { BigNumber } from 'ethers'

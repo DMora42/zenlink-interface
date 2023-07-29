@@ -1,5 +1,5 @@
 import type { BigNumber } from '@ethersproject/bignumber'
-import { RouteStatus } from '@zenlink-interface/amm'
+import { RouteStatus } from '@grass-protocol/amm'
 import type { Type } from '@zenlink-interface/currency'
 import type { DataFetcher } from '../fetchers'
 import { LiquidityProviders } from '../liquidity-providers'

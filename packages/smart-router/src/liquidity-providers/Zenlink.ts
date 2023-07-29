@@ -1,4 +1,4 @@
-import { FACTORY_ADDRESS, INIT_CODE_HASH } from '@zenlink-interface/amm'
+import { FACTORY_ADDRESS, INIT_CODE_HASH } from '@grass-protocol/amm'
 import type { ParachainId } from '@zenlink-interface/chain'
 import type { PublicClient } from 'viem'
 import { LiquidityProviders } from './LiquidityProvider'

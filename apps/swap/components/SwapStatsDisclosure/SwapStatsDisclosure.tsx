@@ -9,7 +9,7 @@ import React, { useMemo, useState } from 'react'
 import { useSettings } from '@zenlink-interface/shared'
 import { AggregatorRoute, LegacyRoute, Rate, useTrade } from 'components'
 import { Trans, t } from '@lingui/macro'
-import { TradeVersion } from '@zenlink-interface/amm'
+import { TradeVersion } from '@grass-protocol/amm'
 import { formatTransactionAmount } from '@zenlink-interface/format'
 import { warningSeverity } from '../../lib/functions'
 

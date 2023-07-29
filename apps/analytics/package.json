@@ -26,7 +26,7 @@
     "@reduxjs/toolkit": "^1.9.5",
     "@tanstack/react-table": "8.9.3",
     "@vercel/analytics": "^1.0.1",
-    "@zenlink-interface/amm": "workspace:*",
+    "@grass-protocol/amm": "workspace:*",
     "@zenlink-interface/chain": "workspace:*",
     "@zenlink-interface/compat": "workspace:*",
     "@zenlink-interface/currency": "workspace:*",

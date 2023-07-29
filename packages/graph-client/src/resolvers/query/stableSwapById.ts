@@ -1,4 +1,4 @@
-import { STABLE_SWAP_FEE_NUMBER } from '@zenlink-interface/amm'
+import { STABLE_SWAP_FEE_NUMBER } from '@grass-protocol/amm'
 import { chainName, chainShortNameToChainId } from '@zenlink-interface/chain'
 import omit from 'lodash.omit'
 import { fetchStableSwapById, fetchTokensByIds } from '../../queries'

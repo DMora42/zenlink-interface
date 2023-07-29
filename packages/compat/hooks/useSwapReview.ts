@@ -1,5 +1,5 @@
-import type { AggregatorTrade, Trade } from '@zenlink-interface/amm'
-import { TradeVersion } from '@zenlink-interface/amm'
+import type { AggregatorTrade, Trade } from '@grass-protocol/amm'
+import { TradeVersion } from '@grass-protocol/amm'
 import type { Dispatch, SetStateAction } from 'react'
 import { useMemo } from 'react'
 import { useSwapReview as useWagmiSwapReview } from '@zenlink-interface/wagmi'

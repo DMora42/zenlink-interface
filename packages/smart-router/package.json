@@ -30,7 +30,7 @@
   "dependencies": {
     "@ethersproject/bignumber": "^5.7.0",
     "@ethersproject/solidity": "^5.7.0",
-    "@zenlink-interface/amm": "workspace:*",
+    "@grass-protocol/amm": "workspace:*",
     "@zenlink-interface/chain": "workspace:*",
     "@zenlink-interface/currency": "workspace:*",
     "@zenlink-interface/math": "workspace:*",

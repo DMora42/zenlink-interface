@@ -1,6 +1,6 @@
 import type { SendTransactionResult } from '@wagmi/core'
 import { waitForTransaction } from 'wagmi/actions'
-import type { AggregatorTrade, Trade } from '@zenlink-interface/amm'
+import type { AggregatorTrade, Trade } from '@grass-protocol/amm'
 import type { ParachainId } from '@zenlink-interface/chain'
 import { chainsParachainIdToChainId } from '@zenlink-interface/chain'
 import { useNotifications, useSettings } from '@zenlink-interface/shared'

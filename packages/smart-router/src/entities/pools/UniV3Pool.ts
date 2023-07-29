@@ -1,5 +1,5 @@
 import { BigNumber } from '@ethersproject/bignumber'
-import type { BaseToken } from '@zenlink-interface/amm'
+import type { BaseToken } from '@grass-protocol/amm'
 import { BasePool } from './BasePool'
 
 const BASE_GAS_CONSUMPTION = 70_000

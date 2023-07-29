@@ -1,4 +1,4 @@
-import { TradeType } from '@zenlink-interface/amm'
+import { TradeType } from '@grass-protocol/amm'
 import type { CurrencyInputProps } from '@zenlink-interface/compat'
 import { Web3Input } from '@zenlink-interface/compat'
 import { usePrices } from '@zenlink-interface/shared'

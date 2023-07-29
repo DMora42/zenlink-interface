@@ -1,4 +1,4 @@
-import { StableSwap } from '@zenlink-interface/amm'
+import { StableSwap } from '@grass-protocol/amm'
 import { Amount, Token } from '@zenlink-interface/currency'
 import JSBI from 'jsbi'
 import { describe, expect, it } from 'vitest'
