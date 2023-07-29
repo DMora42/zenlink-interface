@@ -4,7 +4,7 @@ import {
   typesAlias as bifrostTypeAlias,
   types as bifrostTypes,
   typesBundle as bifrostTypesBundle,
-} from '@zenlink-types/bifrost'
+} from '@bifrost-finance/types'
 import type { ApiOptions } from '@polkadot/api/types'
 
 interface BlockExplorer {

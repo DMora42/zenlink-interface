@@ -3,7 +3,7 @@ import type { ParachainId } from '@grass-protocol/chain'
 import { Amount } from '@grass-protocol/currency'
 import { addressToZenlinkAssetId } from '@grass-protocol/format'
 import { useApi, useCall } from '@grass-protocol/polkadot'
-import type { ZenlinkAssetBalance, PairStatus as _PairStatus } from '@zenlink-types/bifrost/interfaces'
+import type { ZenlinkAssetBalance, PairStatus as _PairStatus } from '@bifrost-finance/types/interfaces'
 import { useMemo } from 'react'
 
 interface PairStatus extends Omit<_PairStatus, 'asTrading'> {

@@ -24,7 +24,7 @@
   "dependencies": {
     "@polkadot/api": "^10.3.4",
     "@grass-protocol/chain": "workspace:*",
-    "@zenlink-types/bifrost": "1.7.6"
+    "@bifrost-finance/types": "1.8.4"
   },
   "devDependencies": {
     "@grass-protocol/typescript-config": "workspace:*",

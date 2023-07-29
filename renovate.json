@@ -37,7 +37,7 @@
         "@polkadot/keyring",
         "@polkadot/ui-keyring",
         "@polkadot/rpc-augment",
-        "@zenlink-types/bifrost"
+        "@bifrost-finance/types"
       ],
       "enabled": false
     }

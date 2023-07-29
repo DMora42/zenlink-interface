@@ -38,7 +38,7 @@
     "@polkadot/api": "^10.3.4",
     "@polkadot/types": "^10.3.4",
     "@polkadot/types-codec": "^10.3.4",
-    "@zenlink-types/bifrost": "1.7.6"
+    "@bifrost-finance/types": "1.8.4"
   },
   "devDependencies": {
     "@grass-protocol/eslint-config": "workspace:*",
