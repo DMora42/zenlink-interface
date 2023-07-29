@@ -1,8 +1,8 @@
-import { ParachainId, chainsParachainIdToChainId } from '@zenlink-interface/chain'
+import { ParachainId, chainsParachainIdToChainId } from '@grass-protocol/chain'
 import { ApiPromise, WsProvider } from '@polkadot/api'
 import type { Address } from '@wagmi/core'
 import { fetchBalance, fetchToken } from '@wagmi/core'
-import { fetchZLKTokenInfo } from '@zenlink-interface/graph-client'
+import { fetchZLKTokenInfo } from '@grass-protocol/graph-client'
 import {
   EVM_CHAINS,
   SUBSTRATE_CHAINS,

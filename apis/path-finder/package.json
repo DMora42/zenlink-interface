@@ -1,5 +1,5 @@
 {
-  "name": "@zenlink-interface/path-finder-api",
+  "name": "@grass-protocol/path-finder-api",
   "version": "0.0.0",
   "description": "Zenlink Interface Path Finder Api",
   "license": "LGPL-2.1-or-later",
@@ -15,18 +15,18 @@
   },
   "dependencies": {
     "@vercel/node": "^2.15.6",
-    "@zenlink-interface/chain": "workspace:*",
-    "@zenlink-interface/currency": "workspace:*",
-    "@zenlink-interface/smart-router": "workspace:*",
-    "@zenlink-interface/token-lists": "workspace:*",
-    "@zenlink-interface/wagmi-config": "workspace:*",
+    "@grass-protocol/chain": "workspace:*",
+    "@grass-protocol/currency": "workspace:*",
+    "@grass-protocol/smart-router": "workspace:*",
+    "@grass-protocol/token-lists": "workspace:*",
+    "@grass-protocol/wagmi-config": "workspace:*",
     "ethers": "^5.7.2",
     "viem": "1.4.1",
     "zod": "3.21.4"
   },
   "devDependencies": {
-    "@zenlink-interface/eslint-config": "workspace:*",
-    "@zenlink-interface/typescript-config": "workspace:*",
+    "@grass-protocol/eslint-config": "workspace:*",
+    "@grass-protocol/typescript-config": "workspace:*",
     "dotenv": "^16.3.1",
     "eslint": "^8.45.0",
     "ts-node": "^10.9.1",

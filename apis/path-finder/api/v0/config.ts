@@ -1,11 +1,11 @@
 import 'dotenv/config'
 
-import { ParachainId } from '@zenlink-interface/chain'
-import { DataFetcher } from '@zenlink-interface/smart-router'
+import { ParachainId } from '@grass-protocol/chain'
+import { DataFetcher } from '@grass-protocol/smart-router'
 import type { PublicClient } from 'viem'
 import { createPublicClient, fallback, http } from 'viem'
 import { arbitrum } from 'viem/chains'
-import { astar } from '@zenlink-interface/wagmi-config'
+import { astar } from '@grass-protocol/wagmi-config'
 
 export const V1_CHAINS = [
   ParachainId.ASTAR,

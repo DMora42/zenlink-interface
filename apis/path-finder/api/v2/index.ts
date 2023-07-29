@@ -1,13 +1,13 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node'
-import { ParachainId } from '@zenlink-interface/chain'
+import { ParachainId } from '@grass-protocol/chain'
 import { z } from 'zod'
 import {
   Router,
   getAggregationExecutorAddressForChainId,
   getAggregationRouterAddressForChainId,
-} from '@zenlink-interface/smart-router'
+} from '@grass-protocol/smart-router'
 import { BigNumber } from 'ethers'
-import { Native } from '@zenlink-interface/currency'
+import { Native } from '@grass-protocol/currency'
 import { getToken } from './tokens'
 import { convertChainId, getDataFetcher } from './config'
 

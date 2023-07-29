@@ -1,7 +1,7 @@
 import 'dotenv/config'
 
-import { EthereumChainId, ParachainId } from '@zenlink-interface/chain'
-import { DataFetcher } from '@zenlink-interface/smart-router'
+import { EthereumChainId, ParachainId } from '@grass-protocol/chain'
+import { DataFetcher } from '@grass-protocol/smart-router'
 import type { PublicClient } from 'viem'
 import { createPublicClient, fallback, http } from 'viem'
 import { moonbeam } from 'viem/chains'

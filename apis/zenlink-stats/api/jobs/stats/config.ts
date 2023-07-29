@@ -1,7 +1,7 @@
-import { ParachainId } from '@zenlink-interface/chain'
+import { ParachainId } from '@grass-protocol/chain'
 import type { Chain } from '@wagmi/core'
 import { configureChains, createConfig } from '@wagmi/core'
-import { otherChains } from '@zenlink-interface/wagmi-config'
+import { otherChains } from '@grass-protocol/wagmi-config'
 import { publicProvider } from '@wagmi/core/providers/public'
 
 export const EVM_CHAINS = [

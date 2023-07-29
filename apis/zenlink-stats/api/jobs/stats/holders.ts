@@ -1,5 +1,5 @@
 import axios from 'axios'
-import { ParachainId } from '@zenlink-interface/chain'
+import { ParachainId } from '@grass-protocol/chain'
 import { SUBSCAN_API_KEY, SUBSCAN_ENDPOINTS, ZLK_EVM_ADDRESSES } from './config'
 
 export async function fetchBifrostKusamaZLKHolders() {
