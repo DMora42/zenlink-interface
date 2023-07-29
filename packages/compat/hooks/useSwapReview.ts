@@ -2,8 +2,8 @@ import type { AggregatorTrade, Trade } from '@grass-protocol/amm'
 import { TradeVersion } from '@grass-protocol/amm'
 import type { Dispatch, SetStateAction } from 'react'
 import { useMemo } from 'react'
-import { useSwapReview as useWagmiSwapReview } from '@zenlink-interface/wagmi'
-import { useSwapReview as useBifrostSwapReview } from '@zenlink-interface/parachains-bifrost'
+import { useSwapReview as useWagmiSwapReview } from '@grass-protocol/wagmi'
+import { useSwapReview as useBifrostSwapReview } from '@grass-protocol/parachains-bifrost'
 import { EVM_NETWORKS, isEvmNetwork } from '../config'
 
 interface UseSwapReviewParams {

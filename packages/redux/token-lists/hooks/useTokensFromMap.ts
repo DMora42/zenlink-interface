@@ -1,5 +1,5 @@
-import type { ParachainId } from '@zenlink-interface/chain'
-import type { Token } from '@zenlink-interface/currency'
+import type { ParachainId } from '@grass-protocol/chain'
+import type { Token } from '@grass-protocol/currency'
 import { useMemo } from 'react'
 
 import type { ChainTokenMap } from '../types'

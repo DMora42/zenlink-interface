@@ -1,6 +1,6 @@
-import { ParachainId } from '@zenlink-interface/chain'
-import type { Type } from '@zenlink-interface/currency'
-import { ARB, DAI, DOT, FRAX, Native, Token, USDC, USDT, WBTC, WNATIVE } from '@zenlink-interface/currency'
+import { ParachainId } from '@grass-protocol/chain'
+import type { Type } from '@grass-protocol/currency'
+import { ARB, DAI, DOT, FRAX, Native, Token, USDC, USDT, WBTC, WNATIVE } from '@grass-protocol/currency'
 
 export const BASES_TO_CHECK_TRADES_AGAINST: { readonly [chainId: number]: Token[] } = {
   [ParachainId.ASTAR]: [

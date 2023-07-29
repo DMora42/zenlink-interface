@@ -1,4 +1,4 @@
-import type { ButtonProps, NotificationData } from '@zenlink-interface/ui'
+import type { ButtonProps, NotificationData } from '@grass-protocol/ui'
 import type { ReactElement } from 'react'
 
 export enum ApprovalState {

@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
-import type { ParachainId } from '@zenlink-interface/chain'
-import { useInterval, useIsWindowVisible } from '@zenlink-interface/hooks'
+import type { ParachainId } from '@grass-protocol/chain'
+import { useInterval, useIsWindowVisible } from '@grass-protocol/hooks'
 import { useCallback, useEffect } from 'react'
 import { useDispatch } from 'react-redux'
 import type { PublicClient } from '@wagmi/core'

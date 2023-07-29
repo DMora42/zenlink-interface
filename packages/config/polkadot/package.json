@@ -1,5 +1,5 @@
 {
-  "name": "@zenlink-interface/polkadot-config",
+  "name": "@grass-protocol/polkadot-config",
   "version": "0.0.0",
   "description": "Zenlink Polkadot Config",
   "author": "zenlinkpro",
@@ -23,11 +23,11 @@
   },
   "dependencies": {
     "@polkadot/api": "^10.3.4",
-    "@zenlink-interface/chain": "workspace:*",
+    "@grass-protocol/chain": "workspace:*",
     "@zenlink-types/bifrost": "1.7.6"
   },
   "devDependencies": {
-    "@zenlink-interface/typescript-config": "workspace:*",
+    "@grass-protocol/typescript-config": "workspace:*",
     "tsup": "^7.1.0",
     "typescript": "5.1.6"
   }

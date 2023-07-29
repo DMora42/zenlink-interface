@@ -1,6 +1,6 @@
 import type { PayloadAction, Slice } from '@reduxjs/toolkit'
 import { createSlice } from '@reduxjs/toolkit'
-import { ParachainId } from '@zenlink-interface/chain'
+import { ParachainId } from '@grass-protocol/chain'
 import type {
   AddCustomToken,
   AddCustomTokens,

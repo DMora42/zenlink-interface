@@ -23,8 +23,8 @@
     "lint": "TIMING=1 eslint ./index.ts --fix"
   },
   "devDependencies": {
-    "@zenlink-interface/eslint-config": "workspace:*",
-    "@zenlink-interface/typescript-config": "workspace:*",
+    "@grass-protocol/eslint-config": "workspace:*",
+    "@grass-protocol/typescript-config": "workspace:*",
     "eslint": "^8.45.0",
     "typescript": "5.1.6"
   }

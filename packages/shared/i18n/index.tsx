@@ -10,7 +10,7 @@ export * from './constants'
 
 export async function dynamicActivate(locale: SupportedLocale) {
   try {
-    const catalog = await import(`@zenlink-interface/locales/${locale}.js`)
+    const catalog = await import(`@grass-protocol/locales/${locale}.js`)
     // Bundlers will either export it as default or as a named export named default.
     i18n.load(locale, catalog.messages || catalog.default.messages)
   }

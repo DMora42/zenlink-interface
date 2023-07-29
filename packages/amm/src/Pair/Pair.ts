@@ -1,6 +1,6 @@
-import { Amount, Price, Token } from '@zenlink-interface/currency'
-import type { BigintIsh } from '@zenlink-interface/math'
-import { FIVE, JSBI, ONE, ZERO, _1000, _997, sqrt } from '@zenlink-interface/math'
+import { Amount, Price, Token } from '@grass-protocol/currency'
+import type { BigintIsh } from '@grass-protocol/math'
+import { FIVE, JSBI, ONE, ZERO, _1000, _997, sqrt } from '@grass-protocol/math'
 import invariant from 'tiny-invariant'
 
 import { InsufficientInputAmountError, InsufficientReservesError } from '../errors'

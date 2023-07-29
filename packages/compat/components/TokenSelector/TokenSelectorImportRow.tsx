@@ -1,9 +1,9 @@
 import { ArrowTopRightOnSquareIcon, ExclamationTriangleIcon } from '@heroicons/react/24/outline'
 import { Trans, t } from '@lingui/macro'
-import chain from '@zenlink-interface/chain'
-import type { Token } from '@zenlink-interface/currency'
-import { shortenAddress } from '@zenlink-interface/format'
-import { Button, CopyHelper, Currency, Overlay, SlideIn, Typography, classNames } from '@zenlink-interface/ui'
+import chain from '@grass-protocol/chain'
+import type { Token } from '@grass-protocol/currency'
+import { shortenAddress } from '@grass-protocol/format'
+import { Button, CopyHelper, Currency, Overlay, SlideIn, Typography, classNames } from '@grass-protocol/ui'
 import type { FC } from 'react'
 import { useMemo, useState } from 'react'
 

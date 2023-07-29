@@ -1,5 +1,5 @@
 {
-  "name": "@zenlink-interface/graph-client",
+  "name": "@grass-protocol/graph-client",
   "version": "0.0.0",
   "description": "Zenlink Graph Client",
   "author": "zenlinkpro",
@@ -33,9 +33,9 @@
     "@graphql-codegen/typescript-resolvers": "^4.0.1",
     "@polkadot/util-crypto": "^11.1.3",
     "@grass-protocol/amm": "workspace:*",
-    "@zenlink-interface/chain": "workspace:*",
-    "@zenlink-interface/graph-config": "workspace:*",
-    "@zenlink-interface/wagmi-config": "workspace:*",
+    "@grass-protocol/chain": "workspace:*",
+    "@grass-protocol/graph-config": "workspace:*",
+    "@grass-protocol/wagmi-config": "workspace:*",
     "date-fns": "^2.30.0",
     "ethers": "^5.7.2",
     "graphql": "16.7.1",
@@ -44,8 +44,8 @@
   "devDependencies": {
     "@types/lodash.omit": "^4.5.7",
     "@types/numeral": "^2.0.2",
-    "@zenlink-interface/eslint-config": "workspace:*",
-    "@zenlink-interface/typescript-config": "workspace:*",
+    "@grass-protocol/eslint-config": "workspace:*",
+    "@grass-protocol/typescript-config": "workspace:*",
     "eslint": "^8.45.0",
     "tsup": "^7.1.0",
     "typescript": "5.1.6"

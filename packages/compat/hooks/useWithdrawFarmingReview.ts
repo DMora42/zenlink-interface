@@ -1,7 +1,7 @@
-import type { ParachainId } from '@zenlink-interface/chain'
-import type { Amount, Type } from '@zenlink-interface/currency'
-import { useWithdrawFarmingReview as useWagmiWithdrawFarmingReview } from '@zenlink-interface/wagmi'
-import { useWithdrawFarmingReview as useBifrostWithdrawFarmingReview } from '@zenlink-interface/parachains-bifrost'
+import type { ParachainId } from '@grass-protocol/chain'
+import type { Amount, Type } from '@grass-protocol/currency'
+import { useWithdrawFarmingReview as useWagmiWithdrawFarmingReview } from '@grass-protocol/wagmi'
+import { useWithdrawFarmingReview as useBifrostWithdrawFarmingReview } from '@grass-protocol/parachains-bifrost'
 import { useMemo } from 'react'
 import { isEvmNetwork } from '../config'
 

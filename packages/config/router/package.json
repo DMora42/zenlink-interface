@@ -1,5 +1,5 @@
 {
-  "name": "@zenlink-interface/router-config",
+  "name": "@grass-protocol/router-config",
   "version": "0.0.0",
   "description": "Zenlink Interface Router Config",
   "author": "zenlinkpro",
@@ -24,12 +24,12 @@
     "lint": "TIMING=1 eslint ./**/*.ts* --fix"
   },
   "dependencies": {
-    "@zenlink-interface/chain": "workspace:*",
-    "@zenlink-interface/currency": "workspace:*"
+    "@grass-protocol/chain": "workspace:*",
+    "@grass-protocol/currency": "workspace:*"
   },
   "devDependencies": {
-    "@zenlink-interface/eslint-config": "workspace:*",
-    "@zenlink-interface/typescript-config": "workspace:*",
+    "@grass-protocol/eslint-config": "workspace:*",
+    "@grass-protocol/typescript-config": "workspace:*",
     "tsup": "7.1.0",
     "typescript": "5.1.6"
   }

@@ -1,4 +1,4 @@
-import { ParachainId } from '@zenlink-interface/chain'
+import { ParachainId } from '@grass-protocol/chain'
 import flatMap from 'lodash.flatmap'
 
 import { DAI, DOT, FRAX, KSM, USDC, USDT, WNATIVE, XCAUSD, ZLK } from './constants'

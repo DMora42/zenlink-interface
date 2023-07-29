@@ -1,6 +1,6 @@
-import { Amount } from '@zenlink-interface/currency'
-import type { Token } from '@zenlink-interface/currency'
-import { FOUR, Fraction, JSBI, ONE, TEN, TWO, ZERO } from '@zenlink-interface/math'
+import { Amount } from '@grass-protocol/currency'
+import type { Token } from '@grass-protocol/currency'
+import { FOUR, Fraction, JSBI, ONE, TEN, TWO, ZERO } from '@grass-protocol/math'
 import invariant from 'tiny-invariant'
 import { CalculationError } from '../errors'
 

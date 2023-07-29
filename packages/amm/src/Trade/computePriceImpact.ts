@@ -1,5 +1,5 @@
-import type { Amount, Type as Currency, Price } from '@zenlink-interface/currency'
-import { Percent } from '@zenlink-interface/math'
+import type { Amount, Type as Currency, Price } from '@grass-protocol/currency'
+import { Percent } from '@grass-protocol/math'
 
 /**
  * Returns the percent difference between the mid price and the execution price, i.e. price impact.

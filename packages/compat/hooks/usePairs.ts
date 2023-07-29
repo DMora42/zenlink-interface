@@ -1,7 +1,7 @@
 import type { Pair } from '@grass-protocol/amm'
-import type { Currency } from '@zenlink-interface/currency'
-import { usePairs as useWagmiPairs } from '@zenlink-interface/wagmi'
-import { usePairs as useBifrostPairs } from '@zenlink-interface/parachains-bifrost'
+import type { Currency } from '@grass-protocol/currency'
+import { usePairs as useWagmiPairs } from '@grass-protocol/wagmi'
+import { usePairs as useBifrostPairs } from '@grass-protocol/parachains-bifrost'
 import { useMemo } from 'react'
 import { isEvmNetwork, isSubstrateNetwork } from '../config'
 

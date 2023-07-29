@@ -1,7 +1,7 @@
-import type { ParachainId } from '@zenlink-interface/chain'
-import { useBlockNumber as useWagmiBlockNumber } from '@zenlink-interface/wagmi'
+import type { ParachainId } from '@grass-protocol/chain'
+import { useBlockNumber as useWagmiBlockNumber } from '@grass-protocol/wagmi'
 import { useMemo } from 'react'
-import { useBlockNumber as useSubstrateBlockNumber } from '@zenlink-interface/polkadot'
+import { useBlockNumber as useSubstrateBlockNumber } from '@grass-protocol/polkadot'
 import { isEvmNetwork } from '../config'
 
 export const useBlockNumber = (chainId: ParachainId) => {

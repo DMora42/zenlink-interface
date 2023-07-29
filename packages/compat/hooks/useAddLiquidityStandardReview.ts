@@ -1,9 +1,9 @@
-import type { ParachainId } from '@zenlink-interface/chain'
-import type { Amount, Type } from '@zenlink-interface/currency'
+import type { ParachainId } from '@grass-protocol/chain'
+import type { Amount, Type } from '@grass-protocol/currency'
 import type { Dispatch, SetStateAction } from 'react'
 import { useMemo } from 'react'
-import { useAddLiquidityStandardReview as useWagmiAddLiquidityStandardReview } from '@zenlink-interface/wagmi'
-import { useAddLiquidityStandardReview as useBifrostAddLiquidityStandardReview } from '@zenlink-interface/parachains-bifrost'
+import { useAddLiquidityStandardReview as useWagmiAddLiquidityStandardReview } from '@grass-protocol/wagmi'
+import { useAddLiquidityStandardReview as useBifrostAddLiquidityStandardReview } from '@grass-protocol/parachains-bifrost'
 import { isEvmNetwork } from '../config'
 import type { PairState } from './usePairs'
 

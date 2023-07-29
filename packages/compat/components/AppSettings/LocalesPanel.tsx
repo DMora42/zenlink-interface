@@ -1,7 +1,7 @@
-import { IconButton, Typography } from '@zenlink-interface/ui'
+import { IconButton, Typography } from '@grass-protocol/ui'
 import type { Dispatch, FC, SetStateAction } from 'react'
 import { ChevronLeftIcon } from '@heroicons/react/24/solid'
-import { LOCALE_LABEL, SUPPORTED_LOCALES, useSettings } from '@zenlink-interface/shared'
+import { LOCALE_LABEL, SUPPORTED_LOCALES, useSettings } from '@grass-protocol/shared'
 import { SettingView } from './AppSettings'
 
 interface LocalesProps {

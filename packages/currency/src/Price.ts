@@ -1,5 +1,5 @@
-import type { BigintIsh, Rounding } from '@zenlink-interface/math'
-import { Fraction, JSBI } from '@zenlink-interface/math'
+import type { BigintIsh, Rounding } from '@grass-protocol/math'
+import { Fraction, JSBI } from '@grass-protocol/math'
 import invariant from 'tiny-invariant'
 
 import { Amount } from './Amount'

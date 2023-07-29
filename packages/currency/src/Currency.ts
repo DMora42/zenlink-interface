@@ -1,4 +1,4 @@
-import type { ParachainId } from '@zenlink-interface/chain'
+import type { ParachainId } from '@grass-protocol/chain'
 import invariant from 'tiny-invariant'
 
 import type { Native } from './Native'

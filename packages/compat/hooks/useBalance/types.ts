@@ -1,3 +1,3 @@
-import type { Amount, Type } from '@zenlink-interface/currency'
+import type { Amount, Type } from '@grass-protocol/currency'
 
 export type BalanceMap = Record<string, Amount<Type> | undefined> | undefined

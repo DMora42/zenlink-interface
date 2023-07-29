@@ -1,5 +1,5 @@
 {
-  "name": "@zenlink-interface/wagmi-config",
+  "name": "@grass-protocol/wagmi-config",
   "version": "0.0.0",
   "description": "Zenlink Wagmi Config",
   "author": "zenlinkpro",
@@ -22,10 +22,10 @@
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
   "dependencies": {
-    "@zenlink-interface/chain": "workspace:*"
+    "@grass-protocol/chain": "workspace:*"
   },
   "devDependencies": {
-    "@zenlink-interface/typescript-config": "workspace:*",
+    "@grass-protocol/typescript-config": "workspace:*",
     "tsup": "^7.1.0",
     "typescript": "5.1.6"
   }

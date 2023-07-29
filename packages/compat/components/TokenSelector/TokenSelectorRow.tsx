@@ -1,8 +1,8 @@
-import type { Amount, Type } from '@zenlink-interface/currency'
-import { useInViewport } from '@zenlink-interface/hooks'
-import type { Fraction } from '@zenlink-interface/math'
-import { ZERO } from '@zenlink-interface/math'
-import { Currency, Typography, classNames } from '@zenlink-interface/ui'
+import type { Amount, Type } from '@grass-protocol/currency'
+import { useInViewport } from '@grass-protocol/hooks'
+import type { Fraction } from '@grass-protocol/math'
+import { ZERO } from '@grass-protocol/math'
+import { Currency, Typography, classNames } from '@grass-protocol/ui'
 import type { CSSProperties, FC } from 'react'
 import { memo, useCallback, useRef } from 'react'
 

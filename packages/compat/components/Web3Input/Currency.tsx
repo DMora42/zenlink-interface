@@ -1,8 +1,8 @@
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
-import type { Type } from '@zenlink-interface/currency'
-import { tryParseAmount } from '@zenlink-interface/currency'
-import { useIsMounted } from '@zenlink-interface/hooks'
-import { usePrices } from '@zenlink-interface/shared'
+import type { Type } from '@grass-protocol/currency'
+import { tryParseAmount } from '@grass-protocol/currency'
+import { useIsMounted } from '@grass-protocol/hooks'
+import { usePrices } from '@grass-protocol/shared'
 import {
   DEFAULT_INPUT_UNSTYLED,
   Input,
@@ -10,11 +10,11 @@ import {
   Typography,
   Currency as UICurrency,
   classNames,
-} from '@zenlink-interface/ui'
+} from '@grass-protocol/ui'
 import type { FC } from 'react'
 import { useCallback, useMemo, useRef, useState } from 'react'
 import { Trans } from '@lingui/macro'
-import { formatTransactionAmount } from '@zenlink-interface/format'
+import { formatTransactionAmount } from '@grass-protocol/format'
 import { useAccount, useBalance } from '../../hooks'
 import type { TokenSelectorProps } from '../TokenSelector'
 import { TokenSelector } from '../TokenSelector'

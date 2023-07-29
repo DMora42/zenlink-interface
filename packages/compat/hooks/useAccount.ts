@@ -1,6 +1,6 @@
-import { useAccount as usePolkadotAccount } from '@zenlink-interface/polkadot'
+import { useAccount as usePolkadotAccount } from '@grass-protocol/polkadot'
 import { useMemo } from 'react'
-import { useSettings } from '@zenlink-interface/shared'
+import { useSettings } from '@grass-protocol/shared'
 import { useAccount as useWagmiAccount } from 'wagmi'
 import { isEvmNetwork } from '../config'
 

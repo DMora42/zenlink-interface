@@ -1,7 +1,7 @@
-import type { ParachainId } from '@zenlink-interface/chain'
+import type { ParachainId } from '@grass-protocol/chain'
 import type { Address } from 'wagmi'
-import { useFarmsRewards as useWagmiFarmsRewards } from '@zenlink-interface/wagmi'
-import { useFarmsRewards as useBifrostFarmsRewards } from '@zenlink-interface/parachains-bifrost'
+import { useFarmsRewards as useWagmiFarmsRewards } from '@grass-protocol/wagmi'
+import { useFarmsRewards as useBifrostFarmsRewards } from '@grass-protocol/parachains-bifrost'
 import { useMemo } from 'react'
 import { isEvmNetwork } from '../config'
 

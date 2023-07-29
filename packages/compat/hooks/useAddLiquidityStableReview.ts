@@ -1,9 +1,9 @@
-import type { ParachainId } from '@zenlink-interface/chain'
-import type { Amount, Token } from '@zenlink-interface/currency'
-import type { CalculatedStbaleSwapLiquidity, StableSwapWithBase } from '@zenlink-interface/wagmi'
+import type { ParachainId } from '@grass-protocol/chain'
+import type { Amount, Token } from '@grass-protocol/currency'
+import type { CalculatedStbaleSwapLiquidity, StableSwapWithBase } from '@grass-protocol/wagmi'
 import type { Dispatch, SetStateAction } from 'react'
 import { useMemo } from 'react'
-import { useAddLiquidityStableReview as useWagmiAddLiquidityStableReview } from '@zenlink-interface/wagmi'
+import { useAddLiquidityStableReview as useWagmiAddLiquidityStableReview } from '@grass-protocol/wagmi'
 import { isEvmNetwork } from '../config'
 
 interface UseAddLiquidityStableReviewParams {

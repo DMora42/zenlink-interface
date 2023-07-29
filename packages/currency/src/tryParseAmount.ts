@@ -1,5 +1,5 @@
 import { parseUnits } from '@ethersproject/units'
-import { JSBI } from '@zenlink-interface/math'
+import { JSBI } from '@grass-protocol/math'
 
 import { Amount } from './Amount'
 import type { Type } from './Type'

@@ -1,5 +1,5 @@
-import type { Amount, Currency, Price } from '@zenlink-interface/currency'
-import type { Percent } from '@zenlink-interface/math'
+import type { Amount, Currency, Price } from '@grass-protocol/currency'
+import type { Percent } from '@grass-protocol/math'
 import type { TradeVersion } from './TradeVersion'
 
 export enum PoolType {

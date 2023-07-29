@@ -1,6 +1,6 @@
 import { MoonIcon, SunIcon } from '@heroicons/react/20/solid'
-import { LOCALE_LABEL, useSettings } from '@zenlink-interface/shared'
-import { Typography } from '@zenlink-interface/ui'
+import { LOCALE_LABEL, useSettings } from '@grass-protocol/shared'
+import { Typography } from '@grass-protocol/ui'
 import { useTheme } from 'next-themes'
 import type { Dispatch, FC, MouseEvent, SetStateAction } from 'react'
 import { useCallback, useMemo } from 'react'

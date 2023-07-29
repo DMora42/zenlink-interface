@@ -1,4 +1,4 @@
-import { EthereumChainId } from '@zenlink-interface/chain'
+import { EthereumChainId } from '@grass-protocol/chain'
 
 export const astar = {
   id: EthereumChainId.ASTAR,

@@ -1,6 +1,6 @@
-import type { Amount, Currency } from '@zenlink-interface/currency'
-import type { JSBI, Percent } from '@zenlink-interface/math'
-import { Fraction } from '@zenlink-interface/math'
+import type { Amount, Currency } from '@grass-protocol/currency'
+import type { JSBI, Percent } from '@grass-protocol/math'
+import { Fraction } from '@grass-protocol/math'
 
 const ONE = new Fraction(1, 1)
 

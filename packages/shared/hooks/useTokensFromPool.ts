@@ -1,7 +1,7 @@
-import { Amount, Native, Token } from '@zenlink-interface/currency'
-import type { Type } from '@zenlink-interface/currency'
-import type { Pair, Pool, SingleTokenLock, StableSwap } from '@zenlink-interface/graph-client'
-import { POOL_TYPE } from '@zenlink-interface/graph-client'
+import { Amount, Native, Token } from '@grass-protocol/currency'
+import type { Type } from '@grass-protocol/currency'
+import type { Pair, Pool, SingleTokenLock, StableSwap } from '@grass-protocol/graph-client'
+import { POOL_TYPE } from '@grass-protocol/graph-client'
 import { useMemo } from 'react'
 
 export interface TokensFromPool {

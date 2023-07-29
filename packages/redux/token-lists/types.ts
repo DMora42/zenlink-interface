@@ -1,4 +1,4 @@
-import type { TokenList, WrappedTokenInfo } from '@zenlink-interface/token-lists'
+import type { TokenList, WrappedTokenInfo } from '@grass-protocol/token-lists'
 
 export type TokenMap = Readonly<{ [tokenAddress: string]: { token: WrappedTokenInfo; list?: TokenList } }>
 export type ChainTokenMap = Readonly<{ [chainId: number]: TokenMap }>

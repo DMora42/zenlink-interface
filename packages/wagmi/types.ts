@@ -1,6 +1,6 @@
 import type { UseMutationOptions } from '@tanstack/react-query'
 import type { StableSwap } from '@grass-protocol/amm'
-import type { Amount, Token } from '@zenlink-interface/currency'
+import type { Amount, Token } from '@grass-protocol/currency'
 import type { Account } from 'viem'
 import type { Address } from 'wagmi'
 import type { SendTransactionArgs, SendTransactionResult } from 'wagmi/actions'

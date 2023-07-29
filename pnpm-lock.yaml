@@ -44,10 +44,10 @@ importers:
       '@types/node':
         specifier: ^18.17.1
         version: 18.17.1
-      '@zenlink-interface/eslint-config':
+      '@grass-protocol/eslint-config':
         specifier: workspace:*
         version: link:packages/config/eslint
-      '@zenlink-interface/graph-client':
+      '@grass-protocol/graph-client':
         specifier: link:packages/graph-client/src
         version: link:packages/graph-client/src
       chatgpt:
@@ -83,19 +83,19 @@ importers:
       '@vercel/node':
         specifier: ^2.15.6
         version: 2.15.6
-      '@zenlink-interface/chain':
+      '@grass-protocol/chain':
         specifier: workspace:*
         version: link:../../packages/chain
-      '@zenlink-interface/currency':
+      '@grass-protocol/currency':
         specifier: workspace:*
         version: link:../../packages/currency
-      '@zenlink-interface/smart-router':
+      '@grass-protocol/smart-router':
         specifier: workspace:*
         version: link:../../packages/smart-router
-      '@zenlink-interface/token-lists':
+      '@grass-protocol/token-lists':
         specifier: workspace:*
         version: link:../../packages/token-lists
-      '@zenlink-interface/wagmi-config':
+      '@grass-protocol/wagmi-config':
         specifier: workspace:*
         version: link:../../packages/config/wagmi
       ethers:
@@ -108,10 +108,10 @@ importers:
         specifier: 3.21.4
         version: 3.21.4
     devDependencies:
-      '@zenlink-interface/eslint-config':
+      '@grass-protocol/eslint-config':
         specifier: workspace:*
         version: link:../../packages/config/eslint
-      '@zenlink-interface/typescript-config':
+      '@grass-protocol/typescript-config':
         specifier: workspace:*
         version: link:../../packages/config/typescript
       dotenv:
@@ -132,10 +132,10 @@ importers:
       '@vercel/node':
         specifier: ^2.15.6
         version: 2.15.6
-      '@zenlink-interface/chain':
+      '@grass-protocol/chain':
         specifier: workspace:*
         version: link:../../packages/chain
-      '@zenlink-interface/graph-client':
+      '@grass-protocol/graph-client':
         specifier: workspace:*
         version: link:../../packages/graph-client
       date-fns:
@@ -148,10 +148,10 @@ importers:
         specifier: ^5.3.2
         version: 5.3.2
     devDependencies:
-      '@zenlink-interface/eslint-config':
+      '@grass-protocol/eslint-config':
         specifier: workspace:*
         version: link:../../packages/config/eslint
-      '@zenlink-interface/typescript-config':
+      '@grass-protocol/typescript-config':
         specifier: workspace:*
         version: link:../../packages/config/typescript
       eslint:
@@ -172,22 +172,22 @@ importers:
       '@wagmi/core':
         specifier: 1.1.1-cjs
         version: 1.1.1-cjs(react@18.2.0)(typescript@5.1.6)(viem@1.4.2)
-      '@zenlink-interface/chain':
+      '@grass-protocol/chain':
         specifier: workspace:*
         version: link:../../packages/chain
-      '@zenlink-interface/currency':
+      '@grass-protocol/currency':
         specifier: workspace:*
         version: link:../../packages/currency
-      '@zenlink-interface/graph-client':
+      '@grass-protocol/graph-client':
         specifier: workspace:*
         version: link:../../packages/graph-client
-      '@zenlink-interface/smart-router':
+      '@grass-protocol/smart-router':
         specifier: workspace:*
         version: link:../../packages/smart-router
-      '@zenlink-interface/token-lists':
+      '@grass-protocol/token-lists':
         specifier: workspace:*
         version: link:../../packages/token-lists
-      '@zenlink-interface/wagmi-config':
+      '@grass-protocol/wagmi-config':
         specifier: workspace:*
         version: link:../../packages/config/wagmi
       axios:
@@ -206,10 +206,10 @@ importers:
         specifier: ^5.3.2
         version: 5.3.2
     devDependencies:
-      '@zenlink-interface/eslint-config':
+      '@grass-protocol/eslint-config':
         specifier: workspace:*
         version: link:../../packages/config/eslint
-      '@zenlink-interface/typescript-config':
+      '@grass-protocol/typescript-config':
         specifier: workspace:*
         version: link:../../packages/config/typescript
       eslint:
@@ -272,52 +272,52 @@ importers:
       '@vercel/analytics':
         specifier: ^1.0.1
         version: 1.0.1
-      '@zenlink-interface/chain':
+      '@grass-protocol/chain':
         specifier: workspace:*
         version: link:../../packages/chain
-      '@zenlink-interface/compat':
+      '@grass-protocol/compat':
         specifier: workspace:*
         version: link:../../packages/compat
-      '@zenlink-interface/currency':
+      '@grass-protocol/currency':
         specifier: workspace:*
         version: link:../../packages/currency
-      '@zenlink-interface/format':
+      '@grass-protocol/format':
         specifier: workspace:*
         version: link:../../packages/format
-      '@zenlink-interface/graph-client':
+      '@grass-protocol/graph-client':
         specifier: workspace:*
         version: link:../../packages/graph-client
-      '@zenlink-interface/hooks':
+      '@grass-protocol/hooks':
         specifier: workspace:*
         version: link:../../packages/hooks
-      '@zenlink-interface/math':
+      '@grass-protocol/math':
         specifier: workspace:*
         version: link:../../packages/math
-      '@zenlink-interface/parachains-bifrost':
+      '@grass-protocol/parachains-bifrost':
         specifier: workspace:*
         version: link:../../packages/parachains-impl/bifrost
-      '@zenlink-interface/polkadot':
+      '@grass-protocol/polkadot':
         specifier: workspace:*
         version: link:../../packages/polkadot
-      '@zenlink-interface/polkadot-config':
+      '@grass-protocol/polkadot-config':
         specifier: workspace:*
         version: link:../../packages/config/polkadot
-      '@zenlink-interface/redux-localstorage':
+      '@grass-protocol/redux-localstorage':
         specifier: workspace:*
         version: link:../../packages/redux/localstorage
-      '@zenlink-interface/redux-token-lists':
+      '@grass-protocol/redux-token-lists':
         specifier: workspace:*
         version: link:../../packages/redux/token-lists
-      '@zenlink-interface/shared':
+      '@grass-protocol/shared':
         specifier: workspace:*
         version: link:../../packages/shared
-      '@zenlink-interface/token-lists':
+      '@grass-protocol/token-lists':
         specifier: workspace:*
         version: link:../../packages/token-lists
-      '@zenlink-interface/ui':
+      '@grass-protocol/ui':
         specifier: workspace:*
         version: link:../../packages/ui
-      '@zenlink-interface/wagmi':
+      '@grass-protocol/wagmi':
         specifier: workspace:*
         version: link:../../packages/wagmi
       date-fns:
@@ -381,13 +381,13 @@ importers:
       '@types/react-dom':
         specifier: ^18.2.7
         version: 18.2.7
-      '@zenlink-interface/eslint-config':
+      '@grass-protocol/eslint-config':
         specifier: workspace:*
         version: link:../../packages/config/eslint
-      '@zenlink-interface/nextjs-config':
+      '@grass-protocol/nextjs-config':
         specifier: workspace:*
         version: link:../../packages/config/nextjs
-      '@zenlink-interface/typescript-config':
+      '@grass-protocol/typescript-config':
         specifier: workspace:*
         version: link:../../packages/config/typescript
       autoprefixer:
@@ -420,7 +420,7 @@ importers:
       '@vercel/analytics':
         specifier: ^1.0.1
         version: 1.0.1
-      '@zenlink-interface/ui':
+      '@grass-protocol/ui':
         specifier: workspace:*
         version: link:../../packages/ui
       next:
@@ -442,13 +442,13 @@ importers:
       '@types/react':
         specifier: ^18.2.17
         version: 18.2.17
-      '@zenlink-interface/eslint-config':
+      '@grass-protocol/eslint-config':
         specifier: workspace:*
         version: link:../../packages/config/eslint
-      '@zenlink-interface/nextjs-config':
+      '@grass-protocol/nextjs-config':
         specifier: workspace:*
         version: link:../../packages/config/nextjs
-      '@zenlink-interface/typescript-config':
+      '@grass-protocol/typescript-config':
         specifier: workspace:*
         version: link:../../packages/config/typescript
       autoprefixer:
@@ -523,52 +523,52 @@ importers:
       '@vercel/analytics':
         specifier: ^1.0.1
         version: 1.0.1
-      '@zenlink-interface/chain':
+      '@grass-protocol/chain':
         specifier: workspace:*
         version: link:../../packages/chain
-      '@zenlink-interface/compat':
+      '@grass-protocol/compat':
         specifier: workspace:*
         version: link:../../packages/compat
-      '@zenlink-interface/currency':
+      '@grass-protocol/currency':
         specifier: workspace:*
         version: link:../../packages/currency
-      '@zenlink-interface/format':
+      '@grass-protocol/format':
         specifier: workspace:*
         version: link:../../packages/format
-      '@zenlink-interface/graph-client':
+      '@grass-protocol/graph-client':
         specifier: workspace:*
         version: link:../../packages/graph-client
-      '@zenlink-interface/hooks':
+      '@grass-protocol/hooks':
         specifier: workspace:*
         version: link:../../packages/hooks
-      '@zenlink-interface/math':
+      '@grass-protocol/math':
         specifier: workspace:*
         version: link:../../packages/math
-      '@zenlink-interface/parachains-bifrost':
+      '@grass-protocol/parachains-bifrost':
         specifier: workspace:*
         version: link:../../packages/parachains-impl/bifrost
-      '@zenlink-interface/polkadot':
+      '@grass-protocol/polkadot':
         specifier: workspace:*
         version: link:../../packages/polkadot
-      '@zenlink-interface/polkadot-config':
+      '@grass-protocol/polkadot-config':
         specifier: workspace:*
         version: link:../../packages/config/polkadot
-      '@zenlink-interface/redux-localstorage':
+      '@grass-protocol/redux-localstorage':
         specifier: workspace:*
         version: link:../../packages/redux/localstorage
-      '@zenlink-interface/redux-token-lists':
+      '@grass-protocol/redux-token-lists':
         specifier: workspace:*
         version: link:../../packages/redux/token-lists
-      '@zenlink-interface/shared':
+      '@grass-protocol/shared':
         specifier: workspace:*
         version: link:../../packages/shared
-      '@zenlink-interface/token-lists':
+      '@grass-protocol/token-lists':
         specifier: workspace:*
         version: link:../../packages/token-lists
-      '@zenlink-interface/ui':
+      '@grass-protocol/ui':
         specifier: workspace:*
         version: link:../../packages/ui
-      '@zenlink-interface/wagmi':
+      '@grass-protocol/wagmi':
         specifier: workspace:*
         version: link:../../packages/wagmi
       date-fns:
@@ -632,13 +632,13 @@ importers:
       '@types/react-dom':
         specifier: ^18.2.7
         version: 18.2.7
-      '@zenlink-interface/eslint-config':
+      '@grass-protocol/eslint-config':
         specifier: workspace:*
         version: link:../../packages/config/eslint
-      '@zenlink-interface/nextjs-config':
+      '@grass-protocol/nextjs-config':
         specifier: workspace:*
         version: link:../../packages/config/nextjs
-      '@zenlink-interface/typescript-config':
+      '@grass-protocol/typescript-config':
         specifier: workspace:*
         version: link:../../packages/config/typescript
       autoprefixer:
@@ -701,43 +701,43 @@ importers:
       '@vercel/analytics':
         specifier: ^1.0.1
         version: 1.0.1
-      '@zenlink-interface/chain':
+      '@grass-protocol/chain':
         specifier: workspace:*
         version: link:../../packages/chain
-      '@zenlink-interface/compat':
+      '@grass-protocol/compat':
         specifier: workspace:*
         version: link:../../packages/compat
-      '@zenlink-interface/currency':
+      '@grass-protocol/currency':
         specifier: workspace:*
         version: link:../../packages/currency
-      '@zenlink-interface/format':
+      '@grass-protocol/format':
         specifier: workspace:*
         version: link:../../packages/format
-      '@zenlink-interface/hooks':
+      '@grass-protocol/hooks':
         specifier: workspace:*
         version: link:../../packages/hooks
-      '@zenlink-interface/math':
+      '@grass-protocol/math':
         specifier: workspace:*
         version: link:../../packages/math
-      '@zenlink-interface/parachains-bifrost':
+      '@grass-protocol/parachains-bifrost':
         specifier: workspace:*
         version: link:../../packages/parachains-impl/bifrost
-      '@zenlink-interface/polkadot':
+      '@grass-protocol/polkadot':
         specifier: workspace:*
         version: link:../../packages/polkadot
-      '@zenlink-interface/polkadot-config':
+      '@grass-protocol/polkadot-config':
         specifier: workspace:*
         version: link:../../packages/config/polkadot
-      '@zenlink-interface/redux-localstorage':
+      '@grass-protocol/redux-localstorage':
         specifier: workspace:*
         version: link:../../packages/redux/localstorage
-      '@zenlink-interface/shared':
+      '@grass-protocol/shared':
         specifier: workspace:*
         version: link:../../packages/shared
-      '@zenlink-interface/ui':
+      '@grass-protocol/ui':
         specifier: workspace:*
         version: link:../../packages/ui
-      '@zenlink-interface/wagmi':
+      '@grass-protocol/wagmi':
         specifier: workspace:*
         version: link:../../packages/wagmi
       ethers:
@@ -789,13 +789,13 @@ importers:
       '@types/react-dom':
         specifier: ^18.2.7
         version: 18.2.7
-      '@zenlink-interface/eslint-config':
+      '@grass-protocol/eslint-config':
         specifier: workspace:*
         version: link:../../packages/config/eslint
-      '@zenlink-interface/nextjs-config':
+      '@grass-protocol/nextjs-config':
         specifier: workspace:*
         version: link:../../packages/config/nextjs
-      '@zenlink-interface/typescript-config':
+      '@grass-protocol/typescript-config':
         specifier: workspace:*
         version: link:../../packages/config/typescript
       autoprefixer:
@@ -849,55 +849,55 @@ importers:
       '@vercel/analytics':
         specifier: ^1.0.1
         version: 1.0.1
-      '@zenlink-interface/chain':
+      '@grass-protocol/chain':
         specifier: workspace:*
         version: link:../../packages/chain
-      '@zenlink-interface/compat':
+      '@grass-protocol/compat':
         specifier: workspace:*
         version: link:../../packages/compat
-      '@zenlink-interface/currency':
+      '@grass-protocol/currency':
         specifier: workspace:*
         version: link:../../packages/currency
-      '@zenlink-interface/format':
+      '@grass-protocol/format':
         specifier: workspace:*
         version: link:../../packages/format
-      '@zenlink-interface/graph-client':
+      '@grass-protocol/graph-client':
         specifier: workspace:*
         version: link:../../packages/graph-client
-      '@zenlink-interface/hooks':
+      '@grass-protocol/hooks':
         specifier: workspace:*
         version: link:../../packages/hooks
-      '@zenlink-interface/math':
+      '@grass-protocol/math':
         specifier: workspace:*
         version: link:../../packages/math
-      '@zenlink-interface/parachains-bifrost':
+      '@grass-protocol/parachains-bifrost':
         specifier: workspace:*
         version: link:../../packages/parachains-impl/bifrost
-      '@zenlink-interface/polkadot':
+      '@grass-protocol/polkadot':
         specifier: workspace:*
         version: link:../../packages/polkadot
-      '@zenlink-interface/polkadot-config':
+      '@grass-protocol/polkadot-config':
         specifier: workspace:*
         version: link:../../packages/config/polkadot
-      '@zenlink-interface/redux-localstorage':
+      '@grass-protocol/redux-localstorage':
         specifier: workspace:*
         version: link:../../packages/redux/localstorage
-      '@zenlink-interface/redux-token-lists':
+      '@grass-protocol/redux-token-lists':
         specifier: workspace:*
         version: link:../../packages/redux/token-lists
-      '@zenlink-interface/shared':
+      '@grass-protocol/shared':
         specifier: workspace:*
         version: link:../../packages/shared
-      '@zenlink-interface/smart-router':
+      '@grass-protocol/smart-router':
         specifier: workspace:*
         version: link:../../packages/smart-router
-      '@zenlink-interface/token-lists':
+      '@grass-protocol/token-lists':
         specifier: workspace:*
         version: link:../../packages/token-lists
-      '@zenlink-interface/ui':
+      '@grass-protocol/ui':
         specifier: workspace:*
         version: link:../../packages/ui
-      '@zenlink-interface/wagmi':
+      '@grass-protocol/wagmi':
         specifier: workspace:*
         version: link:../../packages/wagmi
       echarts:
@@ -958,13 +958,13 @@ importers:
       '@types/react-dom':
         specifier: ^18.2.7
         version: 18.2.7
-      '@zenlink-interface/eslint-config':
+      '@grass-protocol/eslint-config':
         specifier: workspace:*
         version: link:../../packages/config/eslint
-      '@zenlink-interface/nextjs-config':
+      '@grass-protocol/nextjs-config':
         specifier: workspace:*
         version: link:../../packages/config/nextjs
-      '@zenlink-interface/typescript-config':
+      '@grass-protocol/typescript-config':
         specifier: workspace:*
         version: link:../../packages/config/typescript
       autoprefixer:
@@ -995,10 +995,10 @@ importers:
         specifier: 3.21.4
         version: 3.21.4
     devDependencies:
-      '@zenlink-interface/eslint-config':
+      '@grass-protocol/eslint-config':
         specifier: workspace:*
         version: link:../../packages/config/eslint
-      '@zenlink-interface/typescript-config':
+      '@grass-protocol/typescript-config':
         specifier: workspace:*
         version: link:../../packages/config/typescript
       dotenv:
@@ -1034,13 +1034,13 @@ importers:
       '@ethersproject/solidity':
         specifier: ^5.7.0
         version: 5.7.0
-      '@zenlink-interface/chain':
+      '@grass-protocol/chain':
         specifier: workspace:*
         version: link:../chain
-      '@zenlink-interface/currency':
+      '@grass-protocol/currency':
         specifier: workspace:*
         version: link:../currency
-      '@zenlink-interface/math':
+      '@grass-protocol/math':
         specifier: workspace:*
         version: link:../math
       ethers:
@@ -1056,10 +1056,10 @@ importers:
       '@types/node':
         specifier: ^18.17.1
         version: 18.17.1
-      '@zenlink-interface/eslint-config':
+      '@grass-protocol/eslint-config':
         specifier: workspace:*
         version: link:../config/eslint
-      '@zenlink-interface/typescript-config':
+      '@grass-protocol/typescript-config':
         specifier: workspace:*
         version: link:../config/typescript
       eslint:
@@ -1074,10 +1074,10 @@ importers:
 
   packages/chain:
     devDependencies:
-      '@zenlink-interface/eslint-config':
+      '@grass-protocol/eslint-config':
         specifier: workspace:*
         version: link:../config/eslint
-      '@zenlink-interface/typescript-config':
+      '@grass-protocol/typescript-config':
         specifier: workspace:*
         version: link:../config/typescript
       eslint:
@@ -1113,40 +1113,40 @@ importers:
       '@reduxjs/toolkit':
         specifier: ^1.9.5
         version: 1.9.5(react-redux@8.1.1)(react@18.2.0)
-      '@zenlink-interface/chain':
+      '@grass-protocol/chain':
         specifier: workspace:*
         version: link:../chain
-      '@zenlink-interface/currency':
+      '@grass-protocol/currency':
         specifier: workspace:*
         version: link:../currency
-      '@zenlink-interface/format':
+      '@grass-protocol/format':
         specifier: workspace:*
         version: link:../format
-      '@zenlink-interface/hooks':
+      '@grass-protocol/hooks':
         specifier: workspace:*
         version: link:../hooks
-      '@zenlink-interface/math':
+      '@grass-protocol/math':
         specifier: workspace:*
         version: link:../math
-      '@zenlink-interface/parachains-bifrost':
+      '@grass-protocol/parachains-bifrost':
         specifier: workspace:*
         version: link:../parachains-impl/bifrost
-      '@zenlink-interface/polkadot':
+      '@grass-protocol/polkadot':
         specifier: workspace:*
         version: link:../polkadot
-      '@zenlink-interface/redux-localstorage':
+      '@grass-protocol/redux-localstorage':
         specifier: workspace:*
         version: link:../redux/localstorage
-      '@zenlink-interface/router-config':
+      '@grass-protocol/router-config':
         specifier: workspace:*
         version: link:../config/router
-      '@zenlink-interface/shared':
+      '@grass-protocol/shared':
         specifier: workspace:*
         version: link:../shared
-      '@zenlink-interface/ui':
+      '@grass-protocol/ui':
         specifier: workspace:*
         version: link:../ui
-      '@zenlink-interface/wagmi':
+      '@grass-protocol/wagmi':
         specifier: workspace:*
         version: link:../wagmi
       '@zenlink-types/bifrost':
@@ -1171,10 +1171,10 @@ importers:
       '@types/react-dom':
         specifier: ^18.2.7
         version: 18.2.7
-      '@zenlink-interface/eslint-config':
+      '@grass-protocol/eslint-config':
         specifier: workspace:*
         version: link:../config/eslint
-      '@zenlink-interface/typescript-config':
+      '@grass-protocol/typescript-config':
         specifier: workspace:*
         version: link:../config/typescript
       eslint:
@@ -1247,14 +1247,14 @@ importers:
 
   packages/config/graph:
     dependencies:
-      '@zenlink-interface/chain':
+      '@grass-protocol/chain':
         specifier: workspace:*
         version: link:../../chain
     devDependencies:
-      '@zenlink-interface/eslint-config':
+      '@grass-protocol/eslint-config':
         specifier: workspace:*
         version: link:../eslint
-      '@zenlink-interface/typescript-config':
+      '@grass-protocol/typescript-config':
         specifier: workspace:*
         version: link:../typescript
       tsup:
@@ -1278,14 +1278,14 @@ importers:
       '@polkadot/api':
         specifier: ^10.9.1
         version: 10.9.1
-      '@zenlink-interface/chain':
+      '@grass-protocol/chain':
         specifier: workspace:*
         version: link:../../chain
       '@zenlink-types/bifrost':
         specifier: 1.7.6
         version: 1.7.6
     devDependencies:
-      '@zenlink-interface/typescript-config':
+      '@grass-protocol/typescript-config':
         specifier: workspace:*
         version: link:../typescript
       tsup:
@@ -1297,17 +1297,17 @@ importers:
 
   packages/config/router:
     dependencies:
-      '@zenlink-interface/chain':
+      '@grass-protocol/chain':
         specifier: workspace:*
         version: link:../../chain
-      '@zenlink-interface/currency':
+      '@grass-protocol/currency':
         specifier: workspace:*
         version: link:../../currency
     devDependencies:
-      '@zenlink-interface/eslint-config':
+      '@grass-protocol/eslint-config':
         specifier: workspace:*
         version: link:../eslint
-      '@zenlink-interface/typescript-config':
+      '@grass-protocol/typescript-config':
         specifier: workspace:*
         version: link:../typescript
       tsup:
@@ -1321,11 +1321,11 @@ importers:
 
   packages/config/wagmi:
     dependencies:
-      '@zenlink-interface/chain':
+      '@grass-protocol/chain':
         specifier: workspace:*
         version: link:../../chain
     devDependencies:
-      '@zenlink-interface/typescript-config':
+      '@grass-protocol/typescript-config':
         specifier: workspace:*
         version: link:../typescript
       tsup:
@@ -1343,13 +1343,13 @@ importers:
       '@ethersproject/units':
         specifier: ^5.7.0
         version: 5.7.0
-      '@zenlink-interface/chain':
+      '@grass-protocol/chain':
         specifier: workspace:*
         version: link:../chain
-      '@zenlink-interface/format':
+      '@grass-protocol/format':
         specifier: workspace:*
         version: link:../format
-      '@zenlink-interface/math':
+      '@grass-protocol/math':
         specifier: workspace:*
         version: link:../math
       lodash.flatmap:
@@ -1368,10 +1368,10 @@ importers:
       '@types/react-dom':
         specifier: ^18.2.7
         version: 18.2.7
-      '@zenlink-interface/eslint-config':
+      '@grass-protocol/eslint-config':
         specifier: workspace:*
         version: link:../config/eslint
-      '@zenlink-interface/typescript-config':
+      '@grass-protocol/typescript-config':
         specifier: workspace:*
         version: link:../config/typescript
       react:
@@ -1402,10 +1402,10 @@ importers:
       '@types/numeral':
         specifier: ^2.0.2
         version: 2.0.2
-      '@zenlink-interface/eslint-config':
+      '@grass-protocol/eslint-config':
         specifier: workspace:*
         version: link:../config/eslint
-      '@zenlink-interface/typescript-config':
+      '@grass-protocol/typescript-config':
         specifier: workspace:*
         version: link:../config/typescript
       tsup:
@@ -1438,13 +1438,13 @@ importers:
       '@polkadot/util-crypto':
         specifier: ^12.3.2
         version: 12.3.2(@polkadot/util@12.3.2)
-      '@zenlink-interface/chain':
+      '@grass-protocol/chain':
         specifier: workspace:*
         version: link:../chain
-      '@zenlink-interface/graph-config':
+      '@grass-protocol/graph-config':
         specifier: workspace:*
         version: link:../config/graph
-      '@zenlink-interface/wagmi-config':
+      '@grass-protocol/wagmi-config':
         specifier: workspace:*
         version: link:../config/wagmi
       date-fns:
@@ -1466,10 +1466,10 @@ importers:
       '@types/numeral':
         specifier: ^2.0.2
         version: 2.0.2
-      '@zenlink-interface/eslint-config':
+      '@grass-protocol/eslint-config':
         specifier: workspace:*
         version: link:../config/eslint
-      '@zenlink-interface/typescript-config':
+      '@grass-protocol/typescript-config':
         specifier: workspace:*
         version: link:../config/typescript
       eslint:
@@ -1506,19 +1506,19 @@ importers:
       '@types/react-dom':
         specifier: ^18.2.7
         version: 18.2.7
-      '@zenlink-interface/currency':
+      '@grass-protocol/currency':
         specifier: workspace:*
         version: link:../currency
-      '@zenlink-interface/eslint-config':
+      '@grass-protocol/eslint-config':
         specifier: workspace:*
         version: link:../config/eslint
-      '@zenlink-interface/format':
+      '@grass-protocol/format':
         specifier: workspace:*
         version: link:../format
-      '@zenlink-interface/math':
+      '@grass-protocol/math':
         specifier: workspace:*
         version: link:../math
-      '@zenlink-interface/typescript-config':
+      '@grass-protocol/typescript-config':
         specifier: workspace:*
         version: link:../config/typescript
       react:
@@ -1557,10 +1557,10 @@ importers:
       '@types/big.js':
         specifier: ^6.1.6
         version: 6.1.6
-      '@zenlink-interface/eslint-config':
+      '@grass-protocol/eslint-config':
         specifier: workspace:*
         version: link:../config/eslint
-      '@zenlink-interface/typescript-config':
+      '@grass-protocol/typescript-config':
         specifier: workspace:*
         version: link:../config/typescript
       eslint:
@@ -1605,28 +1605,28 @@ importers:
       '@polkadot/types-codec':
         specifier: ^10.9.1
         version: 10.9.1
-      '@zenlink-interface/chain':
+      '@grass-protocol/chain':
         specifier: workspace:*
         version: link:../../chain
-      '@zenlink-interface/currency':
+      '@grass-protocol/currency':
         specifier: workspace:*
         version: link:../../currency
-      '@zenlink-interface/format':
+      '@grass-protocol/format':
         specifier: workspace:*
         version: link:../../format
-      '@zenlink-interface/hooks':
+      '@grass-protocol/hooks':
         specifier: workspace:*
         version: link:../../hooks
-      '@zenlink-interface/math':
+      '@grass-protocol/math':
         specifier: workspace:*
         version: link:../../math
-      '@zenlink-interface/polkadot':
+      '@grass-protocol/polkadot':
         specifier: workspace:*
         version: link:../../polkadot
-      '@zenlink-interface/shared':
+      '@grass-protocol/shared':
         specifier: workspace:*
         version: link:../../shared
-      '@zenlink-interface/ui':
+      '@grass-protocol/ui':
         specifier: workspace:*
         version: link:../../ui
       '@zenlink-types/bifrost':
@@ -1639,10 +1639,10 @@ importers:
       '@types/react-dom':
         specifier: ^18.2.7
         version: 18.2.7
-      '@zenlink-interface/eslint-config':
+      '@grass-protocol/eslint-config':
         specifier: workspace:*
         version: link:../../config/eslint
-      '@zenlink-interface/typescript-config':
+      '@grass-protocol/typescript-config':
         specifier: workspace:*
         version: link:../../config/typescript
       eslint:
@@ -1711,19 +1711,19 @@ importers:
       '@polkadot/util-crypto':
         specifier: ^12.3.2
         version: 12.3.2(@polkadot/util@12.3.2)
-      '@zenlink-interface/graph-client':
+      '@grass-protocol/graph-client':
         specifier: workspace:*
         version: link:../graph-client
-      '@zenlink-interface/hooks':
+      '@grass-protocol/hooks':
         specifier: workspace:*
         version: link:../hooks
-      '@zenlink-interface/polkadot-config':
+      '@grass-protocol/polkadot-config':
         specifier: workspace:*
         version: link:../config/polkadot
-      '@zenlink-interface/shared':
+      '@grass-protocol/shared':
         specifier: workspace:*
         version: link:../shared
-      '@zenlink-interface/ui':
+      '@grass-protocol/ui':
         specifier: workspace:*
         version: link:../ui
     devDependencies:
@@ -1733,10 +1733,10 @@ importers:
       '@types/react-dom':
         specifier: ^18.2.7
         version: 18.2.7
-      '@zenlink-interface/eslint-config':
+      '@grass-protocol/eslint-config':
         specifier: workspace:*
         version: link:../config/eslint
-      '@zenlink-interface/typescript-config':
+      '@grass-protocol/typescript-config':
         specifier: workspace:*
         version: link:../config/typescript
       react:
@@ -1766,22 +1766,22 @@ importers:
       '@types/react-dom':
         specifier: ^18.2.7
         version: 18.2.7
-      '@zenlink-interface/chain':
+      '@grass-protocol/chain':
         specifier: workspace:*
         version: link:../../chain
-      '@zenlink-interface/currency':
+      '@grass-protocol/currency':
         specifier: workspace:*
         version: link:../../currency
-      '@zenlink-interface/eslint-config':
+      '@grass-protocol/eslint-config':
         specifier: workspace:*
         version: link:../../config/eslint
-      '@zenlink-interface/hooks':
+      '@grass-protocol/hooks':
         specifier: workspace:*
         version: link:../../hooks
-      '@zenlink-interface/typescript-config':
+      '@grass-protocol/typescript-config':
         specifier: workspace:*
         version: link:../../config/typescript
-      '@zenlink-interface/ui':
+      '@grass-protocol/ui':
         specifier: workspace:*
         version: link:../../ui
       fast-json-stable-stringify:
@@ -1842,19 +1842,19 @@ importers:
       '@types/react-dom':
         specifier: ^18.2.7
         version: 18.2.7
-      '@zenlink-interface/chain':
+      '@grass-protocol/chain':
         specifier: workspace:*
         version: link:../../chain
-      '@zenlink-interface/currency':
+      '@grass-protocol/currency':
         specifier: workspace:*
         version: link:../../currency
-      '@zenlink-interface/hooks':
+      '@grass-protocol/hooks':
         specifier: workspace:*
         version: link:../../hooks
-      '@zenlink-interface/token-lists':
+      '@grass-protocol/token-lists':
         specifier: workspace:*
         version: link:../../token-lists
-      '@zenlink-interface/typescript-config':
+      '@grass-protocol/typescript-config':
         specifier: workspace:*
         version: link:../../config/typescript
       react:
@@ -1884,19 +1884,19 @@ importers:
       '@reduxjs/toolkit':
         specifier: ^1.9.5
         version: 1.9.5(react-redux@8.1.1)(react@18.2.0)
-      '@zenlink-interface/chain':
+      '@grass-protocol/chain':
         specifier: workspace:*
         version: link:../chain
-      '@zenlink-interface/currency':
+      '@grass-protocol/currency':
         specifier: workspace:*
         version: link:../currency
-      '@zenlink-interface/graph-client':
+      '@grass-protocol/graph-client':
         specifier: workspace:*
         version: link:../graph-client
-      '@zenlink-interface/locales':
+      '@grass-protocol/locales':
         specifier: workspace:*
         version: link:../locales
-      '@zenlink-interface/redux-localstorage':
+      '@grass-protocol/redux-localstorage':
         specifier: workspace:*
         version: link:../redux/localstorage
       make-plural:
@@ -1918,16 +1918,16 @@ importers:
       '@types/react-dom':
         specifier: ^18.2.7
         version: 18.2.7
-      '@zenlink-interface/eslint-config':
+      '@grass-protocol/eslint-config':
         specifier: workspace:*
         version: link:../config/eslint
-      '@zenlink-interface/format':
+      '@grass-protocol/format':
         specifier: workspace:*
         version: link:../format
-      '@zenlink-interface/math':
+      '@grass-protocol/math':
         specifier: workspace:*
         version: link:../math
-      '@zenlink-interface/typescript-config':
+      '@grass-protocol/typescript-config':
         specifier: workspace:*
         version: link:../config/typescript
       eslint:
@@ -1957,16 +1957,16 @@ importers:
       '@grass-protocol/amm':
         specifier: workspace:*
         version: link:../amm
-      '@zenlink-interface/chain':
+      '@grass-protocol/chain':
         specifier: workspace:*
         version: link:../chain
-      '@zenlink-interface/currency':
+      '@grass-protocol/currency':
         specifier: workspace:*
         version: link:../currency
-      '@zenlink-interface/math':
+      '@grass-protocol/math':
         specifier: workspace:*
         version: link:../math
-      '@zenlink-interface/wagmi-config':
+      '@grass-protocol/wagmi-config':
         specifier: workspace:*
         version: link:../config/wagmi
       date-fns:
@@ -1994,13 +1994,13 @@ importers:
       '@types/node':
         specifier: ^18.17.1
         version: 18.17.1
-      '@zenlink-interface/eslint-config':
+      '@grass-protocol/eslint-config':
         specifier: workspace:*
         version: link:../config/eslint
-      '@zenlink-interface/router-config':
+      '@grass-protocol/router-config':
         specifier: workspace:*
         version: link:../config/router
-      '@zenlink-interface/typescript-config':
+      '@grass-protocol/typescript-config':
         specifier: workspace:*
         version: link:../config/typescript
       eslint:
@@ -2021,19 +2021,19 @@ importers:
       '@ethersproject/address':
         specifier: ^5.7.0
         version: 5.7.0
-      '@zenlink-interface/currency':
+      '@grass-protocol/currency':
         specifier: workspace:*
         version: link:../currency
-      '@zenlink-interface/eslint-config':
+      '@grass-protocol/eslint-config':
         specifier: workspace:*
         version: link:../config/eslint
-      '@zenlink-interface/format':
+      '@grass-protocol/format':
         specifier: workspace:*
         version: link:../format
-      '@zenlink-interface/math':
+      '@grass-protocol/math':
         specifier: workspace:*
         version: link:../math
-      '@zenlink-interface/typescript-config':
+      '@grass-protocol/typescript-config':
         specifier: workspace:*
         version: link:../config/typescript
       eslint:
@@ -2087,16 +2087,16 @@ importers:
       '@tanstack/react-table':
         specifier: 8.9.3
         version: 8.9.3(react-dom@18.2.0)(react@18.2.0)
-      '@zenlink-interface/chain':
+      '@grass-protocol/chain':
         specifier: workspace:*
         version: link:../chain
-      '@zenlink-interface/currency':
+      '@grass-protocol/currency':
         specifier: workspace:*
         version: link:../currency
-      '@zenlink-interface/hooks':
+      '@grass-protocol/hooks':
         specifier: workspace:*
         version: link:../hooks
-      '@zenlink-interface/token-lists':
+      '@grass-protocol/token-lists':
         specifier: workspace:*
         version: link:../token-lists
       classnames:
@@ -2142,10 +2142,10 @@ importers:
       '@types/react-window':
         specifier: ^1.8.5
         version: 1.8.5
-      '@zenlink-interface/eslint-config':
+      '@grass-protocol/eslint-config':
         specifier: workspace:*
         version: link:../config/eslint
-      '@zenlink-interface/typescript-config':
+      '@grass-protocol/typescript-config':
         specifier: workspace:*
         version: link:../config/typescript
       tailwindcss:
@@ -2193,31 +2193,31 @@ importers:
       '@tanstack/react-query':
         specifier: ^4.32.0
         version: 4.32.0(react-dom@18.2.0)(react@18.2.0)
-      '@zenlink-interface/chain':
+      '@grass-protocol/chain':
         specifier: workspace:*
         version: link:../chain
-      '@zenlink-interface/currency':
+      '@grass-protocol/currency':
         specifier: workspace:*
         version: link:../currency
-      '@zenlink-interface/format':
+      '@grass-protocol/format':
         specifier: workspace:*
         version: link:../format
-      '@zenlink-interface/hooks':
+      '@grass-protocol/hooks':
         specifier: workspace:*
         version: link:../hooks
-      '@zenlink-interface/math':
+      '@grass-protocol/math':
         specifier: workspace:*
         version: link:../math
-      '@zenlink-interface/shared':
+      '@grass-protocol/shared':
         specifier: workspace:*
         version: link:../shared
-      '@zenlink-interface/smart-router':
+      '@grass-protocol/smart-router':
         specifier: workspace:*
         version: link:../smart-router
-      '@zenlink-interface/ui':
+      '@grass-protocol/ui':
         specifier: workspace:*
         version: link:../ui
-      '@zenlink-interface/wagmi-config':
+      '@grass-protocol/wagmi-config':
         specifier: workspace:*
         version: link:../config/wagmi
       fast-json-stable-stringify:
@@ -2242,10 +2242,10 @@ importers:
       '@wagmi/core':
         specifier: 1.3.0
         version: 1.3.0(react@18.2.0)(typescript@5.1.6)(viem@1.4.1)
-      '@zenlink-interface/eslint-config':
+      '@grass-protocol/eslint-config':
         specifier: workspace:*
         version: link:../config/eslint
-      '@zenlink-interface/typescript-config':
+      '@grass-protocol/typescript-config':
         specifier: workspace:*
         version: link:../config/typescript
       eslint:
@@ -2278,22 +2278,22 @@ importers:
       '@types/express':
         specifier: ^4.17.17
         version: 4.17.17
-      '@zenlink-interface/chain':
+      '@grass-protocol/chain':
         specifier: workspace:*
         version: link:../../packages/chain
-      '@zenlink-interface/currency':
+      '@grass-protocol/currency':
         specifier: workspace:*
         version: link:../../packages/currency
-      '@zenlink-interface/eslint-config':
+      '@grass-protocol/eslint-config':
         specifier: workspace:*
         version: link:../../packages/config/eslint
-      '@zenlink-interface/graph-client':
+      '@grass-protocol/graph-client':
         specifier: workspace:*
         version: link:../../packages/graph-client
-      '@zenlink-interface/graph-config':
+      '@grass-protocol/graph-config':
         specifier: workspace:*
         version: link:../../packages/config/graph
-      '@zenlink-interface/typescript-config':
+      '@grass-protocol/typescript-config':
         specifier: workspace:*
         version: link:../../packages/config/typescript
       date-fns:

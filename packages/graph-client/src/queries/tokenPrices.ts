@@ -1,5 +1,5 @@
 import { gql } from '@apollo/client'
-import type { ParachainId } from '@zenlink-interface/chain'
+import type { ParachainId } from '@grass-protocol/chain'
 import type {
   TokenPricesQuery,
   TokenPricesQueryVariables,

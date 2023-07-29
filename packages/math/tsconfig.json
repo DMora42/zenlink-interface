@@ -1,5 +1,5 @@
 {
-  "extends": "@zenlink-interface/typescript-config/base.json",
+  "extends": "@grass-protocol/typescript-config/base.json",
   "include": ["src"],
   "exclude": ["node_modules"],
   "compilerOptions": {

@@ -1,4 +1,4 @@
-import type { NotificationData } from '@zenlink-interface/ui'
+import type { NotificationData } from '@grass-protocol/ui'
 import {
   createFailedToast,
   createInfoToast,
@@ -6,7 +6,7 @@ import {
   createPendingToast,
   createSuccessToast,
   createToast,
-} from '@zenlink-interface/ui'
+} from '@grass-protocol/ui'
 import stringify from 'fast-json-stable-stringify'
 import { useCallback } from 'react'
 import { useDispatch, useSelector } from 'react-redux'

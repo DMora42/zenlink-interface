@@ -1,6 +1,6 @@
 import { STABLE_SWAP_FEE_NUMBER } from '@grass-protocol/amm'
-import { chainName, chainShortName } from '@zenlink-interface/chain'
-import { ZENLINK_ENABLED_NETWORKS } from '@zenlink-interface/graph-config'
+import { chainName, chainShortName } from '@grass-protocol/chain'
+import { ZENLINK_ENABLED_NETWORKS } from '@grass-protocol/graph-config'
 import omit from 'lodash.omit'
 import { fetchStableSwaps, fetchTokensByIds } from '../../queries'
 import type { PoolFarm, StableSwap, StableSwapQueryData, TokenQueryData } from '../../types'

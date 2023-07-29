@@ -1,8 +1,8 @@
-import type { ParachainId } from '@zenlink-interface/chain'
+import type { ParachainId } from '@grass-protocol/chain'
 import type { FC } from 'react'
-import { Profile as WagmiProfile } from '@zenlink-interface/wagmi'
-import { Profile as BifrostProfile } from '@zenlink-interface/parachains-bifrost'
-import { useSettings } from '@zenlink-interface/shared'
+import { Profile as WagmiProfile } from '@grass-protocol/wagmi'
+import { Profile as BifrostProfile } from '@grass-protocol/parachains-bifrost'
+import { useSettings } from '@grass-protocol/shared'
 import { isEvmNetwork, isSubstrateNetwork } from '../../config'
 
 interface ProfileProps {

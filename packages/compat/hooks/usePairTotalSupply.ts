@@ -1,7 +1,7 @@
 import type { Pair } from '@grass-protocol/amm'
-import type { ParachainId } from '@zenlink-interface/chain'
-import { usePairTotalSupply as useWagmiPairTotalSupply } from '@zenlink-interface/wagmi'
-import { usePairTotalSupply as useBifrostPairTotalSupply } from '@zenlink-interface/parachains-bifrost'
+import type { ParachainId } from '@grass-protocol/chain'
+import { usePairTotalSupply as useWagmiPairTotalSupply } from '@grass-protocol/wagmi'
+import { usePairTotalSupply as useBifrostPairTotalSupply } from '@grass-protocol/parachains-bifrost'
 import { useMemo } from 'react'
 import { isEvmNetwork, isSubstrateNetwork } from '../config'
 

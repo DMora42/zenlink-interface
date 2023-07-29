@@ -1,7 +1,7 @@
-import type { ParachainId } from '@zenlink-interface/chain'
-import { useAverageBlockTime as useWagmiAverageBlockTime } from '@zenlink-interface/wagmi'
+import type { ParachainId } from '@grass-protocol/chain'
+import { useAverageBlockTime as useWagmiAverageBlockTime } from '@grass-protocol/wagmi'
 import { useMemo } from 'react'
-import { useAverageBlockTime as useSubstrateAverageBlockTime } from '@zenlink-interface/polkadot'
+import { useAverageBlockTime as useSubstrateAverageBlockTime } from '@grass-protocol/polkadot'
 import { isEvmNetwork } from '../config'
 
 export const useAverageBlockTime = (chainId: ParachainId) => {

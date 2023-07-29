@@ -1,6 +1,6 @@
 import type { Pair } from '@grass-protocol/amm'
-import type { ParachainId } from '@zenlink-interface/chain'
-import type { Type } from '@zenlink-interface/currency'
+import type { ParachainId } from '@grass-protocol/chain'
+import type { Type } from '@grass-protocol/currency'
 import type { ReactElement } from 'react'
 import type { PairState } from '../../hooks'
 

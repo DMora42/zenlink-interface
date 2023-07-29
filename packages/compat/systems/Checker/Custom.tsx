@@ -1,4 +1,4 @@
-import type { ButtonProps } from '@zenlink-interface/ui'
+import type { ButtonProps } from '@grass-protocol/ui'
 import type { FC, ReactElement, ReactNode } from 'react'
 import { cloneElement } from 'react'
 

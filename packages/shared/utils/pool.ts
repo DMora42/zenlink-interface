@@ -1,4 +1,4 @@
-import type { Pool } from '@zenlink-interface/graph-client'
+import type { Pool } from '@grass-protocol/graph-client'
 
 export function isPoolEnabledFarms(pool: Pool): boolean {
   return pool.farm !== undefined && pool.farm.some(

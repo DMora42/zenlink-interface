@@ -1,13 +1,13 @@
 import type { FC } from 'react'
 import { useCallback, useState } from 'react'
-import type { ParachainId } from '@zenlink-interface/chain'
-import chains, { chainsChainIdToParachainId, chainsParachainIdToChainId } from '@zenlink-interface/chain'
+import type { ParachainId } from '@grass-protocol/chain'
+import chains, { chainsChainIdToParachainId, chainsParachainIdToChainId } from '@grass-protocol/chain'
 import { ChevronDownIcon, MagnifyingGlassIcon } from '@heroicons/react/20/solid'
 import { Popover } from '@headlessui/react'
-import { DEFAULT_INPUT_UNSTYLED, NetworkIcon, Typography, classNames } from '@zenlink-interface/ui'
-import { useSettings } from '@zenlink-interface/shared'
+import { DEFAULT_INPUT_UNSTYLED, NetworkIcon, Typography, classNames } from '@grass-protocol/ui'
+import { useSettings } from '@grass-protocol/shared'
 import { useConnect, useNetwork, useSwitchNetwork } from 'wagmi'
-import { useWalletState } from '@zenlink-interface/wagmi'
+import { useWalletState } from '@grass-protocol/wagmi'
 import { SUPPORTED_CHAIN_IDS, isEvmNetwork } from '../../config'
 
 interface NetworkSelectorProps {

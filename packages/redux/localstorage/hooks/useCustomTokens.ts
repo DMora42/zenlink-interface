@@ -1,4 +1,4 @@
-import { Token } from '@zenlink-interface/currency'
+import { Token } from '@grass-protocol/currency'
 import { useCallback, useMemo } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 

@@ -1,8 +1,8 @@
-import type { Amount, Type } from '@zenlink-interface/currency'
+import type { Amount, Type } from '@grass-protocol/currency'
 import type { FC } from 'react'
 
-import { Checker as WagmiChecker } from '@zenlink-interface/wagmi'
-import { Checker as BifrostChecker } from '@zenlink-interface/parachains-bifrost'
+import { Checker as WagmiChecker } from '@grass-protocol/wagmi'
+import { Checker as BifrostChecker } from '@grass-protocol/parachains-bifrost'
 import { isEvmNetwork } from '../../config'
 import type { CheckerButton } from './types'
 
