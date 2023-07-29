@@ -1,7 +1,7 @@
-import type { ParachainId } from '@zenlink-interface/chain'
-import type { Amount, Type } from '@zenlink-interface/currency'
-import { usePrices } from '@zenlink-interface/shared'
-import { ZERO } from '@zenlink-interface/math'
+import type { ParachainId } from '@grass-protocol/chain'
+import type { Amount, Type } from '@grass-protocol/currency'
+import { usePrices } from '@grass-protocol/shared'
+import { ZERO } from '@grass-protocol/math'
 import { useMemo } from 'react'
 
 interface Params {

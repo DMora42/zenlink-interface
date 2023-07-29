@@ -1,4 +1,4 @@
-import defaultNextConfig from '@zenlink-interface/nextjs-config'
+import defaultNextConfig from '@grass-protocol/nextjs-config'
 
 const {
   SWAP_URL,
@@ -12,7 +12,7 @@ const {
 const nextConfig = {
   ...defaultNextConfig,
   transpilePackages: [
-    '@zenlink-interface/ui',
+    '@grass-protocol/ui',
   ],
   async redirects() {
     return [

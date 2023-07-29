@@ -1,6 +1,6 @@
 // eslin
 
-import type { Pool, StableSwap } from '@zenlink-interface/graph-client'
+import type { Pool, StableSwap } from '@grass-protocol/graph-client'
 import {
   liquidityPositions,
   pairById,
@@ -9,10 +9,10 @@ import {
   singleTokenLocksByChainIds,
   stableSwapById,
   stableSwapsByChainIds,
-} from '@zenlink-interface/graph-client'
+} from '@grass-protocol/graph-client'
 import stringify from 'fast-json-stable-stringify'
 import { SUPPORTED_CHAIN_IDS } from 'config'
-import { isPoolEnabledFarms } from '@zenlink-interface/shared'
+import { isPoolEnabledFarms } from '@grass-protocol/shared'
 
 export interface Pagination {
   pageIndex: number

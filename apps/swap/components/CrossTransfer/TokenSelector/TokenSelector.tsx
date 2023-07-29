@@ -1,5 +1,5 @@
-import type { Token, Type } from '@zenlink-interface/currency'
-import { useIsMounted } from '@zenlink-interface/hooks'
+import type { Token, Type } from '@grass-protocol/currency'
+import { useIsMounted } from '@grass-protocol/hooks'
 import type { FC } from 'react'
 import { memo, useMemo } from 'react'
 import { TokenSelectorDialog } from './TokenSelectorDialog'

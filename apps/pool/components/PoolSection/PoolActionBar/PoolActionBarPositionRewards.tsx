@@ -1,10 +1,10 @@
-import type { Pool } from '@zenlink-interface/graph-client'
-import { Dialog, Typography } from '@zenlink-interface/ui'
+import type { Pool } from '@grass-protocol/graph-client'
+import { Dialog, Typography } from '@grass-protocol/ui'
 import type { FC } from 'react'
 import { useCallback } from 'react'
 
 import { useFarmsFromPool } from 'lib/hooks'
-import { useAverageBlockTime } from '@zenlink-interface/compat'
+import { useAverageBlockTime } from '@grass-protocol/compat'
 import { Trans, t } from '@lingui/macro'
 import { usePoolPosition } from '../../PoolPositionProvider'
 import { PoolMyRewardsMobile } from '../PoolMyRewards/PoolMyRewardsMobile'

@@ -1,4 +1,4 @@
-import { Button } from '@zenlink-interface/ui'
+import { Button } from '@grass-protocol/ui'
 import { PlusIcon } from '@heroicons/react/24/solid'
 import type { GetStaticProps, InferGetStaticPropsType } from 'next'
 import type { FC } from 'react'

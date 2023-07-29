@@ -1,12 +1,12 @@
-import { formatUSD } from '@zenlink-interface/format'
-import type { Pool } from '@zenlink-interface/graph-client'
-import { Currency, Dialog, Typography } from '@zenlink-interface/ui'
+import { formatUSD } from '@grass-protocol/format'
+import type { Pool } from '@grass-protocol/graph-client'
+import { Currency, Dialog, Typography } from '@grass-protocol/ui'
 import type { FC } from 'react'
 import { useCallback } from 'react'
 
 import { Trans, t } from '@lingui/macro'
 import { usePoolPositionStaked } from 'components/PoolPositionStakedProvider'
-import { useTokensFromPool } from '@zenlink-interface/shared'
+import { useTokensFromPool } from '@grass-protocol/shared'
 import { usePoolPosition } from '../../PoolPositionProvider'
 import { PoolButtons } from '../PoolButtons'
 

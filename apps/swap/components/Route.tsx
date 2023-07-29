@@ -1,9 +1,9 @@
 import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/solid'
 import type { AggregatorTrade, BaseToken, PoolType } from '@grass-protocol/amm'
 import { TradeVersion } from '@grass-protocol/amm'
-import chains from '@zenlink-interface/chain'
-import type { Type } from '@zenlink-interface/currency'
-import { Native, Token } from '@zenlink-interface/currency'
+import chains from '@grass-protocol/chain'
+import type { Type } from '@grass-protocol/currency'
+import { Native, Token } from '@grass-protocol/currency'
 import {
   AppearOnMount,
   Chip,
@@ -13,7 +13,7 @@ import {
   Skeleton,
   Tooltip,
   Typography,
-} from '@zenlink-interface/ui'
+} from '@grass-protocol/ui'
 import type { Dispatch, FC, SetStateAction } from 'react'
 import { memo, useCallback } from 'react'
 import type { UseTradeOutput } from 'lib/hooks'

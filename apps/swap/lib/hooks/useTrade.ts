@@ -6,10 +6,10 @@ import {
   isSubstrateNetwork,
   useGetStablePools,
   usePairs,
-} from '@zenlink-interface/compat'
-import type { Amount, Type as Currency } from '@zenlink-interface/currency'
-import { useCurrencyCombinations } from '@zenlink-interface/currency'
-import { useDebounce } from '@zenlink-interface/hooks'
+} from '@grass-protocol/compat'
+import type { Amount, Type as Currency } from '@grass-protocol/currency'
+import { useCurrencyCombinations } from '@grass-protocol/currency'
+import { useDebounce } from '@grass-protocol/hooks'
 import { useMemo } from 'react'
 import { AMM_ENABLED_NETWORKS } from 'config'
 import { useTokens } from 'lib/state/token-lists'

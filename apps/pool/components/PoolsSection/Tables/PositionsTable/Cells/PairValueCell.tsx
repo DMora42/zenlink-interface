@@ -1,6 +1,6 @@
-import { formatUSD } from '@zenlink-interface/format'
-import { useInViewport } from '@zenlink-interface/hooks'
-import { Typography } from '@zenlink-interface/ui'
+import { formatUSD } from '@grass-protocol/format'
+import { useInViewport } from '@grass-protocol/hooks'
+import { Typography } from '@grass-protocol/ui'
 import type { FC } from 'react'
 import { useRef } from 'react'
 

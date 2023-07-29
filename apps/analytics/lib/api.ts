@@ -1,10 +1,10 @@
-import type { DaySnapshot, Pool } from '@zenlink-interface/graph-client'
+import type { DaySnapshot, Pool } from '@grass-protocol/graph-client'
 import {
   daySnapshotsByChainIds,
   pairsByChainIds,
   singleTokenLocksByChainIds,
   stableSwapsByChainIds,
-} from '@zenlink-interface/graph-client'
+} from '@grass-protocol/graph-client'
 import { SUPPORTED_CHAIN_IDS } from 'config'
 import { fromUnixTime, getUnixTime } from 'date-fns'
 import stringify from 'fast-json-stable-stringify'

@@ -1,8 +1,8 @@
-import { App, AppType } from '@zenlink-interface/ui'
-import { AppSettings, NetworkSelector, Profile, useAccount } from '@zenlink-interface/compat'
+import { App, AppType } from '@grass-protocol/ui'
+import { AppSettings, NetworkSelector, Profile, useAccount } from '@grass-protocol/compat'
 import type { FC } from 'react'
 import React from 'react'
-import { useNotifications } from '@zenlink-interface/shared'
+import { useNotifications } from '@grass-protocol/shared'
 import { SUPPORTED_CHAIN_IDS } from 'config'
 
 export const Header: FC = () => {

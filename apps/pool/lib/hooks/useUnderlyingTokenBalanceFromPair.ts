@@ -1,6 +1,6 @@
-import type { Token, Type } from '@zenlink-interface/currency'
-import { Amount } from '@zenlink-interface/currency'
-import { ZERO } from '@zenlink-interface/math'
+import type { Token, Type } from '@grass-protocol/currency'
+import { Amount } from '@grass-protocol/currency'
+import { ZERO } from '@grass-protocol/math'
 import { useMemo } from 'react'
 
 interface Params {

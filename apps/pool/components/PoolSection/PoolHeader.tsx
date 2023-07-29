@@ -1,11 +1,11 @@
-import chains from '@zenlink-interface/chain'
-import { formatPercent, formatUSD } from '@zenlink-interface/format'
-import type { Pool } from '@zenlink-interface/graph-client'
-import { POOL_TYPE } from '@zenlink-interface/graph-client'
-import { AppearOnMount, Currency, Link, NetworkIcon, Typography } from '@zenlink-interface/ui'
+import chains from '@grass-protocol/chain'
+import { formatPercent, formatUSD } from '@grass-protocol/format'
+import type { Pool } from '@grass-protocol/graph-client'
+import { POOL_TYPE } from '@grass-protocol/graph-client'
+import { AppearOnMount, Currency, Link, NetworkIcon, Typography } from '@grass-protocol/ui'
 import type { FC } from 'react'
 import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/solid'
-import { usePrices, useTokensFromPool } from '@zenlink-interface/shared'
+import { usePrices, useTokensFromPool } from '@grass-protocol/shared'
 import { Trans } from '@lingui/macro'
 
 interface PoolHeaderProps {

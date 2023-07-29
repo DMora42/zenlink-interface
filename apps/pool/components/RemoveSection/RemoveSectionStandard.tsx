@@ -7,13 +7,13 @@ import {
   usePair,
   usePairTotalSupply,
   useRemoveLiquidityStandardReview,
-} from '@zenlink-interface/compat'
-import { Amount } from '@zenlink-interface/currency'
-import type { Pair } from '@zenlink-interface/graph-client'
-import { useIsMounted } from '@zenlink-interface/hooks'
-import { Percent } from '@zenlink-interface/math'
-import { useNotifications, useSettings } from '@zenlink-interface/shared'
-import { Button, Dots } from '@zenlink-interface/ui'
+} from '@grass-protocol/compat'
+import { Amount } from '@grass-protocol/currency'
+import type { Pair } from '@grass-protocol/graph-client'
+import { useIsMounted } from '@grass-protocol/hooks'
+import { Percent } from '@grass-protocol/math'
+import { useNotifications, useSettings } from '@grass-protocol/shared'
+import { Button, Dots } from '@grass-protocol/ui'
 import type { FC } from 'react'
 import { useMemo, useState } from 'react'
 import { Trans, t } from '@lingui/macro'

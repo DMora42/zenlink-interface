@@ -1,4 +1,4 @@
-import '@zenlink-interface/ui/index.css'
+import '@grass-protocol/ui/index.css'
 import 'styles/index.css'
 
 import type { AppProps } from 'next/app'

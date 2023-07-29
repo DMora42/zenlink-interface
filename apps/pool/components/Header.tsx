@@ -1,6 +1,6 @@
-import { AppSettings, NetworkSelector, Profile, useAccount } from '@zenlink-interface/compat'
-import { useNotifications } from '@zenlink-interface/shared'
-import { App, AppType } from '@zenlink-interface/ui'
+import { AppSettings, NetworkSelector, Profile, useAccount } from '@grass-protocol/compat'
+import { useNotifications } from '@grass-protocol/shared'
+import { App, AppType } from '@grass-protocol/ui'
 import React from 'react'
 import { SUPPORTED_CHAIN_IDS } from '../config'
 

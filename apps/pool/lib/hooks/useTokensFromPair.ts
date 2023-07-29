@@ -1,6 +1,6 @@
-import type { Pair } from '@zenlink-interface/graph-client'
+import type { Pair } from '@grass-protocol/graph-client'
 import { useMemo } from 'react'
-import { Amount, Native, Token } from '@zenlink-interface/currency'
+import { Amount, Native, Token } from '@grass-protocol/currency'
 
 export const useTokensFromPair = (pair: Pair) => {
   return useMemo(() => {

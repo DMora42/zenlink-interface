@@ -1,12 +1,12 @@
 import { Disclosure, Transition } from '@headlessui/react'
 import { calculateSlippageAmount } from '@grass-protocol/amm'
-import { Approve, Checker, useAccount, useRemoveLiquidityStableReview, useStableSwapWithBase } from '@zenlink-interface/compat'
-import type { Token } from '@zenlink-interface/currency'
-import { Amount } from '@zenlink-interface/currency'
-import { formatUSD } from '@zenlink-interface/format'
-import type { StableSwap } from '@zenlink-interface/graph-client'
-import { useNotifications, usePrices, useSettings } from '@zenlink-interface/shared'
-import { Percent, ZERO } from '@zenlink-interface/math'
+import { Approve, Checker, useAccount, useRemoveLiquidityStableReview, useStableSwapWithBase } from '@grass-protocol/compat'
+import type { Token } from '@grass-protocol/currency'
+import { Amount } from '@grass-protocol/currency'
+import { formatUSD } from '@grass-protocol/format'
+import type { StableSwap } from '@grass-protocol/graph-client'
+import { useNotifications, usePrices, useSettings } from '@grass-protocol/shared'
+import { Percent, ZERO } from '@grass-protocol/math'
 import {
   AppearOnMount,
   Button,
@@ -17,7 +17,7 @@ import {
   Currency as UICurrency,
   Widget,
   classNames,
-} from '@zenlink-interface/ui'
+} from '@grass-protocol/ui'
 import type { FC } from 'react'
 import { Fragment, useCallback, useMemo, useState } from 'react'
 import { usePoolPosition } from 'components'

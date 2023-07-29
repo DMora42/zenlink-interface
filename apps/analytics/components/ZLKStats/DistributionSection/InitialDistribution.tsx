@@ -1,4 +1,4 @@
-import { Typography } from '@zenlink-interface/ui'
+import { Typography } from '@grass-protocol/ui'
 import type { FC } from 'react'
 import { Trans } from '@lingui/macro'
 import InitialIcon, { RateDesc } from './InitialIcon'

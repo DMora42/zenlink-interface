@@ -1,6 +1,6 @@
-import type { Token, Type } from '@zenlink-interface/currency'
-import { useIsSmScreen } from '@zenlink-interface/hooks'
-import type { Fraction } from '@zenlink-interface/math'
+import type { Token, Type } from '@grass-protocol/currency'
+import { useIsSmScreen } from '@grass-protocol/hooks'
+import type { Fraction } from '@grass-protocol/math'
 import { MagnifyingGlassIcon } from '@heroicons/react/24/outline'
 import {
   Currency,
@@ -12,7 +12,7 @@ import {
   SlideIn,
   Typography,
   classNames,
-} from '@zenlink-interface/ui'
+} from '@grass-protocol/ui'
 import type { FC } from 'react'
 import { useCallback } from 'react'
 import { XCircleIcon } from '@heroicons/react/24/solid'

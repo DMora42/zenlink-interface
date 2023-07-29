@@ -1,10 +1,10 @@
 import { ChevronRightIcon, InformationCircleIcon } from '@heroicons/react/24/outline'
-import { useIsMounted } from '@zenlink-interface/hooks'
-import { useSettings } from '@zenlink-interface/shared'
+import { useIsMounted } from '@grass-protocol/hooks'
+import { useSettings } from '@grass-protocol/shared'
 import { CpuChipIcon } from '@heroicons/react/24/solid'
 import type { FC } from 'react'
 import { useState } from 'react'
-import { Overlay, SlideIn, Switch, Tooltip, Typography } from '@zenlink-interface/ui'
+import { Overlay, SlideIn, Switch, Tooltip, Typography } from '@grass-protocol/ui'
 import { Trans, t } from '@lingui/macro'
 
 export const AggregatorOverlay: FC = () => {

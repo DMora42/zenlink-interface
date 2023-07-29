@@ -1,8 +1,8 @@
 import { getCoreRowModel, getSortedRowModel, useReactTable } from '@tanstack/react-table'
 import type { PaginationState, SortingState } from '@tanstack/react-table'
-import type { ParachainId } from '@zenlink-interface/chain'
-import type { Pool } from '@zenlink-interface/graph-client'
-import { Table, useBreakpoint } from '@zenlink-interface/ui'
+import type { ParachainId } from '@grass-protocol/chain'
+import type { Pool } from '@grass-protocol/graph-client'
+import { Table, useBreakpoint } from '@grass-protocol/ui'
 import {
   APR_COLUMN,
   FEES_24H_COLUMN,

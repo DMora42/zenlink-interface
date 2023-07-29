@@ -1,5 +1,5 @@
-import type { BreadcrumbLink, MaxWidth } from '@zenlink-interface/ui'
-import { Backdrop, Breadcrumb, Container, classNames } from '@zenlink-interface/ui'
+import type { BreadcrumbLink, MaxWidth } from '@grass-protocol/ui'
+import { Backdrop, Breadcrumb, Container, classNames } from '@grass-protocol/ui'
 import React from 'react'
 
 interface Props {

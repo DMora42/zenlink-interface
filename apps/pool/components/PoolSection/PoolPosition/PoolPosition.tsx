@@ -1,6 +1,6 @@
-import { formatUSD } from '@zenlink-interface/format'
-import type { Pool } from '@zenlink-interface/graph-client'
-import { Typography, useBreakpoint } from '@zenlink-interface/ui'
+import { formatUSD } from '@grass-protocol/format'
+import type { Pool } from '@grass-protocol/graph-client'
+import { Typography, useBreakpoint } from '@grass-protocol/ui'
 import type { FC } from 'react'
 
 import { Trans } from '@lingui/macro'

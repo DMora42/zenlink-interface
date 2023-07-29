@@ -1,5 +1,5 @@
-import type { Amount, Token } from '@zenlink-interface/currency'
-import type { CalculatedStbaleSwapLiquidity, StableSwapWithBase } from '@zenlink-interface/wagmi'
+import type { Amount, Token } from '@grass-protocol/currency'
+import type { CalculatedStbaleSwapLiquidity, StableSwapWithBase } from '@grass-protocol/wagmi'
 import { useMemo } from 'react'
 import { calculateRemoveStableLiquidity, calculateRemoveStableLiquidityOneToken } from 'lib/functions'
 

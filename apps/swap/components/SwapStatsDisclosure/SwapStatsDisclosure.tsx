@@ -1,16 +1,16 @@
 import { Disclosure, Transition } from '@headlessui/react'
 import { InformationCircleIcon } from '@heroicons/react/24/outline'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
-import { Percent } from '@zenlink-interface/math'
-import { Loader, Skeleton, Tooltip, Typography, classNames } from '@zenlink-interface/ui'
+import { Percent } from '@grass-protocol/math'
+import { Loader, Skeleton, Tooltip, Typography, classNames } from '@grass-protocol/ui'
 import type { FC } from 'react'
 import React, { useMemo, useState } from 'react'
 
-import { useSettings } from '@zenlink-interface/shared'
+import { useSettings } from '@grass-protocol/shared'
 import { AggregatorRoute, LegacyRoute, Rate, useTrade } from 'components'
 import { Trans, t } from '@lingui/macro'
 import { TradeVersion } from '@grass-protocol/amm'
-import { formatTransactionAmount } from '@zenlink-interface/format'
+import { formatTransactionAmount } from '@grass-protocol/format'
 import { warningSeverity } from '../../lib/functions'
 
 export const SwapStatsDisclosure: FC = () => {

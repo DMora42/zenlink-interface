@@ -1,5 +1,5 @@
-import type { MaxWidth } from '@zenlink-interface/ui'
-import { Backdrop, Container, classNames } from '@zenlink-interface/ui'
+import type { MaxWidth } from '@grass-protocol/ui'
+import { Backdrop, Container, classNames } from '@grass-protocol/ui'
 import React from 'react'
 
 interface Props {

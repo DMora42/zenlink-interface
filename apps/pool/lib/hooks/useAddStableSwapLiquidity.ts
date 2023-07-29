@@ -1,7 +1,7 @@
-import type { Token } from '@zenlink-interface/currency'
-import { Amount } from '@zenlink-interface/currency'
-import { ZERO } from '@zenlink-interface/math'
-import type { CalculatedStbaleSwapLiquidity, StableSwapWithBase } from '@zenlink-interface/wagmi'
+import type { Token } from '@grass-protocol/currency'
+import { Amount } from '@grass-protocol/currency'
+import { ZERO } from '@grass-protocol/math'
+import type { CalculatedStbaleSwapLiquidity, StableSwapWithBase } from '@grass-protocol/wagmi'
 import { useMemo } from 'react'
 import { calculateStableSwapTokenAmount } from 'lib/functions'
 

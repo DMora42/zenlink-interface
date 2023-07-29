@@ -1,8 +1,8 @@
 import { Trans } from '@lingui/macro'
-import { formatPercent, formatUSD } from '@zenlink-interface/format'
-import type { Pool } from '@zenlink-interface/graph-client'
-import { POOL_TYPE } from '@zenlink-interface/graph-client'
-import { Typography } from '@zenlink-interface/ui'
+import { formatPercent, formatUSD } from '@grass-protocol/format'
+import type { Pool } from '@grass-protocol/graph-client'
+import { POOL_TYPE } from '@grass-protocol/graph-client'
+import { Typography } from '@grass-protocol/ui'
 import type { FC } from 'react'
 import { useMemo } from 'react'
 

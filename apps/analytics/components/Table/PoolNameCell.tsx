@@ -1,8 +1,8 @@
-import { formatNumber } from '@zenlink-interface/format'
-import { POOL_TYPE } from '@zenlink-interface/graph-client'
-import { Currency, NetworkIcon, RewardIcon, Typography } from '@zenlink-interface/ui'
+import { formatNumber } from '@grass-protocol/format'
+import { POOL_TYPE } from '@grass-protocol/graph-client'
+import { Currency, NetworkIcon, RewardIcon, Typography } from '@grass-protocol/ui'
 import type { FC } from 'react'
-import { isPoolEnabledFarms, useTokensFromPool } from '@zenlink-interface/shared'
+import { isPoolEnabledFarms, useTokensFromPool } from '@grass-protocol/shared'
 import { ICON_SIZE } from './constants'
 import type { CellProps } from './types'
 

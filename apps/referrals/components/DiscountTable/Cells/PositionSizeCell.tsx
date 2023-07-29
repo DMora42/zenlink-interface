@@ -1,4 +1,4 @@
-import { Typography } from '@zenlink-interface/ui'
+import { Typography } from '@grass-protocol/ui'
 import type { FC } from 'react'
 import { CheckBadgeIcon } from '@heroicons/react/24/solid'
 import type { CellProps } from './types'

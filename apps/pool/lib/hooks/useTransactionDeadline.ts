@@ -1,6 +1,6 @@
 import type { BigNumber } from '@ethersproject/bignumber'
-import { useSettings } from '@zenlink-interface/shared'
-import { useCurrentBlockTimestamp } from '@zenlink-interface/wagmi'
+import { useSettings } from '@grass-protocol/shared'
+import { useCurrentBlockTimestamp } from '@grass-protocol/wagmi'
 import { useMemo } from 'react'
 
 export const useTransactionDeadline = (chainId: number, enabled = true): BigNumber | undefined => {

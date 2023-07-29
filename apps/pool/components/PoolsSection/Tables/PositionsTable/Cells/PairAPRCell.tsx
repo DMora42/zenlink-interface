@@ -1,5 +1,5 @@
-import { formatPercent } from '@zenlink-interface/format'
-import { Typography } from '@zenlink-interface/ui'
+import { formatPercent } from '@grass-protocol/format'
+import { Typography } from '@grass-protocol/ui'
 import type { FC } from 'react'
 
 import type { CellProps } from './types'

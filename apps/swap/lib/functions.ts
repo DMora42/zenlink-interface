@@ -1,4 +1,4 @@
-import { JSBI, Percent } from '@zenlink-interface/math'
+import { JSBI, Percent } from '@grass-protocol/math'
 
 const BIPS_BASE = JSBI.BigInt(10000)
 

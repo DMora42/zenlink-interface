@@ -1,8 +1,8 @@
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
-import type { Amount, Type } from '@zenlink-interface/currency'
-import { Price } from '@zenlink-interface/currency'
-import { Dialog, Typography } from '@zenlink-interface/ui'
-import { Icon } from '@zenlink-interface/ui/currency/Icon'
+import type { Amount, Type } from '@grass-protocol/currency'
+import { Price } from '@grass-protocol/currency'
+import { Dialog, Typography } from '@grass-protocol/ui'
+import { Icon } from '@grass-protocol/ui/currency/Icon'
 import type { FC, ReactNode } from 'react'
 import { useMemo } from 'react'
 

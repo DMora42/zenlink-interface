@@ -1,9 +1,9 @@
 import { Pair, StableSwap } from '@grass-protocol/amm'
-import { Amount, Token } from '@zenlink-interface/currency'
-import type { PoolFarm } from '@zenlink-interface/graph-client'
-import { POOL_TYPE } from '@zenlink-interface/graph-client'
-import { ZERO } from '@zenlink-interface/math'
-import type { StableSwapWithBase } from '@zenlink-interface/wagmi'
+import { Amount, Token } from '@grass-protocol/currency'
+import type { PoolFarm } from '@grass-protocol/graph-client'
+import { POOL_TYPE } from '@grass-protocol/graph-client'
+import { ZERO } from '@grass-protocol/math'
+import type { StableSwapWithBase } from '@grass-protocol/wagmi'
 
 export const isStandardPool = (pool: Pair | StableSwap | null): pool is Pair => {
   return pool instanceof Pair

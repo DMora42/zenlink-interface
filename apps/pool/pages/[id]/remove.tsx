@@ -1,5 +1,5 @@
-import { chainShortName } from '@zenlink-interface/chain'
-import type { Pair, Pool, StableSwap } from '@zenlink-interface/graph-client'
+import { chainShortName } from '@grass-protocol/chain'
+import type { Pair, Pool, StableSwap } from '@grass-protocol/graph-client'
 import {
   POOL_TYPE, pairById,
   pairsByChainIds,
@@ -7,9 +7,9 @@ import {
   singleTokenLocksByChainIds,
   stableSwapById,
   stableSwapsByChainIds,
-} from '@zenlink-interface/graph-client'
-import type { BreadcrumbLink } from '@zenlink-interface/ui'
-import { AppearOnMount } from '@zenlink-interface/ui'
+} from '@grass-protocol/graph-client'
+import type { BreadcrumbLink } from '@grass-protocol/ui'
+import { AppearOnMount } from '@grass-protocol/ui'
 import type { GetStaticPaths, GetStaticProps, InferGetStaticPropsType } from 'next'
 import { useRouter } from 'next/router'
 import type { FC } from 'react'

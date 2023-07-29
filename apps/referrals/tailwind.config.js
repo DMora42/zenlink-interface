@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 const tailwindConfig = {
   darkMode: 'class',
-  presets: [require('@zenlink-interface/ui/tailwind')],
+  presets: [require('@grass-protocol/ui/tailwind')],
   content: [
     './pages/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',

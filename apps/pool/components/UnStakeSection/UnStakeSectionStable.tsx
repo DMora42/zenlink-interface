@@ -1,4 +1,4 @@
-import type { Pair, StableSwap } from '@zenlink-interface/graph-client'
+import type { Pair, StableSwap } from '@grass-protocol/graph-client'
 import type { FC } from 'react'
 import { UnStakeSectionStandard } from './UnStakeSectionStandard'
 

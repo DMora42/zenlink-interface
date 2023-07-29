@@ -1,4 +1,4 @@
-import defaultNextConfig from '@zenlink-interface/nextjs-config'
+import defaultNextConfig from '@grass-protocol/nextjs-config'
 
 // @ts-check
 /** @type {import('next').NextConfig} */
@@ -6,14 +6,14 @@ const nextConfig = {
   ...defaultNextConfig,
   basePath: '/swap',
   transpilePackages: [
-    '@zenlink-interface/redux-token-lists',
-    '@zenlink-interface/redux-localstorage',
-    '@zenlink-interface/wagmi',
-    '@zenlink-interface/polkadot',
-    '@zenlink-interface/parachains-bifrost',
-    '@zenlink-interface/compat',
-    '@zenlink-interface/shared',
-    '@zenlink-interface/ui',
+    '@grass-protocol/redux-token-lists',
+    '@grass-protocol/redux-localstorage',
+    '@grass-protocol/wagmi',
+    '@grass-protocol/polkadot',
+    '@grass-protocol/parachains-bifrost',
+    '@grass-protocol/compat',
+    '@grass-protocol/shared',
+    '@grass-protocol/ui',
   ],
   async redirects() {
     return [

@@ -1,4 +1,4 @@
-import type { ParachainId } from '@zenlink-interface/chain'
+import type { ParachainId } from '@grass-protocol/chain'
 import type { FC, ReactNode } from 'react'
 import { createContext, useCallback, useContext, useState } from 'react'
 import { SUPPORTED_CHAIN_IDS } from 'config'

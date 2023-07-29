@@ -1,4 +1,4 @@
-import { Link } from '@zenlink-interface/ui'
+import { Link } from '@grass-protocol/ui'
 import type { FC } from 'react'
 import Image from 'next/legacy/image'
 

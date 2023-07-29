@@ -1,7 +1,7 @@
 import { ArrowTopRightOnSquareIcon } from '@heroicons/react/20/solid'
 import { Trans } from '@lingui/macro'
-import { chainName } from '@zenlink-interface/chain'
-import { AppearOnMount, DEFAULT_INPUT_UNSTYLED, Link, NetworkIcon, Typography, classNames } from '@zenlink-interface/ui'
+import { chainName } from '@grass-protocol/chain'
+import { AppearOnMount, DEFAULT_INPUT_UNSTYLED, Link, NetworkIcon, Typography, classNames } from '@grass-protocol/ui'
 import { REFERRALS_ENABLED_NETWORKS } from 'config'
 import type { FC } from 'react'
 

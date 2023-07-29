@@ -1,9 +1,9 @@
-import { formatPercent } from '@zenlink-interface/format'
-import { Typography } from '@zenlink-interface/ui'
+import { formatPercent } from '@grass-protocol/format'
+import { Typography } from '@grass-protocol/ui'
 import type { FC } from 'react'
 import { useMemo } from 'react'
 
-import type { PoolFarm } from '@zenlink-interface/graph-client'
+import type { PoolFarm } from '@grass-protocol/graph-client'
 import type { CellProps } from './types'
 
 export const PoolAPRCell: FC<CellProps> = ({ row }) => {

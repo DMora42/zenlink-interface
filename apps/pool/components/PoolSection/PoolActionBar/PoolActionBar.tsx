@@ -1,8 +1,8 @@
-import { AppearOnMount, Typography, useBreakpoint } from '@zenlink-interface/ui'
+import { AppearOnMount, Typography, useBreakpoint } from '@grass-protocol/ui'
 import type { FC } from 'react'
 import { Fragment, useState } from 'react'
 
-import type { Pool } from '@zenlink-interface/graph-client'
+import type { Pool } from '@grass-protocol/graph-client'
 import { Trans } from '@lingui/macro'
 import { PoolActionBarPositionDialog } from './PoolActionBarPositionDialog'
 import { PoolActionBarPositionRewards } from './PoolActionBarPositionRewards'

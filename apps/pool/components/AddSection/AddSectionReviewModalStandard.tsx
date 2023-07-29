@@ -1,12 +1,12 @@
-import type { ParachainId } from '@zenlink-interface/chain'
-import type { Amount, Type } from '@zenlink-interface/currency'
-import { Button, Dots } from '@zenlink-interface/ui'
+import type { ParachainId } from '@grass-protocol/chain'
+import type { Amount, Type } from '@grass-protocol/currency'
+import { Button, Dots } from '@grass-protocol/ui'
 import type { FC, ReactNode } from 'react'
 import { useMemo, useState } from 'react'
 
-import { useNotifications } from '@zenlink-interface/shared'
-import type { PairState } from '@zenlink-interface/compat'
-import { Approve, useAccount, useAddLiquidityStandardReview } from '@zenlink-interface/compat'
+import { useNotifications } from '@grass-protocol/shared'
+import type { PairState } from '@grass-protocol/compat'
+import { Approve, useAccount, useAddLiquidityStandardReview } from '@grass-protocol/compat'
 import { Trans, t } from '@lingui/macro'
 import { AddSectionReviewModal } from './AddSectionReviewModal'
 

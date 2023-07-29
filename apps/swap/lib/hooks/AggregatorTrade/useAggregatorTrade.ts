@@ -1,9 +1,9 @@
 import { AggregatorTrade } from '@grass-protocol/amm'
-import type { Amount, Type } from '@zenlink-interface/currency'
+import type { Amount, Type } from '@grass-protocol/currency'
 import { useCallback, useMemo } from 'react'
 import { useQuery } from 'wagmi'
 import type { z } from 'zod'
-import { getAggregationExecutorAddressForChainId, isAggregationRouter } from '@zenlink-interface/smart-router'
+import { getAggregationExecutorAddressForChainId, isAggregationRouter } from '@grass-protocol/smart-router'
 import { tradeValidator } from './validator'
 
 export interface UseAggregatorTradeParams {

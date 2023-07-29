@@ -1,8 +1,8 @@
 import { Disclosure, Transition } from '@headlessui/react'
-import type { ParachainId } from '@zenlink-interface/chain'
-import chains from '@zenlink-interface/chain'
-import { Network, NetworkIcon, Typography, classNames } from '@zenlink-interface/ui'
-import { Widget } from '@zenlink-interface/ui/widget'
+import type { ParachainId } from '@grass-protocol/chain'
+import chains from '@grass-protocol/chain'
+import { Network, NetworkIcon, Typography, classNames } from '@grass-protocol/ui'
+import { Widget } from '@grass-protocol/ui/widget'
 import type { FC } from 'react'
 import React, { memo } from 'react'
 

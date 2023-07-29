@@ -1,6 +1,6 @@
 import { Tab } from '@headlessui/react'
 import { Trans } from '@lingui/macro'
-import { Network, classNames } from '@zenlink-interface/ui'
+import { Network, classNames } from '@grass-protocol/ui'
 import { PoolTable, TableFilters, ZLKStats, usePoolFilters } from 'components'
 import { SUPPORTED_CHAIN_IDS } from 'config'
 import type { FC } from 'react'

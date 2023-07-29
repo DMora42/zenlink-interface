@@ -1,12 +1,12 @@
 import { TradeType } from '@grass-protocol/amm'
-import type { CurrencyInputProps } from '@zenlink-interface/compat'
-import { Web3Input } from '@zenlink-interface/compat'
-import { usePrices } from '@zenlink-interface/shared'
-import { ZERO } from '@zenlink-interface/math'
+import type { CurrencyInputProps } from '@grass-protocol/compat'
+import { Web3Input } from '@grass-protocol/compat'
+import { usePrices } from '@grass-protocol/shared'
+import { ZERO } from '@grass-protocol/math'
 import type { FC } from 'react'
 import { useMemo } from 'react'
-import type { Amount, Type } from '@zenlink-interface/currency'
-import { formatTransactionAmount } from '@zenlink-interface/format'
+import type { Amount, Type } from '@grass-protocol/currency'
+import { formatTransactionAmount } from '@grass-protocol/format'
 import { useTrade } from './TradeProvider'
 
 interface _CurrencyInputProps extends CurrencyInputProps {

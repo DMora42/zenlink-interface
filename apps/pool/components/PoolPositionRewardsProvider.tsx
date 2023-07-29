@@ -1,5 +1,5 @@
-import type { Amount, Token } from '@zenlink-interface/currency'
-import type { Pool, PoolFarm } from '@zenlink-interface/graph-client'
+import type { Amount, Token } from '@grass-protocol/currency'
+import type { Pool, PoolFarm } from '@grass-protocol/graph-client'
 import type { FC, ReactNode } from 'react'
 import { createContext, useContext, useMemo } from 'react'
 

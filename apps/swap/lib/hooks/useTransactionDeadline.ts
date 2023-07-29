@@ -1,5 +1,5 @@
-import { useSettings } from '@zenlink-interface/shared'
-import { useCurrentBlockTimestamp } from '@zenlink-interface/wagmi'
+import { useSettings } from '@grass-protocol/shared'
+import { useCurrentBlockTimestamp } from '@grass-protocol/wagmi'
 import type { BigNumber } from 'ethers'
 import { useMemo } from 'react'
 

@@ -1,12 +1,12 @@
 import { Disclosure, Transition } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
-import type { ParachainId } from '@zenlink-interface/chain'
-import { useAccount } from '@zenlink-interface/compat'
-import type { Amount, Type } from '@zenlink-interface/currency'
-import { Native } from '@zenlink-interface/currency'
-import { formatUSD } from '@zenlink-interface/format'
-import { useIsMounted } from '@zenlink-interface/hooks'
-import { ZERO } from '@zenlink-interface/math'
+import type { ParachainId } from '@grass-protocol/chain'
+import { useAccount } from '@grass-protocol/compat'
+import type { Amount, Type } from '@grass-protocol/currency'
+import { Native } from '@grass-protocol/currency'
+import { formatUSD } from '@grass-protocol/format'
+import { useIsMounted } from '@grass-protocol/hooks'
+import { ZERO } from '@grass-protocol/math'
 import {
   AppearOnMount,
   Button,
@@ -15,8 +15,8 @@ import {
   Typography,
   Currency as UICurrency,
   classNames,
-} from '@zenlink-interface/ui'
-import { Widget } from '@zenlink-interface/ui/widget'
+} from '@grass-protocol/ui'
+import { Widget } from '@grass-protocol/ui/widget'
 import type { FC, ReactNode } from 'react'
 import { Fragment, useState } from 'react'
 

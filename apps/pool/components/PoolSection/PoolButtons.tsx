@@ -1,11 +1,11 @@
-import type { Pool } from '@zenlink-interface/graph-client'
-import { ZERO } from '@zenlink-interface/math'
-import { Button, Link } from '@zenlink-interface/ui'
+import type { Pool } from '@grass-protocol/graph-client'
+import { ZERO } from '@grass-protocol/math'
+import { Button, Link } from '@grass-protocol/ui'
 import type { FC } from 'react'
 
 import { Trans } from '@lingui/macro'
 import { usePoolPositionStaked } from 'components/PoolPositionStakedProvider'
-import { useTokensFromPool } from '@zenlink-interface/shared'
+import { useTokensFromPool } from '@grass-protocol/shared'
 import { usePoolPosition } from '../PoolPositionProvider'
 
 interface PoolButtonsProps {

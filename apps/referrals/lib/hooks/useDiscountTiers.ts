@@ -1,6 +1,6 @@
-import type { ParachainId } from '@zenlink-interface/chain'
-import { useAccount, useBalance } from '@zenlink-interface/compat'
-import { ZLK } from '@zenlink-interface/currency'
+import type { ParachainId } from '@grass-protocol/chain'
+import { useAccount, useBalance } from '@grass-protocol/compat'
+import { ZLK } from '@grass-protocol/currency'
 import { useMemo } from 'react'
 
 export enum Tiers {

@@ -1,4 +1,4 @@
-import { NetworkIcon } from '@zenlink-interface/ui'
+import { NetworkIcon } from '@grass-protocol/ui'
 import type { FC } from 'react'
 
 import { ICON_SIZE } from '../../constants'

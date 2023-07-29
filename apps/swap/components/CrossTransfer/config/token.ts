@@ -1,4 +1,4 @@
-import { Token } from '@zenlink-interface/currency'
+import { Token } from '@grass-protocol/currency'
 
 type ExtensionValue = string | number | boolean | null | undefined
 

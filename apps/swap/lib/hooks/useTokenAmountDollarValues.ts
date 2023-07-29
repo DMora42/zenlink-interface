@@ -1,7 +1,7 @@
-import type { Amount, Type } from '@zenlink-interface/currency'
-import { formatTransactionAmount } from '@zenlink-interface/format'
-import { ZERO } from '@zenlink-interface/math'
-import { usePrices } from '@zenlink-interface/shared'
+import type { Amount, Type } from '@grass-protocol/currency'
+import { formatTransactionAmount } from '@grass-protocol/format'
+import { ZERO } from '@grass-protocol/math'
+import { usePrices } from '@grass-protocol/shared'
 import { useMemo } from 'react'
 
 interface Params {

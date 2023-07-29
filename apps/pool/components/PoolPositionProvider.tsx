@@ -1,10 +1,10 @@
-import { useAccount, useBalance } from '@zenlink-interface/compat'
-import type { Amount, Type } from '@zenlink-interface/currency'
-import type { Pool } from '@zenlink-interface/graph-client'
+import { useAccount, useBalance } from '@grass-protocol/compat'
+import type { Amount, Type } from '@grass-protocol/currency'
+import type { Pool } from '@grass-protocol/graph-client'
 import type { FC, ReactNode } from 'react'
 import { createContext, useContext, useMemo } from 'react'
 
-import { useTokensFromPool } from '@zenlink-interface/shared'
+import { useTokensFromPool } from '@grass-protocol/shared'
 import { useTokenAmountDollarValues, useUnderlyingTokenBalanceFromPool } from '../lib/hooks'
 
 interface PoolPositionContext {

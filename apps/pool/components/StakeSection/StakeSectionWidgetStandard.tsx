@@ -1,12 +1,12 @@
 import { Disclosure, Transition } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
-import type { ParachainId } from '@zenlink-interface/chain'
-import { Approve, Checker, useAccount, useStakeLiquidityStandardReview } from '@zenlink-interface/compat'
-import { tryParseAmount } from '@zenlink-interface/currency'
-import type { Pair } from '@zenlink-interface/graph-client'
-import { formatPercent, formatUSD } from '@zenlink-interface/format'
-import { useIsMounted } from '@zenlink-interface/hooks'
-import { Percent, ZERO } from '@zenlink-interface/math'
+import type { ParachainId } from '@grass-protocol/chain'
+import { Approve, Checker, useAccount, useStakeLiquidityStandardReview } from '@grass-protocol/compat'
+import { tryParseAmount } from '@grass-protocol/currency'
+import type { Pair } from '@grass-protocol/graph-client'
+import { formatPercent, formatUSD } from '@grass-protocol/format'
+import { useIsMounted } from '@grass-protocol/hooks'
+import { Percent, ZERO } from '@grass-protocol/math'
 import {
   AppearOnMount,
   Button,
@@ -17,13 +17,13 @@ import {
   Tooltip,
   Typography,
   classNames,
-} from '@zenlink-interface/ui'
-import { Widget } from '@zenlink-interface/ui/widget'
+} from '@grass-protocol/ui'
+import { Widget } from '@grass-protocol/ui/widget'
 import type { FC } from 'react'
 import { Fragment, useMemo, useState } from 'react'
 import type { PoolFarmWithIncentives } from 'lib/hooks'
 import { useFarmsFromPool } from 'lib/hooks'
-import { useNotifications } from '@zenlink-interface/shared'
+import { useNotifications } from '@grass-protocol/shared'
 import { Trans } from '@lingui/macro'
 import { usePoolPosition } from '../PoolPositionProvider'
 

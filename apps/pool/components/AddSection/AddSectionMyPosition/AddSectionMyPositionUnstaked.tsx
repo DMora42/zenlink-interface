@@ -1,5 +1,5 @@
-import { formatUSD } from '@zenlink-interface/format'
-import { Currency, Typography } from '@zenlink-interface/ui'
+import { formatUSD } from '@grass-protocol/format'
+import { Currency, Typography } from '@grass-protocol/ui'
 import type { FC } from 'react'
 import React from 'react'
 

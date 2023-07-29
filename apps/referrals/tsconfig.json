@@ -1,5 +1,5 @@
 {
-  "extends": "@zenlink-interface/typescript-config/nextjs.json",
+  "extends": "@grass-protocol/typescript-config/nextjs.json",
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"],
   "compilerOptions": {

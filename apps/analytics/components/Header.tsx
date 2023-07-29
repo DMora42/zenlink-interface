@@ -1,5 +1,5 @@
-import { AppSettings } from '@zenlink-interface/compat'
-import { App, AppType } from '@zenlink-interface/ui'
+import { AppSettings } from '@grass-protocol/compat'
+import { App, AppType } from '@grass-protocol/ui'
 import React from 'react'
 
 export const Header = () => {
