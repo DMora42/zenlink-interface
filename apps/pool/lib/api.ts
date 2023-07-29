@@ -1,5 +1,3 @@
-// eslin
-
 import type { Pool, StableSwap } from '@grass-protocol/graph-client'
 import {
   liquidityPositions,
