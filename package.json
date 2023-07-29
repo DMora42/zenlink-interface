@@ -1,9 +1,9 @@
 {
-  "name": "zenlink-interface",
+  "name": "grass-protocol",
   "version": "0.0.0",
   "packageManager": "pnpm@8.6.2",
   "license": "LGPL-2.1-or-later",
-  "repository": "https://github.com/zenlinkpro/zenlink-interface.git",
+  "repository": "https://github.com/grassprotocol/grass-frontend.git",
   "engines": {
     "node": ">=18.x"
   },
