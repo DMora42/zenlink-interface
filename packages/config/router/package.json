@@ -1,0 +1,36 @@
+{
+  "name": "@zenlink-interface/router-config",
+  "version": "0.0.0",
+  "description": "Zenlink Interface Router Config",
+  "author": "zenlinkpro",
+  "license": "LGPL-2.1-or-later",
+  "keywords": [
+    "zenlink",
+    "router",
+    "config"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "source": "src/index.ts",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --format esm,cjs --watch --dts",
+    "check": "tsc --pretty --noEmit",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist",
+    "lint": "TIMING=1 eslint ./**/*.ts* --fix"
+  },
+  "dependencies": {
+    "@zenlink-interface/chain": "workspace:*",
+    "@zenlink-interface/currency": "workspace:*"
+  },
+  "devDependencies": {
+    "@zenlink-interface/eslint-config": "workspace:*",
+    "@zenlink-interface/typescript-config": "workspace:*",
+    "tsup": "7.1.0",
+    "typescript": "5.1.6"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "@zenlink-interface/chain",
+  "version": "0.0.0",
+  "description": "Zenlink Chain",
+  "author": "zenlinkpro",
+  "license": "LGPL-2.1-or-later",
+  "keywords": [
+    "zenlink",
+    "chain"
+  ],
+  "main": "./dist/index.js",
+  "source": "./index.ts",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist",
+    "dev": "tsc -w",
+    "generate": "ls chains.json || curl 'https://chainid.network/chains.json' > chains.json",
+    "preinstall": "pnpm run generate",
+    "lint": "TIMING=1 eslint ./index.ts --fix"
+  },
+  "devDependencies": {
+    "@zenlink-interface/eslint-config": "workspace:*",
+    "@zenlink-interface/typescript-config": "workspace:*",
+    "eslint": "^8.45.0",
+    "typescript": "5.1.6"
+  }
+}

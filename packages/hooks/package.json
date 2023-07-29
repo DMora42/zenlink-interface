@@ -1,0 +1,45 @@
+{
+  "name": "@zenlink-interface/hooks",
+  "version": "0.0.0",
+  "description": "Zenlink Interface Hooks",
+  "author": "zenlinkpro",
+  "license": "LGPL-2.1-or-later",
+  "keywords": [
+    "zenlink-interface",
+    "hooks",
+    "react"
+  ],
+  "main": "./dist/index.js",
+  "source": "./src/index.ts",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist",
+    "dev": "tsc -w",
+    "lint": "TIMING=1 eslint src --fix"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "dependencies": {
+    "@ethersproject/address": "^5.7.0",
+    "@ethersproject/providers": "^5.7.2",
+    "copy-to-clipboard": "^3.3.3",
+    "ethers": "^5.7.2",
+    "react-responsive": "^9.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.17",
+    "@types/react-dom": "^18.2.7",
+    "@zenlink-interface/currency": "workspace:*",
+    "@zenlink-interface/eslint-config": "workspace:*",
+    "@zenlink-interface/format": "workspace:*",
+    "@zenlink-interface/math": "workspace:*",
+    "@zenlink-interface/typescript-config": "workspace:*",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "5.1.6",
+    "vitest": "^0.33.0"
+  }
+}

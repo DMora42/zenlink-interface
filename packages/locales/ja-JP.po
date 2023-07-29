@@ -1,0 +1,1197 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2023-04-03 15:37+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: ja-JP\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: apps/pool/components/AddSection/AddSectionStable.tsx
+#: apps/pool/components/AddSection/AddSectionStandard.tsx
+#: apps/pool/components/RemoveSection/RemoveSectionStable.tsx
+#: apps/pool/components/RemoveSection/RemoveSectionStandard.tsx
+msgid "Pool Not Found"
+msgstr "プールが見つかりません"
+
+#: packages/parachains-impl/bifrost/components/Wallet/Profile/Default.tsx
+#: packages/wagmi/components/Wallet/Profile/Default.tsx
+msgid "Disconnect"
+msgstr "切断します"
+
+#: packages/parachains-impl/bifrost/hooks/useAddLiquidityStandardReview.ts
+#: packages/wagmi/hooks/useAddLiquidityStandardReview.ts
+msgid "Successfully added liquidity to the {0}/{1} pair"
+msgstr "{0}/{1} ペアに流動性を正常に追加しました"
+
+#: apps/analytics/components/ChartSection/VolumeChart.tsx
+#: apps/pool/components/PoolSection/PoolChart.tsx
+msgid "Volume"
+msgstr "ボリューム"
+
+#: apps/swap/components/CrossTransfer/ChainSelector/ChainSelector.tsx
+msgid "To"
+msgstr "に"
+
+#: apps/pool/components/PoolSection/PoolChart.tsx
+msgid "Fees"
+msgstr "手数料"
+
+#: apps/swap/components/SwapReviewModal/WrapReviewModal.tsx
+msgid "Confirm {0}"
+msgstr "{0} を確認"
+
+#: packages/parachains-impl/bifrost/hooks/useSwapReview.ts
+#: packages/wagmi/hooks/useSwapReview.ts
+msgid "Something went wrong when trying to swap {0} for {1}"
+msgstr "{0} を {1} にスワップしようとした際に何か問題が発生しました"
+
+#: packages/parachains-impl/bifrost/hooks/useWithdrawFarmingReview.ts
+#: packages/wagmi/hooks/useWithdrawFarmingReview.ts
+msgid "Successfully unstaked {0} {1}"
+msgstr "{0}の{1}のアンステーキングが成功しました。"
+
+#: apps/swap/components/SettingsOverlay/AggregatorOverlay.tsx
+#: apps/swap/components/SettingsOverlay/AggregatorOverlay.tsx
+#: apps/swap/components/SettingsOverlay/AggregatorOverlay.tsx
+msgid "Enable Aggregator"
+msgstr "アグリゲーターを有効にする"
+
+#: apps/pool/components/PoolSection/PoolRewards/index.tsx
+msgid "Farming Rewards"
+msgstr "ファーミング報酬"
+
+#: packages/wagmi/systems/Checker/Network.tsx
+msgid "Switch to {0}"
+msgstr "{0} に切り替える"
+
+#: apps/pool/components/RemoveSection/RemoveSectionWidgetStandard.tsx
+msgid "No liquidity tokens found {0}"
+msgstr "流動性トークンが {0} 見つかりませんでした"
+
+#: packages/wagmi/hooks/referrals/useGenerateCodeReview.ts
+msgid "Something went wrong when trying to generate referral code ({code})"
+msgstr "リファラルコード（{code}）を生成しようとした際に何か問題が発生しました"
+
+#: packages/ui/toast/ToastButtons.tsx
+msgid "Dismiss"
+msgstr "閉じる"
+
+#: apps/pool/components/PoolsSection/PoolsSection.tsx
+msgid "All Pools"
+msgstr "全てのプール"
+
+#: packages/ui/app/Header.tsx
+#~ msgid "Explore Apps"
+#~ msgstr "アプリを探索する"
+
+#: apps/analytics/components/TableSection/TableSection.tsx
+msgid "Stats"
+msgstr "統計情報"
+
+#: apps/swap/components/CrossTransfer/index.tsx
+msgid "Tools support cross transfer token from one chain to another."
+msgstr "ツールは、一つのチェーンから他のチェーンへのクロス転送トークンをサポートしています。"
+
+#: apps/pool/components/RemoveSection/RemoveSectionStable.tsx
+msgid "No liquidity tokens found"
+msgstr "流動性トークンが見つかりません"
+
+#: apps/pool/components/StakeSection/StakeSectionWidgetStandard.tsx
+msgid "No liquidity tokens found, did you add liquidity first?"
+msgstr "流動性トークンが見つかりませんでした。最初に流動性を追加しましたか？"
+
+#: apps/pool/components/RemoveSection/RemoveSectionStable.tsx
+#: apps/pool/components/RemoveSection/RemoveSectionStable.tsx
+#: apps/pool/components/RemoveSection/RemoveSectionStandard.tsx
+#: apps/pool/components/RemoveSection/RemoveSectionWidgetStandard.tsx
+#: apps/pool/components/RemoveSection/RemoveSectionWidgetStandard.tsx
+msgid "Remove Liquidity"
+msgstr "流動性を削除する"
+
+#: apps/swap/pages/index.tsx
+msgid "Finding Best Price"
+msgstr "最適な価格を探す"
+
+#: packages/parachains-impl/bifrost/hooks/useStakeLiquidityStandardReview.ts
+#: packages/wagmi/hooks/useStakeLiquidityReview.ts
+msgid "Something went wrong when stake {0} {1}"
+msgstr "ステーキング中に問題が発生しました：{0} {1}"
+
+#: packages/ui/app/Footer.tsx
+msgid "Telegram Support"
+msgstr "テレグラムサポート"
+
+#: apps/pool/pages/index.tsx
+msgid "Earn fees by providing liquidity."
+msgstr "流動性を提供して手数料を稼ぐ。"
+
+#: packages/parachains-impl/bifrost/components/Wallet/Profile/Transactions.tsx
+#: packages/wagmi/components/Wallet/Profile/Transactions.tsx
+msgid "Your transactions will appear here"
+msgstr "あなたの取引はここに表示されます"
+
+#: apps/referrals/components/AffiliatesSection/GenerateCodeModal.tsx
+msgid "Code already taken"
+msgstr "コードは既に使用されています"
+
+#: packages/wagmi/hooks/useRemoveLiquidityStableReview.ts
+msgid "Successfully removed liquidity from the {poolName} stable pool"
+msgstr "{poolName} ステーブルプールから流動性を正常に削除しました"
+
+#: apps/pool/components/StakeSection/StakeSectionWidgetStandard.tsx
+#: apps/pool/components/UnStakeSection/UnStakeSectionWidgetStandard.tsx
+msgid "Rewards"
+msgstr "報酬"
+
+#: packages/parachains-impl/bifrost/components/Wallet/Profile/Default.tsx
+#: packages/parachains-impl/bifrost/components/Wallet/Profile/Transactions.tsx
+#: packages/wagmi/components/Wallet/Profile/Default.tsx
+#: packages/wagmi/components/Wallet/Profile/Transactions.tsx
+msgid "Transactions"
+msgstr "取引"
+
+#: apps/pool/components/PoolSection/PoolComposition.tsx
+msgid "Pool Composition"
+msgstr "プール構成"
+
+#: apps/referrals/pages/index.tsx
+msgid "Calculate based on ZLK holdings."
+msgstr "ZLKホールディングに基づいて計算してください."
+
+#: packages/parachains-impl/bifrost/hooks/useStakeLiquidityStandardReview.ts
+#: packages/wagmi/hooks/useStakeLiquidityReview.ts
+msgid "Staking {0} {1}"
+msgstr "ステーキング {0} {1}"
+
+#: apps/pool/components/PoolSection/PoolMyRewards/PoolMyRewardsDesktop.tsx
+msgid "Next: <1m"
+msgstr "次: <1m"
+
+#: apps/analytics/components/Table/columns.tsx
+#: apps/pool/components/PoolsSection/Tables/PoolsTable/Cells/columns.tsx
+#: apps/pool/components/PoolsSection/Tables/PositionsTable/Cells/columns.tsx
+msgid "Name"
+msgstr "名前"
+
+#: packages/wagmi/hooks/useERC20ApproveCallback.ts
+msgid "Something went wrong approving {0}"
+msgstr "{0} の承認中に問題が発生しました"
+
+#: apps/pool/pages/index.tsx
+msgid "New Position"
+msgstr "新しいポジション"
+
+#: apps/pool/components/PoolSection/PoolStats.tsx
+msgid "Liquidity"
+msgstr "流動性"
+
+#: apps/pool/components/StakeSection/StakeSectionWidgetStandard.tsx
+#: apps/pool/components/UnStakeSection/UnStakeSectionWidgetStandard.tsx
+msgid "APR"
+msgstr "APR"
+
+#: packages/ui/toast/ToastCompleted.tsx
+msgid "Transaction Completed"
+msgstr "取引が完了しました"
+
+#: apps/pool/components/RemoveSection/RemoveSectionStable.tsx
+#: apps/pool/components/RemoveSection/RemoveSectionWidgetStandard.tsx
+msgid "You'll receive at least:"
+msgstr "少なくとも以下を受け取ります："
+
+#: apps/pool/components/NewPositionSection/SelectPoolTypeWidget.tsx
+msgid "This network does not allow changing the default pool type"
+msgstr "このネットワークでは、デフォルトのプールタイプの変更はできません"
+
+#: packages/ui/app/Footer.tsx
+msgid "We are building a protocol for decentralized exchange in Polkadot ecosystem."
+msgstr "私たちはPolkadotエコシステム内の分散型取引プロトコルを構築しています。"
+
+#: apps/pool/components/SettingsOverlay/SlippageToleranceDisclosure.tsx
+#: apps/swap/components/SettingsOverlay/SlippageToleranceDisclosure.tsx
+msgid "Custom"
+msgstr "カスタム"
+
+#: packages/parachains-impl/bifrost/components/Wallet/Profile/Default.tsx
+#: packages/wagmi/components/Wallet/Profile/Default.tsx
+msgid "Explore"
+msgstr "探索する"
+
+#: apps/swap/components/SwapStatsDisclosure/SwapStatsDisclosure.tsx
+msgid "Show"
+msgstr "表示する"
+
+#: apps/swap/components/SettingsOverlay/SlippageToleranceDisclosure.tsx
+msgid "Custom ({slippageTolerance}%)"
+msgstr "カスタム ({slippageTolerance}%)"
+
+#: apps/referrals/components/AffiliatesSection/GenerateCodeModal.tsx
+msgid "Confirm generate"
+msgstr "生成を確認する"
+
+#: packages/wagmi/hooks/referrals/useSetCodeReview.ts
+msgid "Something went wrong when trying to set referral code ({code})"
+msgstr "参照コード（{code}）の設定時に問題が発生しました"
+
+#: apps/referrals/components/SelectReferrerTypeWidget.tsx
+msgid "Get fee discounts"
+msgstr "手数料割引を受ける"
+
+#: packages/compat/components/TokenSelector/TokenSelectorDialog.tsx
+msgid "Search token by address"
+msgstr "アドレスでトークンを検索する"
+
+#: apps/pool/components/NewPositionSection/SelectPoolTypeWidget.tsx
+msgid "Stable"
+msgstr "安定した"
+
+#: apps/pool/components/AddSection/AddSectionMyPosition/AddSectionMyPositionStaked.tsx
+#: apps/pool/components/AddSection/AddSectionMyPosition/AddSectionMyPositionStaked.tsx
+msgid "My Staked Position"
+msgstr "私のステーキングしたポジション"
+
+#: packages/ui/app/Footer.tsx
+msgid "Audit"
+msgstr "監査"
+
+#: apps/swap/components/SwapStatsDisclosure/SwapStatsDisclosure.tsx
+msgid "Finding best price..."
+msgstr "最良の価格を見つけています.."
+
+#: apps/analytics/components/Table/columns.tsx
+#: apps/pool/components/PoolSection/PoolStats.tsx
+#: apps/pool/components/PoolsSection/Tables/PoolsTable/Cells/columns.tsx
+msgid "Fees (24h)"
+msgstr "手数料（24時間）"
+
+#: packages/ui/app/Footer.tsx
+msgid "About Us"
+msgstr "私たちについて"
+
+#: packages/ui/app/Footer.tsx
+msgid "Twitter Support"
+msgstr "Twitterサポート"
+
+#: apps/analytics/components/ZLKStats/index.tsx
+msgid "Holders"
+msgstr "保持者"
+
+#: apps/referrals/components/SelectReferrerTypeWidget.tsx
+msgid "Affiliates"
+msgstr "アフィリエイト"
+
+#: packages/parachains-impl/bifrost/hooks/useWithdrawFarmingReview.ts
+#: packages/wagmi/hooks/useWithdrawFarmingReview.ts
+msgid "Unstaking {0} {1}"
+msgstr "{0} {1} のステーキング解除"
+
+#: apps/pool/components/UnStakeSection/UnStakeSectionWidgetStandard.tsx
+#: apps/pool/components/UnStakeSection/UnStakeSectionWidgetStandard.tsx
+msgid "UnStake Liquidity"
+msgstr "リクイディティのステーキング解除"
+
+#: packages/parachains-impl/bifrost/components/Wallet/Button.tsx
+#: packages/parachains-impl/bifrost/components/Wallet/Button.tsx
+#: packages/wagmi/components/Wallet/Button.tsx
+#: packages/wagmi/systems/Checker/Connected.tsx
+msgid "Connect Wallet"
+msgstr "ウォレット接続"
+
+#: apps/referrals/components/TradersSection/TraderSection.tsx
+msgid "You will receive a 20% discount on your swapping fees"
+msgstr "スワップ手数料が20％割引になります"
+
+#: packages/ui/app/Header.tsx
+msgid "Get fee discounts and earn rebates"
+msgstr "手数料割引を受け取り、リベートを獲得する"
+
+#: apps/analytics/components/ZLKStats/index.tsx
+msgid "ZLK Circulating Supply"
+msgstr "ZLK流通供給量"
+
+#: packages/wagmi/hooks/useERC20ApproveCallback.ts
+msgid "Successfully approved {0}"
+msgstr "承認済み {0}"
+
+#: apps/referrals/components/CodesTable/Cells/columns.tsx
+msgid "Code"
+msgstr "コード"
+
+#: apps/referrals/components/TradersSection/TraderSection.tsx
+msgid "Update"
+msgstr "更新"
+
+#: apps/analytics/components/ChartSection/TVLChart.tsx
+#: apps/analytics/components/ChartSection/TVLChart.tsx
+#: apps/analytics/components/Table/columns.tsx
+#: apps/pool/components/PoolSection/PoolChart.tsx
+#: apps/pool/components/PoolsSection/Tables/PoolsTable/Cells/columns.tsx
+msgid "TVL"
+msgstr "総ロック量 (TVL)"
+
+#: packages/ui/toast/ToastPending.tsx
+msgid "Transaction Pending"
+msgstr "トランザクション保留中"
+
+#: packages/ui/app/Footer.tsx
+msgid "Discord Support"
+msgstr "Discord サポート"
+
+#: apps/analytics/components/Table/columns.tsx
+#: apps/pool/components/PoolSection/PoolStats.tsx
+#: apps/pool/components/PoolsSection/Tables/PoolsTable/Cells/columns.tsx
+msgid "Volume (24h)"
+msgstr "取引高 (24時間)"
+
+#: apps/analytics/components/TableSection/TableSection.tsx
+msgid "Top Pools"
+msgstr "トッププール"
+
+#: apps/pool/components/PoolsSection/PoolsSection.tsx
+msgid "My Positions"
+msgstr "マイポジション"
+
+#: packages/compat/components/AppSettings/DefaultPanel.tsx
+msgid "Dark theme"
+msgstr "ダークテーマ"
+
+#: apps/referrals/components/DiscountTable/Cells/columns.tsx
+msgid "Discount"
+msgstr "ディスカウント"
+
+#: packages/ui/app/Header.tsx
+msgid "Missing features or prefer the old app?"
+msgstr "欠損している機能はありますか？それとも古いアプリの方が好みですか？"
+
+#: apps/pool/components/PoolSection/PoolActionBar/PoolActionBarPositionRewards.tsx
+#: apps/pool/components/PoolSection/PoolRewards/index.tsx
+#: apps/pool/components/StakeSection/StakeSectionWidgetStandard.tsx
+msgid "No farms found"
+msgstr "農場が見つかりませんでした。"
+
+#: packages/compat/components/TokenSelector/TokenSelectorImportRow.tsx
+msgid "Trade at your own risk!"
+msgstr "自己責任で取引してください！"
+
+#: apps/pool/components/PoolSection/PoolComposition.tsx
+msgid "Total Assets:"
+msgstr "総資産："
+
+#: packages/wagmi/systems/Approve/TokenApproveButton.tsx
+msgid "We need your approval first to execute this transaction on your behalf; you will only have to approve the {0} contract once."
+msgstr "この取引をあなたの代わりに実行するために、まず承認が必要です。{0}契約について一度だけ承認する必要があります。"
+
+#: apps/pool/components/PoolSection/PoolHeader.tsx
+msgid "Fee: {0}%"
+msgstr "手数料：{0}%"
+
+#: apps/analytics/components/ZLKStats/DistributionSection/InitialDistribution.tsx
+msgid "Initial Distribution"
+msgstr "初期配布"
+
+#: apps/pool/components/StakeSection/StakeSectionWidgetStandard.tsx
+msgid "Stake your liquidity tokens to receive incentive rewards on top of your pool fee rewards"
+msgstr "プール手数料報酬に加えてインセンティブリワードを受け取るために、流動性トークンをステーキングしてください。"
+
+#: packages/ui/app/Footer.tsx
+msgid "Wiki/Docs"
+msgstr "Wiki/ドキュメント"
+
+#: apps/pool/components/PoolSection/PoolButtons.tsx
+msgid "Trade"
+msgstr "取引"
+
+#: apps/swap/components/Route.tsx
+msgid "Optimized route"
+msgstr "最適化されたルート"
+
+#: apps/swap/components/CrossTransfer/TokenSelector/TokenSelectorDialog.tsx
+#: packages/compat/components/TokenSelector/TokenSelectorDialog.tsx
+msgid "No tokens found on"
+msgstr "{0}上でトークンが見つかりません"
+
+#: packages/compat/components/TokenSelector/TokenSelectorImportRow.tsx
+msgid "{0} appear on the active token list(s)."
+msgstr "{0} がアクティブなトークンリストに表示されます。"
+
+#: packages/compat/components/Web3Input/Currency.tsx
+msgid "Balance: 0"
+msgstr "バランス：0"
+
+#: apps/pool/pages/add.tsx
+msgid "Select Tokens"
+msgstr "トークンを選択"
+
+#: apps/referrals/components/TradersSection/SetCodeModal.tsx
+msgid "Enter your referral code or <0>zenlink</0>"
+msgstr "参照コードを入力するか、<0>zenlink</0>をクリックしてください。"
+
+#: apps/referrals/components/TradersSection/SetCodeModal.tsx
+msgid "Confirm submit"
+msgstr "送信を確認"
+
+#: apps/swap/pages/index.tsx
+msgid "Enable expert mode to swap with high price impact"
+msgstr "高い価格インパクトでスワップするためにエキスパートモードを有効にします"
+
+#: packages/parachains-impl/bifrost/hooks/useClaimFarmingRewardsReview.ts
+#: packages/wagmi/hooks/useClaimFarmingRewardsReview.ts
+msgid "Successfully claimed rewards"
+msgstr "報酬を正常に請求しました。"
+
+#: apps/swap/components/CrossTransfer/index.tsx
+msgid "Not supported yet"
+msgstr "まだサポートされていません。"
+
+#: apps/pool/components/AddSection/AddSectionMyPosition/AddSectionMyPositionUnstaked.tsx
+#: apps/pool/components/AddSection/AddSectionMyPosition/AddSectionMyPositionUnstaked.tsx
+msgid "My Liquidity Position"
+msgstr "私の流動性ポジション"
+
+#: apps/pool/components/SettingsOverlay/CustomTokensOverlay.tsx
+#: apps/swap/components/SettingsOverlay/CustomTokensOverlay.tsx
+msgid "No custom tokens found"
+msgstr "カスタムトークンが見つかりません"
+
+#: packages/ui/app/Footer.tsx
+msgid "Services"
+msgstr "サービス"
+
+#: apps/referrals/components/AffiliatesSection/AffiliatesSection.tsx
+msgid "Looks like you don't have a referral code to share. Create one now and start earning rebates!"
+msgstr "リファラルコードを共有するためのものがないようです。今すぐ作成してリベートを獲得しましょう！"
+
+#: packages/wagmi/hooks/useERC20ApproveCallback.ts
+msgid "Approving {0}"
+msgstr "承認中 {0}"
+
+#: packages/ui/app/Header.tsx
+msgid "Products"
+msgstr "商品"
+
+#: apps/pool/components/StakeSection/StakeSectionWidgetStandard.tsx
+#: apps/pool/components/UnStakeSection/UnStakeSectionWidgetStandard.tsx
+#: packages/wagmi/systems/Checker/Amounts.tsx
+msgid "Insufficient Balance"
+msgstr "残高不足"
+
+#: apps/pool/components/RemoveSection/RemoveSectionStable.tsx
+msgid "All"
+msgstr "全部"
+
+#: apps/referrals/components/TradersSection/TraderSection.tsx
+msgid "Set"
+msgstr "設定"
+
+#: apps/referrals/components/TradersSection/TraderSection.tsx
+msgid "Please input a referral code to benefit from fee discounts."
+msgstr "手数料割引を受けるには、リファラルコードを入力してください。"
+
+#: apps/pool/components/AddSection/AddSectionReviewModal.tsx
+#: apps/pool/components/AddSection/AddSectionReviewModalStable.tsx
+#: apps/pool/components/AddSection/AddSectionStable.tsx
+#: apps/pool/components/AddSection/AddSectionStable.tsx
+#: apps/pool/components/AddSection/AddSectionStandard.tsx
+#: apps/pool/components/AddSection/AddSectionWidgetStandard.tsx
+#: apps/pool/pages/add.tsx
+#: apps/pool/pages/add.tsx
+msgid "Add Liquidity"
+msgstr "流動性を追加する"
+
+#: apps/pool/components/NewPositionSection/SelectNetworkWidget.tsx
+msgid "1. Select Network"
+msgstr "1. ネットワークを選択する"
+
+#: apps/pool/components/PoolsSection/Tables/PoolsTable/Cells/columns.tsx
+#: apps/pool/components/PoolsSection/Tables/PositionsTable/Cells/columns.tsx
+msgid "Network"
+msgstr "ネットワーク"
+
+#: apps/pool/components/PoolSection/PoolButtons.tsx
+msgid "Withdraw"
+msgstr "引き出す"
+
+#: apps/referrals/components/TradersSection/TraderSection.tsx
+msgid "Unsupported network"
+msgstr "サポートされていないネットワーク"
+
+#: apps/referrals/components/TradersSection/TraderSection.tsx
+msgid "Active Referral Code"
+msgstr "アクティブなリファラルコード"
+
+#: packages/parachains-impl/bifrost/components/Wallet/Profile/Default.tsx
+#: packages/wagmi/components/Wallet/Profile/Default.tsx
+msgid "Copied!"
+msgstr "コピーしました！"
+
+#: packages/wagmi/hooks/useAddLiquidityStableReview.ts
+msgid "Successfully added liquidity to the {poolName} stable pool"
+msgstr "{poolName} ステーブルプールに流動性を正常に追加しました"
+
+#: apps/swap/components/SwapReviewModal/WrapReviewModal.tsx
+msgid "Unwrap"
+msgstr "開封する"
+
+#: apps/pool/components/SettingsOverlay/SlippageToleranceDisclosure.tsx
+#: apps/swap/components/SettingsOverlay/SlippageToleranceDisclosure.tsx
+#: apps/swap/components/SettingsOverlay/SlippageToleranceDisclosure.tsx
+msgid "Auto"
+msgstr "オート"
+
+#: packages/ui/network/SelectorMenu.tsx
+msgid "All Networks"
+msgstr "すべてのネットワーク"
+
+#: apps/pool/pages/add.tsx
+msgid "This network does not allow create pool"
+msgstr "このネットワークではプール作成が許可されていません"
+
+#: packages/ui/app/Footer.tsx
+msgid "Bug Bounty"
+msgstr "バグバウンティ"
+
+#: apps/analytics/components/Table/columns.tsx
+msgid "Volume (7d)"
+msgstr "ボリューム（7日間）"
+
+#: packages/ui/app/Header.tsx
+msgid "Links"
+msgstr "リンク"
+
+#: apps/pool/components/SettingsOverlay/SlippageToleranceDisclosure.tsx
+#: apps/swap/components/SettingsOverlay/SlippageToleranceDisclosure.tsx
+msgid "Slippage tolerance is the utmost percentage of slippage a user is willing to execute a trade with; if the actual slippage falls outside of the user-designated range, the transaction will revert."
+msgstr "スリッページ許容度とは、ユーザーが取引を実行する際に許容する最大スリッページパーセンテージです。 実際のスリッページがユーザー指定の範囲外になる場合、トランザクションは元に戻ります。"
+
+#: apps/pool/components/PoolSection/PoolRewards/FarmingRewards.tsx
+msgid "Reward APR"
+msgstr "報酬APR"
+
+#: packages/ui/app/Header.tsx
+msgid "Core"
+msgstr "コア"
+
+#: apps/swap/components/SwapStatsDisclosure/SwapStatsDisclosure.tsx
+msgid "Optimized Route"
+msgstr "最適化されたルート"
+
+#: apps/analytics/components/Table/columns.tsx
+msgid "Fees (7d)"
+msgstr "手数料（7日間）"
+
+#: apps/pool/components/SettingsOverlay/CustomTokensOverlay.tsx
+#: apps/swap/components/SettingsOverlay/CustomTokensOverlay.tsx
+msgid "{0} Tokens"
+msgstr "{0} トークン"
+
+#: apps/pool/components/NewPositionSection/SelectNetworkWidget.tsx
+msgid "Selected:"
+msgstr "選択した："
+
+#: packages/compat/components/TokenSelector/TokenSelectorImportRow.tsx
+msgid "View on Explorer"
+msgstr "エクスプローラーで表示する"
+
+#: apps/swap/components/SwapStatsDisclosure/SwapStatsDisclosure.tsx
+msgid "Price Impact"
+msgstr "価格変動率"
+
+#: packages/wagmi/hooks/referrals/useGenerateCodeReview.ts
+msgid "Successfully Generated referral code ({code})"
+msgstr "リファラルコード ({code}) を正常に生成しました"
+
+#: apps/pool/components/NewPositionSection/SelectPoolTypeWidget.tsx
+#: apps/pool/components/NewPositionSection/SelectPoolTypeWidget.tsx
+msgid "Standard"
+msgstr "標準"
+
+#: apps/pool/components/PoolSection/PoolComposition.tsx
+#: apps/pool/components/PoolSection/PoolRewards/FarmingRewards.tsx
+msgid "Token"
+msgstr "トークン"
+
+#: apps/referrals/components/SelectReferrerTypeWidget.tsx
+msgid "Earn rebates"
+msgstr "リベートを獲得する"
+
+#: apps/swap/components/SettingsOverlay/SettingsOverlay.tsx
+msgid "Settings"
+msgstr "設定"
+
+#: apps/swap/pages/index.tsx
+msgid "No trade found"
+msgstr "取引が見つかりませんでした"
+
+#: apps/referrals/components/AffiliatesSection/GenerateCodeModal.tsx
+#: apps/referrals/components/AffiliatesSection/GenerateCodeModal.tsx
+#: apps/referrals/components/TradersSection/SetCodeModal.tsx
+msgid "Enter a code"
+msgstr "コードを入力してください"
+
+#: apps/referrals/pages/index.tsx
+msgid "Trading fee discount"
+msgstr "取引手数料割引"
+
+#: packages/compat/components/TokenSelector/TokenSelectorImportRow.tsx
+msgid "These tokens don\\'t"
+msgstr "これらのトークンはありません"
+
+#: apps/pool/components/RemoveSection/RemoveSectionStable.tsx
+#: apps/pool/components/RemoveSection/RemoveSectionWidgetStandard.tsx
+#: apps/pool/components/StakeSection/StakeSectionWidgetStandard.tsx
+#: apps/pool/components/UnStakeSection/UnStakeSectionWidgetStandard.tsx
+#: packages/compat/components/Web3Input/Currency.tsx
+msgid "Balance: {0}"
+msgstr "残高：{0}"
+
+#: packages/ui/app/Header.tsx
+msgid "Analytics platform for tracking the products"
+msgstr "商品を追跡するための分析プラットフォーム"
+
+#: apps/swap/components/CrossTransfer/TokenSelector/TokenSelectorDialog.tsx
+#: packages/compat/components/TokenSelector/TokenSelectorDialog.tsx
+msgid "Select Token"
+msgstr "トークンを選択してください"
+
+#: apps/pool/components/AddSection/AddSectionStable.tsx
+msgid "you can add liquidity using one asset or multiple assets"
+msgstr "1つまたは複数のアセットを使用して流動性を追加できます"
+
+#: apps/pool/components/NewPositionSection/SelectPoolTypeWidget.tsx
+msgid "Suitable for stable pools"
+msgstr "安定したプールに適しています"
+
+#: packages/parachains-impl/bifrost/hooks/useClaimFarmingRewardsReview.ts
+#: packages/wagmi/hooks/useClaimFarmingRewardsReview.ts
+msgid "Claiming Rewards"
+msgstr "報酬の請求"
+
+#: apps/referrals/components/AffiliatesSection/AffiliatesSection.tsx
+msgid "Checking codes"
+msgstr "コードの確認"
+
+#: apps/referrals/pages/index.tsx
+msgid "Get fee discounts and earn rebates through the referral program."
+msgstr "紹介プログラムを通じて手数料割引を受け取り、リベートを獲得する。"
+
+#: apps/referrals/pages/index.tsx
+#: packages/ui/app/Footer.tsx
+#: packages/ui/app/Header.tsx
+msgid "Referrals"
+msgstr "リファラル"
+
+#: packages/parachains-impl/bifrost/hooks/useClaimFarmingRewardsReview.ts
+#: packages/wagmi/hooks/useClaimFarmingRewardsReview.ts
+msgid "Something went wrong when claim rewards"
+msgstr "報酬を請求する際に何か問題が発生しました。"
+
+#: apps/pool/components/PoolsSection/Tables/TableFilters/TableFiltersSearchToken.tsx
+msgid "Filter tokens"
+msgstr "トークンをフィルターする"
+
+#: apps/pool/components/NewPositionSection/SelectPoolTypeWidget.tsx
+msgid "2. Select Type"
+msgstr "2. タイプを選択"
+
+#: apps/swap/components/SettingsOverlay/AggregatorOverlay.tsx
+msgid "On"
+msgstr "オン"
+
+#: packages/parachains-impl/bifrost/hooks/useRemoveLiquidityStandardReview.ts
+#: packages/wagmi/hooks/useRemoveLiquidityStableReview.ts
+#: packages/wagmi/hooks/useRemoveLiquidityStandardReview.ts
+msgid "Something went wrong when removing liquidity"
+msgstr "流動性を削除する際に何かがうまくいかなかった"
+
+#: apps/pool/components/SettingsOverlay/SlippageToleranceDisclosure.tsx
+#: apps/swap/components/SettingsOverlay/SlippageToleranceDisclosure.tsx
+msgid "Custom Slippage"
+msgstr "カスタムスリッページ"
+
+#: packages/parachains-impl/bifrost/hooks/useSwapReview.ts
+#: packages/wagmi/hooks/useSwapReview.ts
+msgid "Swapping {0} {1} for {2} {3}"
+msgstr "{0} {1} を {2} {3} に交換する"
+
+#: apps/analytics/components/ZLKStats/index.tsx
+msgid "ZLK Market Cap"
+msgstr "ZLKの時価総額"
+
+#: apps/pool/components/SettingsOverlay/SlippageToleranceDisclosure.tsx
+#: apps/swap/components/SettingsOverlay/SlippageToleranceDisclosure.tsx
+msgid "Slippage is the difference between the expected value of output from a trade and the actual value due to asset volatility and liquidity depth."
+msgstr "スリッページとは、資産のボラティリティと流動性深度による取引からの出力の予想値と実際の値との差です。"
+
+#: apps/analytics/pages/index.tsx
+#: packages/ui/app/Footer.tsx
+#: packages/ui/app/Header.tsx
+msgid "Analytics"
+msgstr "アナリティクス"
+
+#: apps/analytics/pages/index.tsx
+msgid "Analytics platform for tracking the liquidity, volume, and fees generated by Zenlink products."
+msgstr "Zenlink製品によって生成される流動性、ボリューム、および手数料を追跡するためのアナリティクスプラットフォーム。"
+
+#: packages/parachains-impl/bifrost/hooks/useSwapReview.ts
+#: packages/wagmi/hooks/useSwapReview.ts
+msgid "Successfully swapped {0} {1} for {2} {3}"
+msgstr "{0} {1} を {2} {3} に正常に交換しました"
+
+#: packages/ui/app/Footer.tsx
+msgid "Blog"
+msgstr "ブログ"
+
+#: apps/swap/components/SettingsOverlay/AggregatorOverlay.tsx
+msgid "Off"
+msgstr "オフ"
+
+#: apps/referrals/components/DiscountTable/Cells/columns.tsx
+msgid "Position Size"
+msgstr "ポジションサイズ"
+
+#: apps/referrals/components/AffiliatesSection/GenerateCodeModal.tsx
+msgid "Checking code"
+msgstr "コードをチェックしています"
+
+#: packages/compat/components/TokenSelector/TokenSelectorImportRow.tsx
+msgid "Anyone can create a token, including creating fake versions of existing tokens that claim to represent projects"
+msgstr "プロジェクトを表すと主張する既存のトークンの偽物を作成することを含め、誰でもトークンを作成できます。"
+
+#: packages/ui/app/Footer.tsx
+msgid "Audit Report"
+msgstr "監査報告書"
+
+#: packages/ui/app/Footer.tsx
+msgid "Help"
+msgstr "ヘルプ"
+
+#: packages/ui/app/Header.tsx
+msgid "Old App"
+msgstr "古いアプリ"
+
+#: packages/ui/network/SelectorMenu.tsx
+msgid "{0} Selected"
+msgstr "{0} 選択されました"
+
+#: packages/compat/components/AppSettings/DefaultPanel.tsx
+msgid "Light theme"
+msgstr "ライトテーマ"
+
+#: apps/pool/components/PoolsSection/Tables/TableFilters/TableFilters.tsx
+msgid "Farms"
+msgstr "農場"
+
+#: packages/wagmi/hooks/referrals/useSetCodeReview.ts
+msgid "Setting referral code ({code})"
+msgstr "紹介コードの設定 ({code})"
+
+#: apps/referrals/components/AffiliatesSection/AffiliatesSection.tsx
+msgid "This account earns a 25% rebate as an associate"
+msgstr "このアカウントは提携者として25％のリベートを獲得します"
+
+#: apps/pool/components/AddSection/AddSectionMyPosition/AddSectionMyPosition.tsx
+msgid "Best Total APR:"
+msgstr "最高全体年利率："
+
+#: apps/pool/components/StakeSection/StakeSectionWidgetStandard.tsx
+#: apps/pool/components/StakeSection/StakeSectionWidgetStandard.tsx
+#: apps/pool/components/StakeSection/StakeSectionWidgetStandard.tsx
+msgid "Stake Liquidity"
+msgstr "ステーク流動性"
+
+#: apps/swap/components/CrossTransfer/ChainSelector/ChainSelector.tsx
+msgid "From"
+msgstr "From"
+
+#: apps/swap/pages/index.tsx
+msgid "Swap Anyway"
+msgstr "とにかくスワップする"
+
+#: apps/pool/components/PoolsSection/Tables/TableFilters/TableFilters.tsx
+msgid "Pool Types"
+msgstr "プールタイプ"
+
+#: packages/wagmi/systems/Approve/TokenApproveButton.tsx
+msgid "Approve {0}"
+msgstr "承認する {0}"
+
+#: apps/pool/components/Rate.tsx
+#: apps/swap/components/Rate.tsx
+msgid "Rate"
+msgstr "レート"
+
+#: apps/swap/components/SwapStatsDisclosure/SwapStatsDisclosure.tsx
+msgid "Min. Received"
+msgstr "最小受取額"
+
+#: packages/parachains-impl/bifrost/hooks/useRemoveLiquidityStandardReview.ts
+#: packages/wagmi/hooks/useRemoveLiquidityStandardReview.ts
+msgid "Removing liquidity from the {0}/{1} pair"
+msgstr "{0}/{1} ペアから流動性を削除する"
+
+#: apps/swap/pages/index.tsx
+msgid "High Price Impact"
+msgstr "高い価格インパクト"
+
+#: apps/pool/components/NewPositionSection/SelectPoolTypeWidget.tsx
+msgid "Suitable for regular pairs"
+msgstr "通常のペアに適しています"
+
+#: apps/referrals/components/TradersSection/SetCodeModal.tsx
+msgid "Submit"
+msgstr "送信"
+
+#: apps/pool/components/PoolSection/PoolMyRewards/PoolMyRewardsDesktop.tsx
+msgid "Next"
+msgstr "次へ"
+
+#: packages/parachains-impl/bifrost/components/Wallet/Profile/Default.tsx
+#: packages/wagmi/components/Wallet/Profile/Default.tsx
+msgid "Copy"
+msgstr "コピー"
+
+#: apps/pool/components/PoolSection/PoolComposition.tsx
+#: apps/pool/components/PoolSection/PoolRewards/FarmingRewards.tsx
+msgid "Amount"
+msgstr "金額"
+
+#: apps/swap/components/SwapReviewModal/WrapReviewModal.tsx
+msgid "Wrap"
+msgstr "ラップ"
+
+#: apps/pool/components/PoolSection/PoolMyRewards/PoolMyRewardsDesktop.tsx
+msgid "Claim"
+msgstr "請求する"
+
+#: packages/wagmi/systems/Approve/TokenApproveButton.tsx
+msgid "Status:"
+msgstr "ステータス："
+
+#: packages/wagmi/components/NotificationCentre/NotificationCentre.tsx
+msgid "Notifications"
+msgstr "通知"
+
+#: packages/ui/toast/ToastFailed.tsx
+msgid "Transaction Failed"
+msgstr "取引失敗"
+
+#: packages/ui/app/Header.tsx
+msgid "The easiest way to trade"
+msgstr "取引の最も簡単な方法"
+
+#: apps/pool/components/PoolSection/PoolActionBar/PoolActionBarPositionDialog.tsx
+#: apps/pool/components/PoolSection/PoolPosition/PoolPositionStakedDesktop.tsx
+msgid "Staked Position"
+msgstr "ステークされたポジション"
+
+#: apps/pool/components/AddSection/AddSectionMyPosition/AddSectionMyPosition.tsx
+msgid "Fee APR:"
+msgstr "手数料年利率："
+
+#: packages/wagmi/hooks/referrals/useGenerateCodeReview.ts
+msgid "Generating referral code ({code})"
+msgstr "リファラルコード（{code}）を生成中"
+
+#: packages/parachains-impl/bifrost/hooks/useStakeLiquidityStandardReview.ts
+#: packages/wagmi/hooks/useStakeLiquidityReview.ts
+msgid "Successfully stake {0} {1}"
+msgstr "{0} {1} をステーキングしました。"
+
+#: apps/referrals/components/AffiliatesSection/AffiliatesSection.tsx
+msgid "Referral Codes"
+msgstr "リファラルコード"
+
+#: apps/pool/components/PoolSection/PoolButtons.tsx
+msgid "Deposit"
+msgstr "入金"
+
+#: apps/analytics/components/ZLKStats/DistributionSection/CirculatingDistribution.tsx
+msgid "Circulating Distribution"
+msgstr "流通配布"
+
+#: packages/compat/components/TokenSelector/TokenSelectorImportRow.tsx
+#: packages/compat/components/TokenSelector/TokenSelectorImportRow.tsx
+msgid "Import"
+msgstr "インポート"
+
+#: apps/swap/components/CrossTransfer/ChainSelector/ChainSelector.tsx
+#: apps/swap/components/CrossTransfer/ChainSelector/ChainSelector.tsx
+#: apps/swap/components/CrossTransfer/NetworkSelector/NetworkSelectorDialog.tsx
+msgid "Select Network"
+msgstr "ネットワークを選択してください。"
+
+#: apps/pool/components/SettingsOverlay/SlippageToleranceDisclosure.tsx
+#: apps/swap/components/SettingsOverlay/SlippageToleranceDisclosure.tsx
+msgid "Slippage Tolerance"
+msgstr "スリッページ許容度"
+
+#: apps/swap/pages/index.tsx
+msgid "Cross-chain"
+msgstr "クロスチェーン"
+
+#: apps/pool/components/AddSection/AddSectionReviewModalStandard.tsx
+msgid "Add"
+msgstr "追加"
+
+#: apps/pool/components/NewPositionSection/SelectStablePoolWidget.tsx
+msgid "3. Select Pool"
+msgstr "3. プールを選択"
+
+#: packages/compat/components/TokenSelector/TokenSelectorImportRow.tsx
+msgid "Import Token"
+msgstr "トークンをインポート"
+
+#: apps/swap/components/CrossTransfer/index.tsx
+msgid "Please select network"
+msgstr "ネットワークを選択してください。"
+
+#: apps/pool/components/UnStakeSection/UnStakeSectionWidgetStandard.tsx
+msgid "Unstake your liquidity tokens first if you mean to remove your liquidity position"
+msgstr "ユーザーの流動性ポジションを解消する場合は、まず流動性トークンをアンステークしてください。"
+
+#: packages/wagmi/hooks/referrals/useSetCodeReview.ts
+msgid "Successfully Setted referral code ({code})"
+msgstr "リファラルコード ({code}) の設定に成功しました"
+
+#: packages/ui/app/Footer.tsx
+msgid "Developers"
+msgstr "開発者"
+
+#: apps/referrals/components/DiscountTable/Cells/columns.tsx
+msgid "Tier"
+msgstr "ティア"
+
+#: packages/ui/app/Header.tsx
+msgid "Pool your liquidity to generate LP tokens"
+msgstr "流動性をプールしてLPトークンを生成します。"
+
+#: apps/pool/components/PoolSection/PoolActionBar/PoolActionBar.tsx
+#: apps/pool/components/PoolSection/PoolActionBar/PoolActionBarPositionRewards.tsx
+#: apps/pool/components/PoolSection/PoolMyRewards/PoolMyRewards.tsx
+msgid "My Rewards"
+msgstr "私の報酬"
+
+#: apps/pool/components/PoolSection/PoolHeader.tsx
+msgid "Fees: {0}"
+msgstr "手数料: {0}"
+
+#: apps/swap/components/SettingsOverlay/AggregatorOverlay.tsx
+#: apps/swap/components/SettingsOverlay/AggregatorOverlay.tsx
+msgid "Facilitate cost-efficient and secure swap transactions across multiple liquidity sources."
+msgstr "複数の流動性ソース間で費用効率の高い安全なスワップ取引を促進します。"
+
+#: apps/referrals/components/TradersSection/SetCodeModal.tsx
+msgid "No self-referral"
+msgstr "自己紹介は禁止です"
+
+#: apps/analytics/components/Table/columns.tsx
+#: apps/pool/components/PoolsSection/Tables/PoolsTable/Cells/columns.tsx
+#: apps/pool/components/PoolsSection/Tables/PositionsTable/Cells/columns.tsx
+msgid "Best APR"
+msgstr "最高APR"
+
+#: apps/pool/pages/index.tsx
+#: packages/ui/app/Footer.tsx
+#: packages/ui/app/Header.tsx
+msgid "Pool"
+msgstr "プール"
+
+#: apps/analytics/components/ZLKStats/index.tsx
+msgid "ZLK Price"
+msgstr "ZLK価格"
+
+#: packages/parachains-impl/bifrost/hooks/useRemoveLiquidityStandardReview.ts
+#: packages/wagmi/hooks/useRemoveLiquidityStandardReview.ts
+msgid "Successfully removed liquidity from the {0}/{1} pair"
+msgstr "{0}/{1} ペアからの流動性の削除に成功しました"
+
+#: apps/pool/pages/add.tsx
+msgid "Create Pool"
+msgstr "プールを作成する"
+
+#: apps/analytics/components/ZLKStats/index.tsx
+msgid "Burn Total"
+msgstr "総焼却量"
+
+#: apps/pool/components/PoolSection/PoolActionBar/PoolActionBar.tsx
+#: apps/pool/components/PoolSection/PoolActionBar/PoolActionBarPositionDialog.tsx
+#: apps/pool/components/PoolSection/PoolPosition/PoolPosition.tsx
+msgid "My Position"
+msgstr "私のポジション"
+
+#: apps/swap/components/ReferralsLinkButton.tsx
+msgid "Get fee discounts and earn rebates."
+msgstr "手数料割引を受けてリベートを獲得する。"
+
+#: apps/analytics/components/ZLKStats/index.tsx
+msgid "Total Supply"
+msgstr "総供給量"
+
+#: apps/swap/components/ReferralsLinkButton.tsx
+msgid "{0} referral program"
+msgstr "{0}リファラルプログラム"
+
+#: apps/referrals/components/SelectReferrerTypeWidget.tsx
+msgid "Traders"
+msgstr "トレーダー"
+
+#: apps/pool/components/PoolSection/PoolRewards/FarmingRewards.tsx
+#: apps/pool/components/StakeSection/StakeSectionWidgetStandard.tsx
+msgid "{0} {1} per day"
+msgstr "1日あたり {0} {1}"
+
+#: packages/compat/components/TokenSelector/TokenSelectorImportRow.tsx
+msgid "This token doesn\\'t"
+msgstr "このトークンは存在しません"
+
+#: apps/pool/components/SettingsOverlay/CustomTokensOverlay.tsx
+#: apps/swap/components/SettingsOverlay/CustomTokensOverlay.tsx
+msgid "Import a token that is not currently on the list by pasting its address here to add it. Custom tokens are stored locally in your browser."
+msgstr "アドレスを貼り付けて、リストにないトークンをインポートして追加できます。カスタムトークンはブラウザにローカルに保存されます。"
+
+#: apps/swap/components/CrossTransfer/CurrencyInput.tsx
+#: packages/compat/components/Web3Input/Currency.tsx
+msgid "Select"
+msgstr "選択"
+
+#: packages/wagmi/hooks/useAddLiquidityStableReview.ts
+msgid "Adding liquidity to the {poolName} stable pool"
+msgstr "{poolName} ステーブルプールに流動性を追加する"
+
+#: apps/pool/components/PoolSection/PoolHeader.tsx
+msgid "Best APR:"
+msgstr "最高年利率："
+
+#: packages/ui/app/Footer.tsx
+msgid "Powered By Zenlink"
+msgstr "Zenlinkで動作しています"
+
+#: apps/pool/components/AddSection/AddSectionReviewModalStable.tsx
+#: apps/pool/components/AddSection/AddSectionReviewModalStandard.tsx
+#: apps/pool/components/AddSection/AddSectionStable.tsx
+#: apps/pool/components/AddSection/AddSectionStandard.tsx
+#: apps/pool/components/PoolSection/PoolMyRewards/PoolMyRewardsDesktop.tsx
+#: apps/pool/components/RemoveSection/RemoveSectionStable.tsx
+#: apps/pool/components/RemoveSection/RemoveSectionStandard.tsx
+#: apps/pool/components/StakeSection/StakeSectionWidgetStandard.tsx
+#: apps/pool/components/UnStakeSection/UnStakeSectionWidgetStandard.tsx
+#: apps/pool/pages/add.tsx
+#: apps/swap/pages/index.tsx
+msgid "Confirm transaction"
+msgstr "取引を確認する"
+
+#: apps/pool/components/PoolSection/PoolActionBar/PoolActionBarPositionDialog.tsx
+#: apps/pool/components/PoolSection/PoolPosition/PoolPositionDesktop.tsx
+msgid "Unstaked Position"
+msgstr "ステーキングされていないポジション"
+
+#: packages/parachains-impl/bifrost/hooks/useWithdrawFarmingReview.ts
+#: packages/wagmi/hooks/useWithdrawFarmingReview.ts
+msgid "Something went wrong when unstake {0} {1}"
+msgstr "ステーキング解除中に何かがうまくいかなかった {0} {1}"
+
+#: apps/swap/components/SwapReviewModal/SwapReviewModal.tsx
+#: apps/swap/components/SwapReviewModal/SwapReviewModalBase.tsx
+msgid "Confirm Swap"
+msgstr "スワップを確認する"
+
+#: packages/parachains-impl/bifrost/hooks/useAddLiquidityStandardReview.ts
+#: packages/wagmi/hooks/useAddLiquidityStableReview.ts
+#: packages/wagmi/hooks/useAddLiquidityStandardReview.ts
+msgid "Something went wrong when adding liquidity"
+msgstr "流動性を追加する際に問題が発生しました"
+
+#: apps/referrals/components/AffiliatesSection/AffiliatesSection.tsx
+#: apps/referrals/components/AffiliatesSection/GenerateCodeModal.tsx
+msgid "Generate Referral Code"
+msgstr "リファラルコードを生成する"
+
+#: apps/swap/components/SwapReviewModal/SwapReviewModal.tsx
+#: apps/swap/pages/index.tsx
+#: apps/swap/pages/index.tsx
+#: apps/swap/pages/index.tsx
+#: packages/ui/app/Footer.tsx
+#: packages/ui/app/Header.tsx
+msgid "Swap"
+msgstr "スワップ"
+
+#: packages/ui/toast/ToastInfo.tsx
+msgid "Transaction Info"
+msgstr "取引情報"
+
+#: apps/swap/components/SwapStatsDisclosure/SwapStatsDisclosure.tsx
+msgid "Hide"
+msgstr "非表示"
+
+#: packages/compat/components/AppSettings/DefaultPanel.tsx
+msgid "Language"
+msgstr "言語"
+
+#: packages/ui/toast/ToastButtons.tsx
+msgid "View Detail"
+msgstr "詳細を表示"
+
+#: packages/wagmi/hooks/useRemoveLiquidityStableReview.ts
+msgid "Removing liquidity from the {poolName} stable pool"
+msgstr "{poolName} ステーブルプールから流動性を削除する"
+
+#: apps/pool/components/PoolSection/PoolComposition.tsx
+#: apps/pool/components/PoolsSection/Tables/PositionsTable/Cells/columns.tsx
+msgid "Value"
+msgstr "バリュー"
+
+#: apps/referrals/components/TradersSection/SetCodeModal.tsx
+msgid "Enter Referral Code"
+msgstr "紹介コードを入力してください"
+
+#: apps/pool/components/SettingsOverlay/CustomTokensOverlay.tsx
+#: apps/swap/components/SettingsOverlay/CustomTokensOverlay.tsx
+#: apps/swap/components/SettingsOverlay/CustomTokensOverlay.tsx
+msgid "Custom Tokens"
+msgstr "カスタムトークン"
+
+#: packages/parachains-impl/bifrost/hooks/useAddLiquidityStandardReview.ts
+#: packages/wagmi/hooks/useAddLiquidityStandardReview.ts
+msgid "Adding liquidity to the {0}/{1} pair"
+msgstr "{0}/{1} ペアに流動性を追加する"
+
+#: apps/pool/components/AddSection/AddSectionMyPosition/AddSectionMyPosition.tsx
+#: apps/pool/components/PoolSection/PoolRewards/index.tsx
+msgid "Best Reward APR:"
+msgstr "最高報酬年利率："
+
+#: packages/wagmi/components/NotificationCentre/NotificationCentre.tsx
+msgid "Clear"
+msgstr "クリア"
+
+#: apps/pool/components/RemoveSection/RemoveSectionStable.tsx
+#: apps/pool/components/RemoveSection/RemoveSectionStandard.tsx
+#: apps/pool/components/StakeSection/StakeSectionWidgetStandard.tsx
+#: apps/pool/components/UnStakeSection/UnStakeSectionWidgetStandard.tsx
+#: packages/wagmi/systems/Checker/Amounts.tsx
+msgid "Enter Amount"
+msgstr "金額を入力してください"
+
+#: packages/parachains-impl/bifrost/components/Wallet/Profile/Transactions.tsx
+#: packages/wagmi/components/Wallet/Profile/Transactions.tsx
+msgid "Clear all"
+msgstr "全ての項目をクリア"
+
+#: apps/pool/components/UnStakeSection/UnStakeSectionWidgetStandard.tsx
+msgid "Unstake Liquidity"
+msgstr "流動性をアンステークする。"
+
+#: apps/pool/components/PoolSection/PoolHeader.tsx
+msgid "Best Rewards: {0}"
+msgstr "最高報酬: {0}。"
+
+#: apps/referrals/components/AffiliatesSection/GenerateCodeModal.tsx
+msgid "Generate"
+msgstr "生成する"

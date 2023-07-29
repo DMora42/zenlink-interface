@@ -1,0 +1,50 @@
+{
+  "name": "@zenlink-interface/amm",
+  "version": "0.0.0",
+  "description": "Zenlink AMM",
+  "author": "zenlinkpro",
+  "license": "LGPL-2.1-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zenlinkpro/zenlink-interface.git",
+    "directory": "packages/amm"
+  },
+  "keywords": [
+    "zenlink",
+    "amm"
+  ],
+  "main": "dist/index.js",
+  "source": "src/index.ts",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist",
+    "dev": "tsc -w",
+    "lint": "TIMING=1 eslint src --fix",
+    "prepublishOnly": "pnpm build"
+  },
+  "dependencies": {
+    "@ethersproject/abi": "^5.7.0",
+    "@ethersproject/address": "^5.7.0",
+    "@ethersproject/bignumber": "^5.7.0",
+    "@ethersproject/constants": "^5.7.0",
+    "@ethersproject/solidity": "^5.7.0",
+    "@zenlink-interface/chain": "workspace:*",
+    "@zenlink-interface/currency": "workspace:*",
+    "@zenlink-interface/math": "workspace:*",
+    "ethers": "^5.7.2",
+    "tiny-invariant": "^1.3.1",
+    "tiny-warning": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.17.1",
+    "@zenlink-interface/eslint-config": "workspace:*",
+    "@zenlink-interface/typescript-config": "workspace:*",
+    "eslint": "^8.45.0",
+    "tsup": "^7.1.0",
+    "typescript": "5.1.6"
+  }
+}

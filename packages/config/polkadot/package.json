@@ -1,0 +1,34 @@
+{
+  "name": "@zenlink-interface/polkadot-config",
+  "version": "0.0.0",
+  "description": "Zenlink Polkadot Config",
+  "author": "zenlinkpro",
+  "license": "LGPL-2.1-or-later",
+  "keywords": [
+    "zenlink-interface",
+    "polkadot",
+    "config"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "source": "src/index.ts",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --format esm,cjs --watch --dts",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
+  },
+  "dependencies": {
+    "@polkadot/api": "^10.3.4",
+    "@zenlink-interface/chain": "workspace:*",
+    "@zenlink-types/bifrost": "1.7.6"
+  },
+  "devDependencies": {
+    "@zenlink-interface/typescript-config": "workspace:*",
+    "tsup": "^7.1.0",
+    "typescript": "5.1.6"
+  }
+}

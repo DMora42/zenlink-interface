@@ -1,0 +1,38 @@
+{
+  "name": "@zenlink-interface/eslint-config",
+  "version": "0.0.0",
+  "description": "Zenlink Eslint Config",
+  "author": "zenlinkpro",
+  "license": "LGPL-2.1-or-later",
+  "keywords": [
+    "zenlink-interface",
+    "config",
+    "eslint"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "nextjs/index.js"
+  ],
+  "scripts": {
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
+  },
+  "dependencies": {
+    "@antfu/eslint-config": "^0.39.8",
+    "@antfu/eslint-config-react": "^0.39.8",
+    "@next/eslint-plugin-next": "^13.4.12",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "eslint-config-prettier": "latest",
+    "eslint-plugin-cypress": "latest",
+    "eslint-plugin-simple-import-sort": "latest",
+    "eslint-plugin-testing-library": "latest",
+    "eslint-plugin-unused-imports": "latest"
+  },
+  "devDependencies": {
+    "@types/eslint": "latest",
+    "@types/node": "^18.17.1"
+  }
+}

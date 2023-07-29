@@ -1,0 +1,46 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Default config for Zenlink repository",
+  "extends": [
+    "config:base",
+    "group:allNonMajor",
+    ":semanticCommitTypeAll(chore)"
+  ],
+  "meteor": {
+    "enabled": false
+  },
+  "rangeStrategy": "bump",
+  "npm": {
+    "commitMessageTopic": "{{prettyDepType}} {{depName}}"
+  },
+  "packageRules": [
+    {
+      "depTypeList": ["engines", "packageManager"],
+      "enabled": false
+    },
+    {
+      "matchPackageNames": [
+        "@wagmi/core",
+        "@polkadot/api",
+        "@polkadot/api-augment",
+        "@polkadot/api-derive",
+        "@polkadot/types",
+        "@polkadot/types-codec",
+        "@polkadot/types-augment",
+        "@polkadot/types-create",
+        "@polkadot/types-known",
+        "@polkadot/types-support",
+        "@polkadot/util",
+        "@polkadot/util-crypto",
+        "@polkadot/extension-dapp",
+        "@polkadot/extension-inject",
+        "@polkadot/keyring",
+        "@polkadot/ui-keyring",
+        "@polkadot/rpc-augment",
+        "@zenlink-types/bifrost"
+      ],
+      "enabled": false
+    }
+  ],
+  "schedule": ["before 1am"]
+}

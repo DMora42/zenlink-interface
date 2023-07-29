@@ -1,0 +1,50 @@
+name: packages
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - "packages/**"
+  pull_request:
+    types: [opened, synchronize]
+    paths:
+      - "packages/**"
+      
+concurrency: ${{ github.workflow }}-${{ github.ref }}
+
+env:
+  CI: true
+
+jobs:
+  ci:
+      name: continuous integration
+      timeout-minutes: 15
+      runs-on: ubuntu-latest
+ 
+      steps:
+        - name: Check out
+          uses: actions/checkout@v3
+          with:
+            fetch-depth: 2
+ 
+        - uses: pnpm/action-setup@v2
+          with:
+            version: 8
+ 
+        - name: Setup Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 18
+            cache: 'pnpm'
+ 
+        - name: Install dependencies
+          run: pnpm install
+
+        - name: Lint packages
+          run: pnpm lint-packages
+
+        - name: Build packages
+          run: pnpm build-packages
+
+        - name: Test packages
+          run: pnpm test-packages

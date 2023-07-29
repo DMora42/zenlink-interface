@@ -1,0 +1,42 @@
+{
+  "name": "@zenlink-interface/math",
+  "version": "0.0.0",
+  "description": "Zenlink Math",
+  "author": "zenlinkpro",
+  "license": "LGPL-2.1-or-later",
+  "keywords": [
+    "zenlink",
+    "math"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "source": "src/index.ts",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist",
+    "dev": "tsup src/index.ts --format esm,cjs --watch --dts",
+    "lint": "TIMING=1 eslint src --fix",
+    "prepublishOnly": "pnpm build",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "big.js": "^6.2.1",
+    "decimal.js-light": "^2.5.1",
+    "jsbi": "^4.3.0",
+    "tiny-invariant": "^1.3.1",
+    "toformat": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/big.js": "^6.1.6",
+    "@zenlink-interface/eslint-config": "workspace:*",
+    "@zenlink-interface/typescript-config": "workspace:*",
+    "eslint": "^8.45.0",
+    "tsup": "^7.1.0",
+    "typescript": "5.1.6",
+    "vitest": "^0.33.0"
+  }
+}

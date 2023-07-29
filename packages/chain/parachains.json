@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Bifrost Kusama",
+    "chain": "Bifrost",
+    "rpc": [
+      "wss://bifrost-rpc.liebi.com/ws",
+      "wss://bifrost-parachain.api.onfinality.io/public-ws"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Bifrost",
+      "symbol": "BNC",
+      "decimals": 12
+    },
+    "prefix": 6,
+    "infoURL": "https://bifrost.finance/",
+    "shortName": "bf-kusama",
+    "chainId": 2001,
+    "networkId": 200,
+    "explorers": [
+      {
+        "name": "subscan",
+        "url": "https://bifrost-kusama.subscan.io",
+        "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "Bifrost Polkadot",
+    "chain": "Bifrost Polkadot",
+    "rpc": [
+      "wss://hk.p.bifrost-rpc.liebi.com/ws",
+      "wss://bifrost-polkadot.api.onfinality.io/public-ws"
+    ],
+    "prefix": 6,
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Bifrost",
+      "symbol": "BNC",
+      "decimals": 12
+    },
+    "infoURL": "https://bifrost.finance/",
+    "shortName": "bf-polkadot",
+    "chainId": 2030,
+    "networkId": 300,
+    "explorers": [
+      {
+        "name": "subscan",
+        "url": "https://bifrost.subscan.io",
+        "standard": "none"
+      }
+    ]
+  }
+]

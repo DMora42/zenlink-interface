@@ -1,0 +1,32 @@
+{
+  "name": "@zenlink-interface/wagmi-config",
+  "version": "0.0.0",
+  "description": "Zenlink Wagmi Config",
+  "author": "zenlinkpro",
+  "license": "LGPL-2.1-or-later",
+  "keywords": [
+    "zenlink-interface",
+    "wagmi",
+    "config"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "source": "./index.ts",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup index.ts --format esm,cjs --dts",
+    "dev": "tsup index.ts --format esm,cjs --watch --dts",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
+  },
+  "dependencies": {
+    "@zenlink-interface/chain": "workspace:*"
+  },
+  "devDependencies": {
+    "@zenlink-interface/typescript-config": "workspace:*",
+    "tsup": "^7.1.0",
+    "typescript": "5.1.6"
+  }
+}
