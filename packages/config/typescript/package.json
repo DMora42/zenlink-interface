@@ -1,7 +1,7 @@
 {
   "name": "@grass-protocol/typescript-config",
   "version": "0.0.0",
-  "description": "Zenlink TypeScript Config",
+  "description": "Grass TypeScript Config",
   "author": "zenlinkpro",
   "license": "LGPL-2.1-or-later",
   "repository": {

@@ -1,7 +1,7 @@
 {
   "name": "@grass-protocol/wagmi",
   "version": "0.0.0",
-  "description": "Zenlink Wagmi",
+  "description": "Grass Wagmi",
   "author": "zenlinkpro",
   "license": "LGPL-2.1-or-later",
   "keywords": [

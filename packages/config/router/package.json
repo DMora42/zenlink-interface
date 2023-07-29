@@ -1,7 +1,7 @@
 {
   "name": "@grass-protocol/router-config",
   "version": "0.0.0",
-  "description": "Zenlink Interface Router Config",
+  "description": "Grass Interface Router Config",
   "author": "zenlinkpro",
   "license": "LGPL-2.1-or-later",
   "keywords": [

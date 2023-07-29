@@ -1,7 +1,7 @@
 {
   "name": "@grass-protocol/eslint-config",
   "version": "0.0.0",
-  "description": "Zenlink Eslint Config",
+  "description": "Grass Eslint Config",
   "author": "zenlinkpro",
   "license": "LGPL-2.1-or-later",
   "keywords": [

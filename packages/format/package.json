@@ -1,7 +1,7 @@
 {
   "name": "@grass-protocol/format",
   "version": "0.0.0",
-  "description": "Zenlink Format",
+  "description": "Grass Format",
   "author": "zenlinkpro",
   "license": "LGPL-2.1-or-later",
   "keywords": [

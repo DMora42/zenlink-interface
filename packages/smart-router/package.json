@@ -1,7 +1,7 @@
 {
   "name": "@grass-protocol/smart-router",
   "version": "0.0.0",
-  "description": "Zenlink Smart Order Router",
+  "description": "Grass Smart Order Router",
   "author": "zenlinkpro",
   "license": "LGPL-2.1-or-later",
   "repository": {

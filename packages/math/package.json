@@ -1,11 +1,11 @@
 {
   "name": "@grass-protocol/math",
   "version": "0.0.0",
-  "description": "Zenlink Math",
-  "author": "zenlinkpro",
+  "description": "Grass Math",
+  "author": "grassprotocol",
   "license": "LGPL-2.1-or-later",
   "keywords": [
-    "zenlink",
+    "grassprotocol",
     "math"
   ],
   "main": "dist/index.js",

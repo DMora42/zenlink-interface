@@ -1,7 +1,7 @@
 {
   "name": "@grass-protocol/compat",
   "version": "0.0.0",
-  "description": "Zenlink Interface Compat",
+  "description": "Grass Interface Compat",
   "author": "zenlinkpro",
   "license": "LGPL-2.1-or-later",
   "keywords": [

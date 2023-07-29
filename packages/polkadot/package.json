@@ -1,7 +1,7 @@
 {
   "name": "@grass-protocol/polkadot",
   "version": "0.0.0",
-  "description": "Zenlink Polkadot Api",
+  "description": "Grass Polkadot Api",
   "author": "zenlinkpro",
   "license": "LGPL-2.1-or-later",
   "keywords": [

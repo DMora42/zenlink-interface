@@ -1,7 +1,7 @@
 {
   "name": "@grass-protocol/graph-client",
   "version": "0.0.0",
-  "description": "Zenlink Graph Client",
+  "description": "Grass Graph Client",
   "author": "zenlinkpro",
   "license": "LGPL-2.1-or-later",
   "keywords": [
