@@ -1,4 +1,4 @@
-import { Fraction } from '@grass-protocol/math'
+import { Fraction } from '-col/math'
 
 // Fee - Tiers TBD
 export enum Fee {

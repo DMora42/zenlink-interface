@@ -1,4 +1,4 @@
-import { ParachainId } from '@zenlink-interface/chain'
+import { ParachainId } from '@grass-protocol/chain'
 
 export const ZENLINK_CHAINS = [
   ParachainId.ASTAR,

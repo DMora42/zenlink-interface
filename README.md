@@ -44,9 +44,9 @@ This is a monorepo interface for Zenlink -- a protocol for decentralized exchang
 ## Packages
 
 - `@grass-protocol/amm`
-- `@zenlink-interface/chain`
-- `@zenlink-interface/compat`
-- `@zenlink-interface/config`
+- `@grass-protocol/chain`
+- `@grass-protocol/compat`
+- `@grass-protocol/config`
   - `eslint`
   - `graph`
   - `nextjs`
@@ -54,23 +54,23 @@ This is a monorepo interface for Zenlink -- a protocol for decentralized exchang
   - `router`
   - `typescript`
   - `wagmi`
-- `@zenlink-interface/currency`
-- `@zenlink-interface/format`
-- `@zenlink-interface/graph-client`
-- `@zenlink-interface/hooks`
-- `@zenlink-interface/locales`
-- `@zenlink-interface/math`
-- `@zenlink-interface/parachains-impl`
+- `@grass-protocol/currency`
+- `@grass-protocol/format`
+- `@grass-protocol/graph-client`
+- `@grass-protocol/hooks`
+- `@grass-protocol/locales`
+- `@grass-protocol/math`
+- `@grass-protocol/parachains-impl`
   - `bifrost`
-- `@zenlink-interface/polkadot`
-- `@zenlink-interface/redux`
+- `@grass-protocol/polkadot`
+- `@grass-protocol/redux`
   - `localstorage`
   - `token-lists`
-- `@zenlink-interface/shared`
-- `@zenlink-interface/smart-router`
-- `@zenlink-interface/token-lists`
-- `@zenlink-interface/ui`
-- `@zenlink-interface/wagmi`
+- `@grass-protocol/shared`
+- `@grass-protocol/smart-router`
+- `@grass-protocol/token-lists`
+- `@grass-protocol/ui`
+- `@grass-protocol/wagmi`
 
 ## In Planning
 

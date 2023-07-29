@@ -1,8 +1,8 @@
 /* eslint-disable no-console */
 import stringify from 'fast-json-stable-stringify'
-import { ParachainId } from '@zenlink-interface/chain'
+import { ParachainId } from '@grass-protocol/chain'
 import { getUnixTime } from 'date-fns'
-import { fetchTokenPrices, fetchUniV3TokenPrices } from '@zenlink-interface/graph-client'
+import { fetchTokenPrices, fetchUniV3TokenPrices } from '@grass-protocol/graph-client'
 import { ALL_CHAINS, UNI_SUPPORTED_CHAINS, ZENLINK_CHAINS } from './config'
 import redis from './redis'
 

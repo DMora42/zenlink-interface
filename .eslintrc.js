@@ -1,4 +1,4 @@
 module.exports = {
   root: true,
-  extends: ['@zenlink-interface/eslint-config'],
+  extends: ['@grass-protocol/eslint-config'],
 }
