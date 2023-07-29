@@ -1,7 +1,7 @@
 {
   "name": "grass-protocol",
   "version": "0.0.0",
-  "packageManager": "pnpm@8.6.2",
+  "packageManager": "pnpm@8.6.7",
   "license": "LGPL-2.1-or-later",
   "repository": "https://github.com/grassprotocol/grass-frontend.git",
   "engines": {
@@ -46,5 +46,35 @@
     "pathe": "^1.1.1",
     "turbo": "1.10.12",
     "undici": "^5.22.1"
+  },
+  "resolutions": {
+    "@polkadot/api": "^10.9.1",
+    "@polkadot/api-augment": "^10.9.1",
+    "@polkadot/api-base": "^10.9.1",
+    "@polkadot/api-contract": "^10.9.1",
+    "@polkadot/api-derive": "^10.9.1",
+    "@polkadot/hw-ledger": "^12.3.2",
+    "@polkadot/keyring": "^12.3.2",
+    "@polkadot/networks": "^12.3.2",
+    "@polkadot/phishing": "^0.21.5",
+    "@polkadot/rpc-augment": "^10.9.1",
+    "@polkadot/rpc-core": "^10.9.1",
+    "@polkadot/rpc-provider": "^10.9.1",
+    "@polkadot/types": "^10.9.1",
+    "@polkadot/types-augment": "^10.9.1",
+    "@polkadot/types-codec": "^10.9.1",
+    "@polkadot/types-create": "^10.9.1",
+    "@polkadot/types-known": "^10.9.1",
+    "@polkadot/types-support": "^10.9.1",
+    "@polkadot/util": "^12.3.2",
+    "@polkadot/util-crypto": "^12.3.2",
+    "@polkadot/wasm-crypto": "^7.2.1",
+    "@polkadot/x-bigint": "^12.3.2",
+    "@polkadot/x-fetch": "^12.3.2",
+    "@polkadot/x-global": "^12.3.2",
+    "@polkadot/x-randomvalues": "^12.3.2",
+    "@polkadot/x-textdecoder": "^12.3.2",
+    "@polkadot/x-textencoder": "^12.3.2",
+    "@polkadot/x-ws": "^12.3.2"
   }
 }
