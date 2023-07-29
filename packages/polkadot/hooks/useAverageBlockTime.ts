@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useApi } from './useApi'
 
-export function useAverageBlockTime(chainId?: number, enabled = true) {
+export function useAverageBlockTime(chainId?: number) {
   const [averageBlockTime, setAverageBlockTime] = useState(0)
   const api = useApi(chainId)
 
